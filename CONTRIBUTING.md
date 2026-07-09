@@ -6,7 +6,7 @@ fights us.
 
 ## File ownership
 
-### Josep — agents / LLM brain
+### Axel — agents / LLM brain
 ```
 app/agent/orchestrator.py    plan -> research -> synthesize flow + events
 app/agent/prompts.py         orchestrator / research / synthesis prompts
@@ -16,7 +16,7 @@ app/agent/runtime.py         model factory + JSON parsing
 app/agent/mock_data.py       credible mock output
 ```
 
-### Axel — data / API / integrations
+### Josep — data / API / integrations
 ```
 app/clients/cala.py          real Cala wiring (REST + MCP)
 app/services/tts.py          ElevenLabs synthesis
@@ -38,8 +38,8 @@ app/core/config.py           additive only: append vars, never reorder
 
 Call across the boundary by signature only — never read inside the other's code:
 
-- Axel calls `run_pipeline(run_id, geo, sector)` from `app/agent/orchestrator.py`.
-- Josep calls `rest.knowledge_search(...)` / `tts.attach_audio(...)`.
+- Josep calls `run_pipeline(run_id, geo, sector)` from `app/agent/orchestrator.py`.
+- Axel calls `rest.knowledge_search(...)` / `tts.attach_audio(...)`.
 
 Agree signatures up front → fully parallel work.
 
