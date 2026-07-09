@@ -14,12 +14,20 @@ from typing import Any
 
 _SECTORS = ["AI infrastructure", "fintech", "climate tech", "healthtech", "developer tools", "robotics"]
 _STAGES = ["pre-seed", "seed", "Series A", "Series B"]
-_STATUS_CYCLE = ["hot", "warming", "neutral", "cooling", "not_hot"]
-_RISK_CYCLE = ["low", "medium", "high"]
 
 
 def _seed(query: str, salt: str = "") -> int:
     return int(hashlib.sha256((query + salt).encode()).hexdigest(), 16)
+
+
+def _unit(query: str, salt: str) -> float:
+    """Deterministic 0-1 value from query+salt (for a sub-signal)."""
+    return (_seed(query, salt) % 1000) / 1000.0
+
+
+def market_heat(query: str, sector: str) -> float:
+    """Sector/geo demand momentum — shared by every company in a sector."""
+    return _unit(sector, f"heat|{query}")
 
 
 def mock_companies(query: str, geo: str | None, sector: str | None, n: int = 5) -> list[dict[str, Any]]:
@@ -27,20 +35,25 @@ def mock_companies(query: str, geo: str | None, sector: str | None, n: int = 5) 
     out: list[dict[str, Any]] = []
     for i in range(n):
         h = _seed(query, str(i))
-        score = 55 + (h % 41)  # 55..95
+        sec = sector or _SECTORS[(base + i) % len(_SECTORS)]
         out.append(
             {
                 "name": f"{_pick(_ADJ, h)} {_pick(_NOUN, h >> 8)}",
-                "sector": sector or _SECTORS[(base + i) % len(_SECTORS)],
+                "sector": sec,
                 "geo": geo or "Barcelona",
                 "stage": _STAGES[(h >> 4) % len(_STAGES)],
-                "goliathScore": float(score),
-                "status": _STATUS_CYCLE[(h >> 6) % len(_STATUS_CYCLE)],
-                "confidence": float(50 + (h % 46)),
-                "riskLevel": _RISK_CYCLE[(h >> 10) % len(_RISK_CYCLE)],
+                # Four 0-1 sub-signals, one per research agent. The scoring engine
+                # (app/agent/scoring.py) turns these into goliathScore + breakdown.
+                "signals": {
+                    "traction": _unit(query, f"traction|{i}"),
+                    "funding_timing": _unit(query, f"funding|{i}"),
+                    "market_heat": market_heat(query, sec),  # shared per sector
+                    "risk": _unit(query, f"risk|{i}"),
+                },
+                "coverage": 1.0,  # all signals are real in the mock path
             }
         )
-    return sorted(out, key=lambda c: c["goliathScore"], reverse=True)
+    return out
 
 
 _ADJ = ["Nova", "Lumen", "Vela", "Orbit", "Quanta", "Aster", "Fathom", "Cobalt", "Ember", "Vertex"]

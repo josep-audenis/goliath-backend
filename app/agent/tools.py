@@ -142,11 +142,12 @@ def company_scan_impl(query: str, geo: str | None = None, sector: str | None = N
                     "name": e.get("name") or "unknown",
                     "sector": sector,
                     "geo": geo,
-                    "stage": None,  # Cala entities carry no stage; enrich via funding_scan
-                    "goliathScore": 60.0,
-                    "status": "warming",
-                    "confidence": 55.0,
-                    "riskLevel": "medium",
+                    "stage": None,  # Cala entities carry no stage field; enrich via funding_scan
+                    # Sub-signals for the scoring engine (app/agent/scoring.py).
+                    # Cala entities carry no scored metrics yet, so start neutral;
+                    # coverage < 1 lowers the resulting confidence accordingly.
+                    "signals": {"traction": 0.5, "funding_timing": 0.5, "market_heat": 0.5, "risk": 0.5},
+                    "coverage": 0.0,
                     "cala_entity_id": e.get("id"),
                 }
                 for e in list(by_name.values())[:n]

@@ -23,7 +23,7 @@ import asyncio
 import logging
 from typing import Any
 
-from app.agent import prompts, roster
+from app.agent import prompts, roster, scoring
 from app.agent.runtime import SDK_AVAILABLE, llm_enabled, make_model, run_agent_json
 from app.agent.tools import (
     RESEARCH_TOOLS,
@@ -46,6 +46,7 @@ from app.schemas.contract import (
     RunEvent,
     RunEventType,
     RunStatus,
+    ScoreFactor,
 )
 from app.services import tts
 from app.store.run_store import store
@@ -206,6 +207,24 @@ def _dedupe_evidence(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return out
 
 
+def _score_company(c: dict[str, Any]) -> None:
+    """Compute goliathScore + breakdown + status/riskLevel/confidence in place.
+
+    Turns the four per-agent sub-signals into an explainable score. If a company
+    predates this (no `signals`), scoring falls back to neutral 0.5 defaults.
+    """
+    res = scoring.score(
+        c.get("signals") or {},
+        evidence_count=len(c.get("evidence") or []),
+        coverage=float(c.get("coverage", 1.0)),
+    )
+    c["goliathScore"] = res.goliathScore
+    c["status"] = res.status.value
+    c["riskLevel"] = res.riskLevel.value
+    c["confidence"] = res.confidence
+    c["scoreBreakdown"] = res.breakdown
+
+
 def _to_opportunity(idx: int, c: dict[str, Any]) -> Opportunity:
     status = c.get("status", "warming")
     risk = c.get("riskLevel", "medium")
@@ -214,9 +233,9 @@ def _to_opportunity(idx: int, c: dict[str, Any]) -> Opportunity:
         name=c.get("name", f"Opportunity {idx}"),
         goliathScore=float(c.get("goliathScore", 60)),
         status=OpportunityStatus(status) if status in OpportunityStatus._value2member_map_ else OpportunityStatus.WARMING,
-        confidence=float(c.get("confidence", 55)),
+        confidence=float(c.get("confidence", 0.6)),  # 0-1 scale
         riskLevel=RiskLevel(risk) if risk in RiskLevel._value2member_map_ else RiskLevel.MEDIUM,
-        scoreReason=c.get("scoreReason") or f"Strong traction signals in {c.get('sector', 'target sector')}.",
+        scoreReason=c.get("scoreReason") or _score_reason(c),
         prediction=c.get("prediction") or f"{c.get('name', 'This startup')} is positioned to raise within 9 months.",
         sector=c.get("sector"),
         geo=c.get("geo"),
@@ -229,15 +248,30 @@ def _to_opportunity(idx: int, c: dict[str, Any]) -> Opportunity:
             )
             for e in (c.get("evidence") or [])
         ],
+        scoreBreakdown=[ScoreFactor(**f) for f in (c.get("scoreBreakdown") or [])],
     )
+
+
+def _score_reason(c: dict[str, Any]) -> str:
+    """Explain the score from its strongest positive factor."""
+    breakdown = [f for f in (c.get("scoreBreakdown") or []) if f.get("key") != "risk"]
+    if breakdown:
+        top = max(breakdown, key=lambda f: f.get("contribution", 0))
+        return f"{top['label']} is the strongest driver ({top['contribution']:+.0f} pts) for this opportunity."
+    return f"Strong traction signals in {c.get('sector', 'target sector')}."
 
 
 async def _synthesize(run: Run, gathered: dict[str, Any]) -> tuple[list[Opportunity], list[PresentationSegment]]:
     _set_status(run, RunStatus.SYNTHESIZING)
 
-    companies = sorted(gathered["companies"], key=lambda c: c.get("goliathScore", 0), reverse=True)[:5]
-    # Distribute the whole evidence pool across opportunities instead of pinning
-    # the same 2 URLs to every card. Each gets its own rotating slice (up to 3),
+    # Score every candidate from its sub-signals, then rank and keep the top 5.
+    companies = list(gathered["companies"])
+    for c in companies:
+        _score_company(c)
+    companies = sorted(companies, key=lambda c: c.get("goliathScore", 0), reverse=True)[:5]
+
+    # Distribute the whole evidence pool across the shown cards instead of pinning
+    # the same 2 URLs to every one. Each gets its own rotating slice (up to 3),
     # deduped, so cards cite varied real sources. Any evidence a company already
     # carries is kept and takes precedence.
     pool = _dedupe_evidence(gathered.get("evidence") or [])
