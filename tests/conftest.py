@@ -12,9 +12,11 @@ import uuid
 
 import pytest
 import pytest_asyncio
+from httpx import ASGITransport, AsyncClient
 
 from app.agent.orchestrator import run_pipeline
 from app.core.config import settings
+from app.main import app
 from app.schemas.contract import Run, RunStatus
 from app.store.run_store import store
 
@@ -48,3 +50,10 @@ async def make_completed_run(query: str = "AI startups in Barcelona", geo: str |
 @pytest_asyncio.fixture
 async def completed_run() -> Run:
     return await make_completed_run()
+
+
+@pytest_asyncio.fixture
+async def client():
+    """In-process ASGI HTTP client for testing serialized API responses."""
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as c:
+        yield c
