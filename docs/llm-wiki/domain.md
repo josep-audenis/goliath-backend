@@ -42,6 +42,9 @@ The orchestrator dynamically decides count; this is the reference set:
 Each subagent needs: role, purpose, research scope, a distinct voice, and a
 final presentation segment.
 
+See [agents-and-voices.md](agents-and-voices.md) for voice/personality intent
+and final presentation behavior.
+
 ## Assumptions
 - Data comes from **news sources + Cala AI**; Cala supplies structured startup
   and funding-round context. Exact Cala fields available are `TBD`.
@@ -56,5 +59,6 @@ final presentation segment.
 ## Related
 - [glossary.md](glossary.md)
 - [api-contract.md](api-contract.md)
+- [agents-and-voices.md](agents-and-voices.md)
 - [external-services.md](external-services.md)
 - [roadmap.md](roadmap.md)

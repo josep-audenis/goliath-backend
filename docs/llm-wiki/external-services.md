@@ -19,9 +19,13 @@
   2026-07-09). Backend returns a public or backend-proxied `audioUrl` per
   segment; frontend plays it when present and falls back to `script` subtitles
   timed by `durationMs` when absent.
+- Backend should return clip-relative `wordTimings` when audio is generated.
+  Preferred sources: ElevenLabs timestamped generation, or forced alignment of
+  final audio against final `script`.
+- `wordTimings` are exact-alignment data. Proportional timing is only fallback
+  behavior when audio or alignment data is unavailable.
 - Minimum demo target: at least **two distinct voices** working.
-- Still `TBD`: exact storage/serving location for the mp3s; whether subtitles
-  ever need per-word/sentence timing (segment-level `script` is enough for now).
+- Still `TBD`: exact storage/serving location for the mp3s.
 
 ## Vendor Quirks
 - `TBD`: Add validated behavior that differs from docs or common expectation as
@@ -29,6 +33,7 @@
 
 ## Related
 - [api-contract.md](api-contract.md)
+- [agents-and-voices.md](agents-and-voices.md)
 - [domain.md](domain.md)
 - [debugging.md](debugging.md)
 - [performance.md](performance.md)

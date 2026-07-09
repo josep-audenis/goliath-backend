@@ -3,7 +3,7 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import health, reports, runs
+from app.api.routes import audio, health, reports, runs
 from app.core.config import settings
 
 
@@ -28,6 +28,7 @@ def create_app() -> FastAPI:
     app.include_router(health.router)
     app.include_router(runs.router)
     app.include_router(reports.router)
+    app.include_router(audio.router)
     return app
 
 

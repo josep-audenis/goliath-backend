@@ -9,6 +9,8 @@ Context: Goliath began as a 2.5h hackathon build. Scope is deliberately narrow
 - 3–5 final opportunities, each with `goliathScore`, `status`, concise
   prediction, `confidence`, `riskLevel`, and evidence.
 - Narrated final presentation with ≥2 distinct ElevenLabs voices + subtitles.
+- Per-word subtitle reveal uses `wordTimings` when available; proportional
+  fallback remains acceptable for missing audio/alignment.
 - Report list + report detail view.
 
 ## Integration Status (2026-07-09)
@@ -27,6 +29,7 @@ Context: Goliath began as a 2.5h hackathon build. Scope is deliberately narrow
 | --- | --- | --- | --- |
 | Real subagent research (replace mocks) | Credibility beyond demo | Cala fields + news source choice | Planned |
 | Streaming events endpoint | Smoother animation than polling | Backend time budget | Optional |
+| Exact `wordTimings` from audio | Better subtitle/orb presentation sync | ElevenLabs timestamped generation or forced alignment | Planned |
 | Report persistence | Reuse/share past runs | Storage decision (in-memory vs DB) undecided | Open |
 | Explicit Goliath Score formula | Explainability / tuning | Agreement on factors + whether formula must be visible | Open |
 
@@ -44,6 +47,7 @@ Context: Goliath began as a 2.5h hackathon build. Scope is deliberately narrow
 | Subagents may be mocked | Findings not fully real | Keep output shape identical to real runs | Backend |
 | Cala fields unknown | Research depth uncertain | Mock credible structured output | Backend |
 | No clarification flow | Cannot refine ambiguous queries | Orchestrator plans directly from one query | Product |
+| Exact word alignment not guaranteed yet | Subtitle reveal may drift from audio | Use proportional fallback and keep response shape stable | Backend |
 
 ## Rules
 - Keep plans durable, not sprint task lists.

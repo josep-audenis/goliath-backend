@@ -55,9 +55,14 @@ Adding/removing a value is a breaking change requiring cross-team sign-off.
 - Timestamps (`createdAt`/`updatedAt`) are ISO 8601 strings. `FinalReport` also
   carries `createdAt`.
 - Each `PresentationSegment` references one `agentId`, carries `script` +
-  `subtitle`, and MAY carry `audioUrl` / `imageUrl` / `durationMs`. `script` is
-  the full spoken text and doubles as subtitles. Missing `audioUrl` is valid —
-  frontend falls back to subtitles timed by `durationMs`.
+  `subtitle`, and MAY carry `audioUrl` / `wordTimings` / `imageUrl` /
+  `durationMs`. `script` is the full spoken text and doubles as subtitles.
+  Missing `audioUrl` is valid — frontend falls back to subtitles timed by
+  `durationMs`.
+- `wordTimings` is the shared contract name for per-word subtitle alignment.
+  Timings are clip-relative milliseconds from the start of that segment's audio.
+  Ordered `text` values should reconstruct displayed script. Use exact alignment
+  when audio exists; frontend may fall back to proportional timing when missing.
 - `PresentationSegment.evidenceIds` reference `Opportunity.evidence[].id`.
 - `GET /api/reports` returns `ReportSummary[]`, a lighter shape than `Run`:
   `runId`, `title`, `query`, `status`, `createdAt`, `opportunityCount`, and
@@ -76,4 +81,5 @@ the invariants above.
 - [architecture.md](architecture.md)
 - [domain.md](domain.md)
 - [external-services.md](external-services.md)
+- [agents-and-voices.md](agents-and-voices.md)
 - [decisions.md](decisions.md)

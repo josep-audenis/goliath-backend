@@ -27,6 +27,35 @@ Use this page for lightweight ADRs. Append newest decisions at top.
 - Positive and negative effects.
 ```
 
+## ADR-20260709-word-timings-for-subtitles
+
+| Field | Value |
+| --- | --- |
+| Decision | Presentation segments use optional `wordTimings` for clip-relative subtitle reveal; proportional timing is fallback only. |
+| Date | 2026-07-09 |
+| Status | Accepted |
+
+### Context
+- Final presentation needs words to animate as each agent speaks.
+- Frontend contract now includes `PresentationSegment.wordTimings`.
+- Backend may generate speech with timestamps or force-align final audio and script.
+
+### Alternatives Considered
+| Option | Tradeoff |
+| --- | --- |
+| Segment-level subtitle only | Easy, but text animation cannot track spoken words |
+| Estimated timings only | Works without provider support, but drifts from real audio |
+| Optional exact `wordTimings` plus fallback | Best UX when available, robust when missing |
+
+### Why This Choice
+- Keeps demo presentation polished without making audio alignment a hard blocker.
+- Lets frontend implement one reveal path and degrade when timing data is absent.
+
+### Consequences
+- Backend contract should use field name `wordTimings`.
+- Timing offsets are relative to each segment audio clip, not whole report.
+- Exact alignment requires ElevenLabs timestamped generation or forced alignment.
+
 ## ADR-20260709-contract-ts-source-of-truth
 
 | Field | Value |

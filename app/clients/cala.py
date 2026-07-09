@@ -41,7 +41,7 @@ class CalaRestClient:
     def _headers(self) -> dict[str, str]:
         return {"X-API-KEY": self.api_key, "Content-Type": "application/json"}
 
-    def _post(self, path: str, body: dict[str, Any], timeout: float = 60.0, retries: int = 2) -> dict[str, Any]:
+    def _post(self, path: str, body: dict[str, Any], timeout: float = 120.0, retries: int = 3) -> dict[str, Any]:
         if not self.api_key:
             raise CalaUnavailable("no CALA_API_KEY configured")
         last: Optional[Exception] = None
@@ -51,15 +51,18 @@ class CalaRestClient:
                     r = c.post(f"{self.base_url}{path}", headers=self._headers(), json=body)
                     r.raise_for_status()
                     return r.json()
-            except (httpx.ReadTimeout, httpx.HTTPStatusError) as e:
+            except httpx.HTTPError as e:
+                # Cala is slow (100s+) and the connection resets intermittently
+                # (WinError 10054 -> ReadError). httpx.HTTPError covers timeouts,
+                # connect/read errors, and status errors — retry them all.
                 last = e
-                log.warning("Cala POST %s failed (%d/%d): %s", path, attempt + 1, retries, e)
-        raise CalaUnavailable(str(last) if last else "Cala POST failed")
+                log.warning("Cala POST %s failed (%d/%d): %s: %s", path, attempt + 1, retries, type(e).__name__, e)
+        raise CalaUnavailable(f"{type(last).__name__}: {last}" if last else "Cala POST failed")
 
     # ---- high-level lookups ----
 
     def knowledge_search(self, query: str, explainability: bool = True, return_entities: bool = True) -> dict[str, Any]:
-        """Free-text structured search. Returns context + explainability + entities."""
+        """Free-text structured search. Returns content + context + explainability + entities."""
         return self._post(
             "/knowledge/search",
             {"input": query, "explainability": explainability, "return_entities": return_entities},
@@ -75,21 +78,27 @@ class CalaRestClient:
 
 
 def extract_evidence(data: dict[str, Any], max_items: int = 8) -> list[dict[str, str]]:
-    """Pull citable {title,url,source} rows from knowledge_search context origins."""
+    """
+    Citable {title,url,source} rows from context[].origins[].
+
+    Real shape: origin = {source:{name,url}, document:{name,url}, breadcrumb:[]}.
+    Title comes from document.name (NOT .title), source from source.name.
+    """
     seen: set[str] = set()
     out: list[dict[str, str]] = []
     for ctx in data.get("context") or []:
         for origin in ctx.get("origins") or []:
             doc = origin.get("document") or {}
-            url = doc.get("url") if isinstance(doc, dict) else None
-            if not (url and isinstance(url, str) and url.startswith("http")) or url in seen:
+            src = origin.get("source") or {}
+            url = doc.get("url") or src.get("url")
+            if not (isinstance(url, str) and url.startswith("http")) or url in seen:
                 continue
             seen.add(url)
             out.append(
                 {
-                    "title": (doc.get("title") if isinstance(doc, dict) else None) or url,
+                    "title": doc.get("name") or src.get("name") or url,
                     "url": url,
-                    "source": (origin.get("source") or {}).get("name") or "cala",
+                    "source": src.get("name") or "cala",
                 }
             )
             if len(out) >= max_items:
@@ -97,9 +106,33 @@ def extract_evidence(data: dict[str, Any], max_items: int = 8) -> list[dict[str,
     return out
 
 
-def extract_entities(data: dict[str, Any]) -> list[dict[str, Any]]:
+# Cala entity_types that represent investable companies.
+_COMPANY_TYPES = {"Company", "Organization"}
+
+
+def extract_entities(data: dict[str, Any], company_only: bool = True) -> list[dict[str, Any]]:
+    """
+    Typed entities: {id, name, entity_type, mentions}. No `properties` field.
+    Default filters to Company/Organization (the investable ones).
+    """
     ents = data.get("entities")
-    return ents if isinstance(ents, list) else []
+    if not isinstance(ents, list):
+        return []
+    if not company_only:
+        return ents
+    return [e for e in ents if isinstance(e, dict) and e.get("entity_type") in _COMPANY_TYPES]
+
+
+def extract_claims(data: dict[str, Any], max_items: int = 8) -> list[str]:
+    """One-sentence grounded claims from explainability[].content — ideal findings."""
+    out: list[str] = []
+    for exp in data.get("explainability") or []:
+        c = exp.get("content") if isinstance(exp, dict) else None
+        if isinstance(c, str) and c.strip():
+            out.append(c.strip())
+        if len(out) >= max_items:
+            break
+    return out
 
 
 # ---------------------------------------------------------------------------

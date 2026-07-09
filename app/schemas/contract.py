@@ -126,6 +126,28 @@ class PresentationSegment(BaseModel):
     imageUrl: Optional[str] = None
 
 
+class TranscriptWord(BaseModel):
+    text: str
+    startMs: int
+    endMs: int
+
+
+class TranscriptSegment(BaseModel):
+    agentId: str
+    script: str
+    subtitle: str
+    audioUrl: Optional[str] = None
+    durationMs: int
+    timingSource: str = "estimated"
+    words: list[TranscriptWord] = Field(default_factory=list)
+
+
+class ReportTranscript(BaseModel):
+    runId: str
+    query: str
+    segments: list[TranscriptSegment] = Field(default_factory=list)
+
+
 class Report(BaseModel):
     runId: str
     query: str

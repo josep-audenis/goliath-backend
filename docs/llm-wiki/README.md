@@ -29,6 +29,7 @@ Graphifyy explains how code works. This wiki explains why choices exist.
 | --- | --- |
 | [architecture.md](architecture.md) | Rationale behind architecture boundaries, data flow, and constraints |
 | [domain.md](domain.md) | Business concepts, assumptions, rules, and invariants |
+| [agents-and-voices.md](agents-and-voices.md) | Agent roles, voice intent, and final presentation behavior |
 | [api-contract.md](api-contract.md) | Frontend↔backend contract rationale, load-bearing enums, and field invariants |
 | [decisions.md](decisions.md) | Lightweight ADR log |
 | [conventions.md](conventions.md) | Durable project patterns not obvious from tooling |

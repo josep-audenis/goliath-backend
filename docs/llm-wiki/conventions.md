@@ -15,6 +15,11 @@
 - Match existing project style.
 - Add exact conventions here only when they are project-specific and durable.
 
+## Branching
+- `dev` is active integration branch.
+- Use one branch per issue.
+- Keep cross-team contract changes visible; no silent schema drift.
+
 ## Related
 - [README.md](README.md)
 - [decisions.md](decisions.md)
