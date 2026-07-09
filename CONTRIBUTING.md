@@ -6,7 +6,7 @@ fights us.
 
 ## File ownership
 
-### Josep — agents / LLM brain
+### Axel — agents / LLM brain
 ```
 app/agent/orchestrator.py    plan -> research -> synthesize flow + events
 app/agent/prompts.py         orchestrator / research / synthesis prompts
@@ -16,7 +16,7 @@ app/agent/runtime.py         model factory + JSON parsing
 app/agent/mock_data.py       credible mock output
 ```
 
-### Axel — data / API / integrations
+### Josep — data / API / integrations
 ```
 app/clients/cala.py          real Cala wiring (REST + MCP)
 app/services/tts.py          ElevenLabs synthesis
