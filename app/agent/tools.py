@@ -16,7 +16,14 @@ import logging
 from typing import Any
 
 from app.agent import mock_data
-from app.clients.cala import CalaUnavailable, extract_claims, extract_entities, extract_evidence, rest
+from app.clients.cala import (
+    CalaUnavailable,
+    extract_claims,
+    extract_entities,
+    extract_evidence,
+    is_probable_startup,
+    rest,
+)
 from app.core.config import settings
 
 log = logging.getLogger("app.agent.tools")
@@ -36,19 +43,63 @@ except Exception:  # pragma: no cover
 
 
 # ---------------------------------------------------------------------------
-# Market Mapper — segments + demand signals
+# Multi-query helper — run several Cala searches concurrently, merge the
+# claims/evidence/entities. This is what makes each research pass "extensive"
+# instead of a single lookup.
+# ---------------------------------------------------------------------------
+
+
+def _multi_search(queries: list[str], claims_each: int = 4, ev_cap: int = 10) -> dict[str, Any]:
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    raw: list[dict[str, Any]] = []
+    with ThreadPoolExecutor(max_workers=min(len(queries), 5)) as pool:
+        futs = {pool.submit(rest.knowledge_search, q): q for q in queries}
+        for fut in as_completed(futs):
+            try:
+                raw.append({"query": futs[fut], "data": fut.result()})
+            except Exception as e:
+                log.warning("multi_search query failed (%s): %s", futs[fut], e)
+
+    findings: list[str] = []
+    evidence: list[dict[str, str]] = []
+    entities: list[dict[str, Any]] = []
+    seen_ev: set[str] = set()
+    for item in raw:
+        d = item["data"]
+        findings.extend(extract_claims(d, max_items=claims_each))
+        for e in extract_evidence(d, max_items=ev_cap):
+            if e["url"] not in seen_ev:
+                seen_ev.add(e["url"])
+                evidence.append(e)
+        entities.extend(extract_entities(d))
+    # de-dupe findings preserving order
+    seen_f: set[str] = set()
+    findings = [f for f in findings if not (f in seen_f or seen_f.add(f))]
+    return {"queries": queries, "findings": findings, "evidence": evidence[:ev_cap], "entities": entities, "raw": raw}
+
+
+# ---------------------------------------------------------------------------
+# Market Mapper — segments + demand signals (multi-angle)
 # ---------------------------------------------------------------------------
 
 
 def market_scan_impl(query: str, geo: str | None = None, sector: str | None = None) -> dict[str, Any]:
+    sec = sector or "startups"
+    loc = geo or "Europe"
     if settings.cala_live:
         try:
-            data = rest.knowledge_search(f"market segments and demand for {sector or 'startups'} in {geo or ''}: {query}")
-            claims = extract_claims(data, max_items=4)
+            res = _multi_search(
+                [
+                    f"market segments and demand for {sec} in {loc}: {query}",
+                    f"{sec} market growth rate and total addressable market in {loc}",
+                    f"competitive density and leading {sec} companies in {loc}",
+                ]
+            )
             return {
-                "summary": claims[0] if claims else f"Market map for '{query}'.",
-                "findings": claims,
-                "evidence": extract_evidence(data),
+                "summary": res["findings"][0] if res["findings"] else f"Market map for '{query}'.",
+                "findings": res["findings"],
+                "evidence": res["evidence"],
                 "mocked": False,
             }
         except CalaUnavailable as e:
@@ -66,32 +117,44 @@ def market_scan_impl(query: str, geo: str | None = None, sector: str | None = No
 # ---------------------------------------------------------------------------
 
 
-def company_scan_impl(query: str, geo: str | None = None, sector: str | None = None, n: int = 5) -> dict[str, Any]:
+def company_scan_impl(query: str, geo: str | None = None, sector: str | None = None, n: int = 8) -> dict[str, Any]:
+    sec = sector or "startups"
+    loc = geo or "Europe"
     if settings.cala_live:
         try:
-            data = rest.knowledge_search(f"{sector or 'startups'} in {geo or ''} that raised funding: {query}")
-            ents = extract_entities(data)  # already filtered to Company/Organization
-            evidence = extract_evidence(data)
+            res = _multi_search(
+                [
+                    f"{sec} in {loc} that raised funding: {query}",
+                    f"fastest growing {sec} startups in {loc} with strong traction",
+                    f"notable recently funded {sec} companies in {loc} and their investors",
+                ],
+                claims_each=5,
+            )
+            # de-dupe by name, keep only probable startups (drop investors,
+            # universities, gov, consortia — see is_probable_startup).
+            by_name: dict[str, dict[str, Any]] = {}
+            for e in res["entities"]:
+                nm = e.get("name")
+                if nm and nm not in by_name and is_probable_startup(e):
+                    by_name[nm] = e
             companies = [
                 {
                     "name": e.get("name") or "unknown",
                     "sector": sector,
                     "geo": geo,
-                    "stage": None,  # Cala entities carry no stage field; enrich via funding_scan
+                    "stage": None,  # Cala entities carry no stage; enrich via funding_scan
                     "goliathScore": 60.0,
                     "status": "warming",
                     "confidence": 55.0,
                     "riskLevel": "medium",
                     "cala_entity_id": e.get("id"),
                 }
-                for e in ents[:n]
+                for e in list(by_name.values())[:n]
             ]
-            # Surface a live-but-empty result explicitly instead of silently mocking:
-            # empty companies with real claims still means the call worked.
             return {
                 "companies": companies,
-                "findings": extract_claims(data, max_items=6),
-                "evidence": evidence,
+                "findings": res["findings"],
+                "evidence": res["evidence"],
                 "mocked": False,
             }
         except CalaUnavailable as e:
@@ -100,6 +163,59 @@ def company_scan_impl(query: str, geo: str | None = None, sector: str | None = N
         "companies": mock_data.mock_companies(query, geo, sector, n),
         "findings": [],
         "evidence": mock_data.mock_evidence(sector or "candidate companies"),
+        "mocked": True,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Risk Analyst — risks, weak signals, competitive threats
+# ---------------------------------------------------------------------------
+
+
+def risk_scan_impl(query: str, geo: str | None = None, sector: str | None = None) -> dict[str, Any]:
+    sec = sector or "startups"
+    loc = geo or "Europe"
+    if settings.cala_live:
+        try:
+            res = _multi_search(
+                [
+                    f"risks and failures for {sec} startups in {loc}: {query}",
+                    f"regulatory, funding-market and competitive threats to {sec} in {loc}",
+                ]
+            )
+            return {"findings": res["findings"], "evidence": res["evidence"], "mocked": False}
+        except CalaUnavailable as e:
+            log.warning("risk_scan live failed, mocking: %s", e)
+    return {
+        "findings": ["Key risks: execution, competitive density, funding-market timing."],
+        "evidence": [],
+        "mocked": True,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Funding Analyst — round timing / next-raise window
+# ---------------------------------------------------------------------------
+
+
+def funding_landscape_impl(query: str, geo: str | None = None, sector: str | None = None) -> dict[str, Any]:
+    """Broad funding-climate scan (not company-specific)."""
+    sec = sector or "startups"
+    loc = geo or "Europe"
+    if settings.cala_live:
+        try:
+            res = _multi_search(
+                [
+                    f"recent funding rounds and round sizes for {sec} in {loc}: {query}",
+                    f"most active investors and next-raise timing for {sec} in {loc}",
+                ]
+            )
+            return {"findings": res["findings"], "evidence": res["evidence"], "mocked": False}
+        except CalaUnavailable as e:
+            log.warning("funding_landscape live failed, mocking: %s", e)
+    return {
+        "findings": ["Several candidates likely re-raising within 6–9 months."],
+        "evidence": [],
         "mocked": True,
     }
 
@@ -145,4 +261,16 @@ def funding_scan(company: str) -> dict[str, Any]:
     return funding_scan_impl(company)
 
 
-RESEARCH_TOOLS = [market_scan, company_scan, funding_scan]
+@function_tool
+def funding_landscape(query: str, geo: str | None = None, sector: str | None = None) -> dict[str, Any]:
+    """Scan the broad funding climate: recent rounds, active investors, next-raise timing."""
+    return funding_landscape_impl(query, geo, sector)
+
+
+@function_tool
+def risk_scan(query: str, geo: str | None = None, sector: str | None = None) -> dict[str, Any]:
+    """Surface risks, weak signals, regulatory and competitive threats for the query."""
+    return risk_scan_impl(query, geo, sector)
+
+
+RESEARCH_TOOLS = [market_scan, company_scan, funding_scan, funding_landscape, risk_scan]

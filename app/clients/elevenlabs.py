@@ -29,6 +29,11 @@ VOICE_IDS: dict[str, str] = {
     "Sarah": "EXAVITQu4vr4xnSDxMaL",
     "Charlie": "IKne3meq5aSn9XLyUdCD",
     "George": "JBFqnCBsd6RMkjVDRZzb",
+    "Laura": "FGY2WhTYpPnrIDTdsKH5",
+    "River": "SAz9YHcvj6GT2YYXdXww",
+    "Liam": "TX3LPaxmHKxFdv7VOQHJ",
+    "Alice": "Xb7hH8MSUJpSbSDYk0k2",
+    "Callum": "N2lVS1w4EtoT3dr4eOWO",
 }
 DEFAULT_VOICE_ID = VOICE_IDS["Aria"]
 

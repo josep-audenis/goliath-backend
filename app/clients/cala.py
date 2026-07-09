@@ -106,20 +106,78 @@ def extract_evidence(data: dict[str, Any], max_items: int = 8) -> list[dict[str,
     return out
 
 
-# Cala entity_types that represent investable companies.
+# Cala entity_types that could represent investable companies.
 _COMPANY_TYPES = {"Company", "Organization"}
 
+# Name patterns that mark an Organization as NOT an investable startup:
+# investors, funds, universities, government, consortia, standards bodies, banks.
+import re as _re
 
-def extract_entities(data: dict[str, Any], company_only: bool = True) -> list[dict[str, Any]]:
+_NON_STARTUP_RE = _re.compile(
+    r"\b("
+    r"ventures?|capital|partners?|fund|funds|holdings?|group|"
+    r"investors?|equity|asset management|angels?|"
+    r"university|universitat|universidad|college|institute|institut|"
+    r"foundation|fundaci|association|associaci|consortium|alliance|"
+    r"international|national|federation|society|council|committee|"
+    r"government|ministry|agency|authority|commission|"
+    r"bank|banco|sabadell|"
+    r"supercomputing|research cent|centre|center|centro|"
+    r"incubator|accelerator|chamber"
+    r")\b",
+    _re.IGNORECASE,
+)
+
+
+# Well-known investors/funds whose names carry no generic keyword marker, so the
+# regex above misses them. Matched case-insensitively on a normalized name.
+_KNOWN_INVESTORS = {
+    "atomico", "sequoia", "a16z", "andreessen horowitz", "accel", "index", "index ventures",
+    "gic", "gic private limited", "temasek", "softbank", "tiger global", "coatue",
+    "insight", "insight partners", "general catalyst", "greylock", "benchmark", "kleiner perkins",
+    "lightspeed", "bessemer", "battery", "ivp", "founders fund", "khosla", "y combinator",
+    "techstars", "500 startups", "eurazeo", "balderton", "northzone", "creandum", "point nine",
+    "seedcamp", "kfund", "k fund", "nauta", "seaya", "kibo ventures", "jme", "adara",
+    "elaia", "crane", "crane venture partners", "banco sabadell", "sabadell",
+}
+
+
+def _norm(name: str) -> str:
+    return _re.sub(r"[^a-z0-9 ]", "", (name or "").lower()).strip()
+
+
+def is_probable_startup(entity: dict[str, Any]) -> bool:
+    """True if the entity looks like an investable startup (not an investor/institution)."""
+    if not isinstance(entity, dict):
+        return False
+    if entity.get("entity_type") not in _COMPANY_TYPES:
+        return False
+    name = entity.get("name") or ""
+    if _norm(name) in _KNOWN_INVESTORS:
+        return False
+    return not _NON_STARTUP_RE.search(name)
+
+
+def extract_entities(
+    data: dict[str, Any], company_only: bool = True, startups_only: bool = False
+) -> list[dict[str, Any]]:
     """
     Typed entities: {id, name, entity_type, mentions}. No `properties` field.
-    Default filters to Company/Organization (the investable ones).
+
+    - company_only (default): keep Company/Organization types.
+    - startups_only: additionally drop investors, funds, universities, gov,
+      consortia, and standards bodies (name heuristic) and rank `Company` before
+      `Organization` so real startups surface first.
     """
     ents = data.get("entities")
     if not isinstance(ents, list):
         return []
-    if not company_only:
+    if not company_only and not startups_only:
         return ents
+    if startups_only:
+        keep = [e for e in ents if is_probable_startup(e)]
+        # Company type is a stronger startup signal than a bare Organization.
+        return sorted(keep, key=lambda e: 0 if e.get("entity_type") == "Company" else 1)
     return [e for e in ents if isinstance(e, dict) and e.get("entity_type") in _COMPANY_TYPES]
 
 

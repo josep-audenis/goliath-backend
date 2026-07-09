@@ -1,0 +1,385 @@
+{
+  "content": "## AI Market Growth and Demand in Barcelona\n\nBarcelona, a city of approximately 1.73 million people in Catalonia, Spain, has emerged as a significant hub for AI and technology in Southern Europe. Here is an overview of the AI market dynamics in the city:\n\n### Startup Ecosystem and AI Growth\n\n- **Catalonia's startup ecosystem** (centered on Barcelona) comprises **2,403 startups** with a combined turnover of **€2,947 million** and **30,537 employees** (as of the 2026 Barcelona & Catalonia Startup Hub report).\n- The ecosystem is growing at **5.2% annually** in number of startups, with **26% annual growth in turnover** and **34% annual growth in employment**.\n- Over 76% of startups in the region work with technologies linked to Industry 4.0, including artificial intelligence.\n- Barcelona is recognized as a gateway to the tech and digital ecosystem of Southern Europe, with 19% of founders and 23% of startup employees being international.\n\n### AI Demand in the Job Market\n\n- Spain's **\"Digital Spain 2026\" agenda** has accelerated demand for specialized technical roles, particularly in Deep Tech (AI), Renewable Energy, and Digital Health.\n- **AI & Data Science** is among the top growth sectors, with companies actively recruiting Machine Learning Engineers, Data Scientists, and AI Ethics Compliance Officers. Key skills in demand include Python, TensorFlow, R, SQL, and Large Language Models (LLMs).\n- Barcelona (alongside Madrid and Valencia) is a **primary location** for AI engineering and data science roles, with many positions using English as the primary working language.\n\n### AI in Specific Sectors\n\n- **AI in Real Estate**: The Spain AI in Real Estate Market is valued at **USD 1.2 billion**, driven by AI adoption in property management, CRM, and predictive analytics, with key growth concentrated in Madrid and Barcelona.\n- **AI in Banking**: Spain's AI in banking market is projected to grow through 2031, with Barcelona as a key financial center.\n- **Office Market**: Barcelona recorded **319,000 sqm** of office space contracted in 2025, up 16% year-on-year and 25% above the five-year average. The 22@ district (Barcelona's tech and innovation hub) accounted for 43% of total demand.\n\n### Spain's AI Readiness in the European Context\n\n- According to Accenture's AI Progress Barometer (July 2026), Spain improved its AI readiness score by **+4.6 points** (to 39.9), one of the largest improvements in Europe alongside France (+5) and the UK (+4.8).\n- However, a significant gap persists between large European companies (scoring 47.4) and smaller firms (40.5), suggesting that smaller Barcelona-based businesses may need additional support to keep pace.\n\n### Infrastructure and Investment Drivers\n\n- Barcelona benefits from the 22@ innovation district, tech hubs like Pier01 and Pier03 (operated by Barcelona Tech City), and events such as the annual Mobile World Congress and 4YFN (Four Years From Now) startup conference.\n- The broader global AI infrastructure spending wave — estimated at **$750 billion** in 2026 — is creating downstream demand for AI talent and services in tech hubs like Barcelona.\n\nBarcelona's combination of international talent, growing startup ecosystem, government-backed digital transformation initiatives, and strong office-market demand positions it as one of Europe's rising AI and tech centers.",
+  "explainability": [
+    {
+      "content": "Barcelona’s population of about 1.73 million provides a sizable talent pool for AI activities.",
+      "references": [
+        "4aba12a3-37a0-44fa-9046-ef7f4fc16cea"
+      ]
+    },
+    {
+      "content": "The Catalonia startup ecosystem, centred on Barcelona, includes 2,403 startups with €2,947 million turnover and 30,537 employees, showing a strong base for AI‑related ventures.",
+      "references": [
+        "783d2420-c460-4834-9c7f-5583106052a0"
+      ]
+    },
+    {
+      "content": "The ecosystem is growing at 5.2 % annual startup count, 26 % turnover growth and 34 % employment growth, indicating accelerating AI market potential.",
+      "references": [
+        "783d2420-c460-4834-9c7f-5583106052a0"
+      ]
+    },
+    {
+      "content": "Over 76 % of these startups work with Industry 4.0 technologies, including AI, confirming high AI adoption within the local startup scene.",
+      "references": [
+        "783d2420-c460-4834-9c7f-5583106052a0",
+        "d741ab1a-fe87-4fc2-b406-4e8dbf656122"
+      ]
+    },
+    {
+      "content": "Spain’s ‘Digital Spain 2026’ agenda has spurred demand for deep‑tech roles such as Machine Learning Engineer and Data Scientist, with key skills like Python and LLMs, aligning with Barcelona’s AI job market growth.",
+      "references": [
+        "3b6bd0f0-fb56-4a6b-a9d4-fd1953a938a0"
+      ]
+    },
+    {
+      "content": "Barcelona is identified as a primary location for AI engineering and data‑science positions, many of which use English as the working language, reinforcing its status as an AI talent hub.",
+      "references": [
+        "3b6bd0f0-fb56-4a6b-a9d4-fd1953a938a0",
+        "b2cbd30d-057c-4a0f-a739-21a0acd19d73"
+      ]
+    },
+    {
+      "content": "The Spain AI in Real Estate market is valued at USD 1.2 billion, with key growth concentrated in Barcelona, highlighting sector‑specific AI demand.",
+      "references": [
+        "df8c35e8-fe0b-4949-b5a1-25fba7609032"
+      ]
+    },
+    {
+      "content": "Barcelona contracted 319,000 sqm of office space in 2025, a 16 % increase year‑on‑year, with the 22@ district accounting for 43 % of total demand, indicating strong infrastructure to support AI companies.",
+      "references": [
+        "4dce8188-b995-4a69-a560-2166e3aa00e4"
+      ]
+    },
+    {
+      "content": "Accenture’s AI Progress Barometer shows Spain’s AI readiness score rose by +4.6 points to 39.9, one of the largest improvements in Europe, underscoring Barcelona’s improving AI ecosystem.",
+      "references": [
+        "13cdc2e1-4f7b-4a40-b50c-97d58a439a5f"
+      ]
+    },
+    {
+      "content": "The gap between large and small European firms suggests smaller Barcelona‑based businesses may need additional support to keep pace with AI adoption.",
+      "references": [
+        "13cdc2e1-4f7b-4a40-b50c-97d58a439a5f"
+      ]
+    },
+    {
+      "content": "Barcelona’s 22@ innovation district, tech hubs like Pier01 and Pier03, and events such as Mobile World Congress and 4YFN provide the infrastructure and networking needed to attract AI talent and investment.",
+      "references": [
+        "adac0d26-ff88-46b3-90e5-ea45216f7216"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "783d2420-c460-4834-9c7f-5583106052a0",
+      "content": "accio.gencat.cat catalonia.com Passeig de Gràcia, 129 08008 Barcelona accio.gencat.cat catalonia.com @accio_cat @Catalonia_TI linkedin.com/company/acciocat/ linkedin.com/company/invest-in-catalonia/ Discover the Barcelona & Catalonia Startup Hub Thank you [...] 18 4. Economic impact of the startup ecosystem in Catalonia Barcelona & Catalonia Startup Hub, 2026 19 The 2,403 startups in Catalonia have a turnover of €2,947 million and employ 30,537 people 2,403 startups in Catalunya 5.2% Annual growth of startups 2,947 Turnover (€ million) 26% Annual growth in turnover 0.9% of Catalonia’s total GDP 30,537 Employees 34% Annual growth in employment Source: ACCIÓ. Barcelona & Catalonia Startup Hub Note: The figure for the number of startups corresponds to [...] Analysis of the startup ecosystem in Catalonia 2026 February 2026 3 Contents 1.\nIntroduction 2.\nExecutive summary 3.\nBarcelona and Catalonia on the global stage of startups 4.\nEconomic impact of the startup ecosystem in Catalonia 5.\nMain features of startups in Catalonia 6.\nTalent in startups in Catalonia 7.\nFunding of startups in Catalonia 8.",
+      "origins": [
+        {
+          "source": {
+            "name": "Catalonia Trade & Investment - catalonia.com",
+            "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf"
+          },
+          "document": {
+            "name": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+            "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b6bd0f0-fb56-4a6b-a9d4-fd1953a938a0",
+      "content": "Thriving Expat Ecosystems: Mature international communities exist not only in Barcelona and Madrid but have expanded significantly to Valencia and Malaga (now a primary tech hub), facilitating rapid social and professional integration.\n\nDynamic Job Market for Foreigners: The 2026 labor market has diversified beyond tourism. There is now critical demand for multilingual talent in Deep Tech (AI), Renewable Energy, and Digital Health. [...] The Spanish government's \"Digital Spain 2026\" agenda has accelerated demand for specialized technical roles. Unlike general roles, these positions often use English as the primary working language.\n\n#### 1. Artificial Intelligence & Data Science\n\nCompanies are actively recruiting to automate processes and integrate generative AI.\n\nRoles: Machine Learning Engineer, Data Scientist, AI Ethics Compliance Officer.\n\nKey Skills: Python, TensorFlow, R, SQL, Large Language Models (LLMs). [...] Conclusion For EU citizens and qualified non-EU professionals, Spain in 2026 offers a stable economy with aggressive growth in the technology sector. Candidates with multilingual capabilities or specialized technical skills (AI, Engineering) are in the strongest position to negotiate competitive salaries.\n\n## ​\n\nOur jobs in Spain\n\n​\\Please only apply if you have a valid work permit or are an EU citizen​\n\n​\n\n​\n\n## Why Spain is a Top Expat Destination in 2026",
+      "origins": [
+        {
+          "source": {
+            "name": "bluselection.com",
+            "url": "https://www.bluselection.com/blog/2026/02/most-high-demand-jobs-in-spain-and-how-to-find-one"
+          },
+          "document": {
+            "name": "The Spanish Job Market in 2026: High Demand Sectors · Blu Selection",
+            "url": "https://www.bluselection.com/blog/2026/02/most-high-demand-jobs-in-spain-and-how-to-find-one"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ef2820e4-820e-4ddf-9ebf-c254817b2c5c",
+      "content": "regarding utilities, transport, and dining.  Thriving Expat Ecosystems: Mature international communities exist not only in Barcelona and Madrid but have expanded significantly to Valencia and Malaga (now a primary tech hub), facilitating rapid social and professional integration.  Dynamic Job Market for Foreigners: The 2026 labor market has diversified beyond tourism. There is now critical demand for multilingual talent in Deep Tech (AI), Renewable Energy, and Digital Health. [...] # The Spanish Job Market in 2026: High Demand Sectors for EU Citizens. # The Spanish Job Market in 2026: High Demand Sectors for EU Citizens. For EU citizens seeking employment in Spain, the 2026 labor market offers distinct opportunities driven by digitalization and green energy transitions.  Top Growth Sector: Deep Tech (AI, Semiconductors) and Renewable Energy. ## High Demand Tech Jobs in Spain (2026 Update). The Spanish government's \"Digital Spain 2026\" agenda has accelerated demand for [...] Requirements: Engineering degrees are mandatory; fluency in Spanish is often required for field roles. Customer service jobs in Spain can be found in a variety of industries such as tourism, telecommunications, and finance. Our last job in Spain. ### For Non-EU Citizens: The Digital Nomad Visa. Conclusion For EU citizens and qualified non-EU professionals, Spain in 2026 offers a stable economy with aggressive growth in the technology sector. Our last job in Spain. ​\\Please only apply if you",
+      "origins": [
+        {
+          "source": {
+            "name": "bluselection.com",
+            "url": "https://www.bluselection.com/blog/2022/11/most-high-demand-jobs-in-spain-and-how-to-find-one"
+          },
+          "document": {
+            "name": "The Spanish Job Market in 2026: High Demand Sectors · Blu Selection",
+            "url": "https://www.bluselection.com/blog/2022/11/most-high-demand-jobs-in-spain-and-how-to-find-one"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df8c35e8-fe0b-4949-b5a1-25fba7609032",
+      "content": "Segmentation, 2030. Generative Artificial Intelligence (AI) in Real Estate Market Report 2025 - Product Image. ### Generative Artificial Intelligence (AI) in Real Estate Market Report 2025. AI-Driven Real Estate Valuation Systems Market - Global Forecast 2025-2032 - Product Image. Generative AI in Real Estate Market Report 2026 - Product Image. ### Generative AI in Real Estate Market Report 2026. Spain AI in Real Estate Market. [...] Spain AI in Real Estate Market- Product Image. Spain AI in Real Estate Market- Product Image. # Spain AI in Real Estate Market. > Spain AI in Real Estate Market is valued at USD 1.2 billion, driven by AI adoption in property management, CRM, and predictive analytics, with key growth in Madrid and Barcelona. The Spain AI in Real Estate Market is valued at USD 1.2 billion, based on a five-year historical analysis. This growth is primarily driven by the increasing adoption of AI technologies in [...] of AI in property management is expected to enhance decision-making processes, as 75% of property managers report improved efficiency through AI-driven analytics, making it a critical growth driver in the real estate market. Consequently, many traditional real estate firms are hesitant to transition to AI-driven solutions, limiting market growth potential. ## Spain AI in Real Estate Market Future Outlook. The future of the AI in real estate market in Spain appears promising, driven by",
+      "origins": [
+        {
+          "source": {
+            "name": "Research and Markets - Market Research Reports - Welcome",
+            "url": "https://www.researchandmarkets.com/reports/6208887/spain-ai-in-real-estate-market"
+          },
+          "document": {
+            "name": "Spain AI in Real Estate Market - Research and Markets",
+            "url": "https://www.researchandmarkets.com/reports/6208887/spain-ai-in-real-estate-market"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4dce8188-b995-4a69-a560-2166e3aa00e4",
+      "content": "outperformed the M-30, accounting for 52% of demand, a sign of a rebalancing of the market. Barcelona, meanwhile, recorded 319,000 sqm contracted in 2025, 16% more than in 2024 and 25% above the average for the last five years. The 22@ district accounted for 43% of the total and seven of the ten largest transactions of the year, while the city centre accounted for 28%. 2025 leaves us with a healthy occupational market, with prospects for continuity in 2026. Peripheral areas are beginning to [...] saw strong growth in demand and Madrid consolidated a healthy occupancy market, while investment rebounded strongly and prime rents reached new highs. The year was marked by a recovery in activity, reduced availability in prime locations and renewed investor appetite driven by improved financial expectations. Madrid closed the year with 486,000 sqm, a slight -7% year-on-year decline, but still 12% above the five-year average. For the first time in three years, peripheral markets outperformed [...] for core locations. Prime yields continued to compress to 4.60% in Madrid and 4.75% in Barcelona. Investment volumes are expected to continue their upward trend in 2026, especially at the start of the year with transactions close to completion.",
+      "origins": [
+        {
+          "source": {
+            "name": "cbre.com.hk",
+            "url": "https://www.cbre.com.hk/insights/figures/offices-market-data-figures-fourth-quarter-2025-spain"
+          },
+          "document": {
+            "name": "Offices, market data - Figures fourth quarter 2025 Spain | CBRE Hong Kong",
+            "url": "https://www.cbre.com.hk/insights/figures/offices-market-data-figures-fourth-quarter-2025-spain"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13cdc2e1-4f7b-4a40-b50c-97d58a439a5f",
+      "content": "Widening Divide Between Large and Small European Firms\n\nThe Barometer highlights a growing disparity within Europe itself. The largest European companies, those with annual revenues above $10 billion, now rank just 2.1 points behind their North American peers (47.4 versus 49.5). However, smaller European companies lag comparable North American firms by 7.6 points (40.5 versus 48.1). This pronounced gap suggests that smaller European businesses are struggling to keep pace, which could impact Europe’s future competitiveness in AI-led productivity and growth.\n\nThis internal divide is more significant in Europe than in North America, raising concerns that smaller companies may miss out on opportunities unless they increase investment in AI capabilities.\n\nCountry and Sector Variations [...] Country and Sector Variations\n\nThe pace of AI readiness improvement varies across European countries and sectors. Companies in France (+5 to 43.1), the United Kingdom (+4.8 to 44.5), and Spain (+4.6 to 39.9) recorded the largest improvements. Among industries, ten of the eighteen tracked showed overall improvement. The insurance sector led with an 8-point increase to 48.6, followed by travel (+5.7 to 46.7) and consumer goods (+5.2 to 43.7). Insurance companies, in particular, have made significant progress in transforming processes and modernizing data foundations.\n\nFactors Influencing AI Readiness [...] Conclusion\n\nWhile European companies, especially large ones, are making notable progress in AI readiness, the widening gap between large and smaller firms poses a challenge. Addressing this divide will be important for ensuring that Europe remains competitive in the global AI landscape.\n\n Departments\n European News\n Artificial Intelligence\n\n Topics\n Accenture\n\n« Previous article Hotel Commercial Strategy Executives: Cautious Optimism, Uneven Reality\n\nNext article » 104-Room Hampton Inn & Suites Galveston Offered for Sale Amid Strong Market Performance\n\n#### Related articles\n\n##### AI Agents Redefine Consumer Choices and Brand Value, Survey Finds",
+      "origins": [
+        {
+          "source": {
+            "name": "High Ticket Prices and Geopolitical Uncertainty Weigh on Early World Cup Hotel Bookings",
+            "url": "https://www.hotelnewsresource.com/article141968.html"
+          },
+          "document": {
+            "name": "AI Progress in Europe Driven by Large Companies as Smaller Firms Lag - Hotel News Resource",
+            "url": "https://www.hotelnewsresource.com/article141968.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb94eacd-ba80-4e33-a498-47ceb843ca1b",
+      "content": "# Europe moves forward in AI race, but maturity is uneven and gaps remain\n\n08 July 2026 Consultancy.eu 5 min. read\n\nCompanies in Europe are improving in AI readiness, staying well ahead of Asian companies but still trying to close the gap with global leader North America. That is according to the most recent findings from Accenture’s twice-yearly AI Progress Barometer, a comprehensive look into the AI-readiness of companies around the world. [...] ## Variation among industries\n\nThere are notable variations in the readiness levels of different industries in Europe. For example, the European insurance industry was found to be the strongest, with an average percentile ranking score up by 8 since last year, followed by travel (up by 5,7), and consumer goods and services (up by 5,2). That was followed by aerospace and defence, and software and platforms, also in the top five industries that have made the most progress. [...] Consultancy.org network\n\nConsultancy.org network\n\n Consultancy.uk\n Consultancy.in\n Consultancy.nl\n Consultancy.co.za\n\n Consultancy.eu\n Consultancy.asia\n Consultancy-me.com\n Consultancy.africa\n\nFollow us",
+      "origins": [
+        {
+          "source": {
+            "name": "Consultancy.eu | Europe consulting industry platform",
+            "url": "https://www.consultancy.eu/news/amp/14046/europe-moves-forward-in-ai-race-but-maturity-is-uneven-and-gaps-remain"
+          },
+          "document": {
+            "name": "Europe moves forward in AI race, but maturity is uneven and gaps remain - Consultancy.eu",
+            "url": "https://www.consultancy.eu/news/amp/14046/europe-moves-forward-in-ai-race-but-maturity-is-uneven-and-gaps-remain"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2cbd30d-057c-4a0f-a739-21a0acd19d73",
+      "content": "This is a senior leadership role that demands both technical literacy and strong commercial and management skills. The relatively small pool of people who combine genuine AI expertise with the ability to operate at board level makes this one of the most competitively compensated roles in the market.\n\nPrimary locations: Madrid, Barcelona — and notably, Alicante, which features in the top cities for this role, reflecting the growth of technology businesses across the Costa Blanca region. [...] As Spanish businesses accelerate their digital transformation — driven partly by the lessons of the pandemic and partly by competitive pressure from more digitally advanced markets — demand for people who can guide that transition commercially is strong across software, cloud services, cybersecurity, and enterprise technology.\n\nPrimary locations: Madrid, Barcelona, Valencia\n\n## Other High-Demand Roles to Watch [...] The role requires a strong foundation in programming (Python is the dominant language), machine learning frameworks, cloud infrastructure, and — increasingly — experience with large language models and generative AI tools. Companies across virtually every sector are now looking for people who can help them integrate AI into their operations, from financial services and healthcare to retail and manufacturing.\n\nPrimary locations: Madrid, Barcelona, Valencia",
+      "origins": [
+        {
+          "source": {
+            "name": "muchonews.com",
+            "url": "https://www.muchonews.com/blog/most-in-demand-jobs-spain-2026"
+          },
+          "document": {
+            "name": "The Most In-Demand Jobs in Spain in 2026 — From AI Engineers to Logistics Analysts - MuchoNews",
+            "url": "https://www.muchonews.com/blog/most-in-demand-jobs-spain-2026"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d6fcc753-b742-4289-947c-6dc0896457d1",
+      "content": "His love of investing and focus on finding quality undervalued stocks is complemented by recent research into alternative assets as well. He takes a long-term approach to analyzing companies and cryptos, with a focus on directing the reader to the most sustainable and important catalysts for each respective potential investment.\n\nMore Content\n\nJohn Seetoo • Jul 5, 2026\n\n### SPYI vs. JEPI: Which S&P 500 Covered-Call ETF Pays You More Safely? Rich Duprey • Jul 5, 2026\n\n### The AI Boom Runs on Debt. Global Regulators Want to Shut Off the Tap Rich Duprey • Jul 5, 2026\n\n### Is Nvidia Undervalued or AMD Overvalued — or Both?\n\nCompanies Mentioned\n\nGOOG   Google\n\n-- --% NVDA   NVIDIA\n\n-- --% ORCL   Oracle\n\n-- --%\n\n## Featured Reads [...] NVIDIA reported Q1 FY2027 revenue of $81.61 billion, up 85.2% year over year, with Data Center alone at $75.25 billion and Data Center Networking up 199%. Alphabet’s Google Cloud grew 63% to $20.03 billion, with backlog nearly doubling quarter over quarter to over $460 billion. Oracle’s cloud infrastructure revenue rose 93% to $5.79 billion, and management booked $67 billion in AI infrastructure contracts in a single quarter, with global GPU utilization at 97.5%.\n\nJensen Huang framed the moment in one line: “The buildout of AI factories, the largest infrastructure expansion in human history, is accelerating at extraordinary speed.”\n\n## Market Reaction [...] -- --% ORCL   Oracle\n\n-- --%\n\n## Featured Reads\n\nOur top personal finance-related articles today. Your wallet will thank you later.\n\nDrew Wood |\n\n## A $0 Premium and a $9,250 Cap: The Math Only Breaks in a Bad Health Year\n\nGerelyn Terzo |\n\n## 72-Year-Old Gives $20,000 to Charity Annually. A Subtler Tax Strategy Shields the Gift From the New 2026 Floor Entirely\n\n## Continue Reading\n\nJoel South |\n\n## Oracle Price Prediction: One Wall Street Analyst Says ORCL Could Hit $240 This Year\n\nOracle (NYSE:ORCL | ORCL Price Prediction) is trading around $165 after a bruising 23% year-to-date pullback from its December close,…\n\nVandita Jadeja |\n\n## Nvidia Sells the Shovels, Alphabet Digs the Mine: Two Paths to AI Dominance",
+      "origins": [
+        {
+          "source": {
+            "name": "247wallst.com",
+            "url": "https://247wallst.com/investing/2026/07/04/750-billion-ai-spending-wave-should-you-buy-these-3-ai-infrastructure-stocks/"
+          },
+          "document": {
+            "name": "$750 Billion AI Spending Wave: Should You Buy These 3 AI Infrastructure Stocks? - 24/7 Wall St.",
+            "url": "https://247wallst.com/investing/2026/07/04/750-billion-ai-spending-wave-should-you-buy-these-3-ai-infrastructure-stocks/"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4aba12a3-37a0-44fa-9046-ef7f4fc16cea",
+      "content": "Entity: Barcelona (type: Municipality, ID: 7d7e89cd-567d-554c-9a67-7a4a0c9915ab). Properties: description = city in Catalonia, Spain; population = 1731649. Outgoing relationship types WITHIN: Spain.",
+      "origins": [
+        {
+          "source": {
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/"
+          },
+          "document": {
+            "name": "Wikidata",
+            "url": "https://www.wikidata.org/wiki/Q1492"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d741ab1a-fe87-4fc2-b406-4e8dbf656122",
+      "content": "website you find most interesting and useful. Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings. This website uses Google Analytics to collect anonymous information such as the number of visitors to the site, and the most popular pages. Keeping this cookie enabled helps us to improve our website. More information about our Cookie Policy. [...] we work every day to promote the growth of this ecosystem through the creation of synergies between all the actors, the dissemination of knowledge and participation in the development of public policies. Continued growth of the startup ecosystem in Catalonia, Anàlisi de l’ecosistema startup a Catalunya 2022, Barcelona & Catalonia Startup Hub. The driver of this growth is technology. Specifically, 76% of start-ups are working with technologies linked to Industry 4.0, which includes artificial [...] Barcelona ecosystem reaches 2,000 startups - Tech Barcelona",
+      "origins": [
+        {
+          "source": {
+            "name": "Tech Barcelona",
+            "url": "https://www.techbarcelona.com/en/el-ecosistema-de-barcelona-crece-hasta-las-2-022-startups"
+          },
+          "document": {
+            "name": "Barcelona ecosystem reaches 2,000 startups - Tech Barcelona",
+            "url": "https://www.techbarcelona.com/en/el-ecosistema-de-barcelona-crece-hasta-las-2-022-startups"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adac0d26-ff88-46b3-90e5-ea45216f7216",
+      "content": "It also includes assisting local companies in developing open innovation strategies and addressing their innovation challenges by connecting them with international startups and research hubs. For a decade, Tech Barcelona has been instrumental in nurturing the growth of the ecosystem. We look forward to another decade of collaboration and shared success with Tech Barcelona in this dynamic and evolving landscape. [...] and consequently boost capital and talent attraction (and – ultimately – future economic growth). Today, the city is uniquely positioned as a gateway to the Tech and Digital Ecosystem of Southern Europe. This status is bolstered by Barcelona’s international appeal, which has transformed Catalonia’s capital into a hub for foreign founders and startup employees (accounting for 19% and 23% of the total, respectively), as well as a chosen location for international companies, with 96 establishing [...] Mind the Bridge is an international team with experience and a presence in multiple ecosystems. Mind the Bridge was established in 2007 by then Googler, Marco Marinucci. - Scaleup Summit Japan | May, 2025. - Scaleup Summit Seoul | July 2025. - Scaleup Summit Barcelona | July, 2025. The Barcelona Startup Ecosystem – Digital, Tech, and Open Innovation. # The Barcelona Startup Ecosystem – Digital, Tech, and Open Innovation. Today, there is a worldwide competition in innovation between local",
+      "origins": [
+        {
+          "source": {
+            "name": "Homepage - Mind the Bridge",
+            "url": "https://mindthebridge.com/2023-scaleups-barcelona"
+          },
+          "document": {
+            "name": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+            "url": "https://mindthebridge.com/2023-scaleups-barcelona"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "7d7e89cd-567d-554c-9a67-7a4a0c9915ab",
+      "name": "Barcelona",
+      "entity_type": "Municipality",
+      "mentions": [
+        "Barcelona"
+      ]
+    },
+    {
+      "id": "4e979555-db6f-4c84-b602-435c6b7f323c",
+      "name": "Catalonia",
+      "entity_type": "CountrySubdivision",
+      "mentions": [
+        "Catalonia"
+      ]
+    },
+    {
+      "id": "cfc32f7f-524f-487b-94a7-3b9be0576277",
+      "name": "Spain",
+      "entity_type": "Country",
+      "mentions": [
+        "Spain"
+      ]
+    },
+    {
+      "id": "85e7467c-25f1-451c-9835-e8c926c7c9ff",
+      "name": "Accenture plc",
+      "entity_type": "Company",
+      "mentions": [
+        "Accenture"
+      ]
+    },
+    {
+      "id": "f1f0b5a6-7807-40a5-bbe4-40ce250d6045",
+      "name": "GSMA Mobile World Congress",
+      "entity_type": "Event",
+      "mentions": [
+        "Mobile World Congress"
+      ]
+    },
+    {
+      "id": "556d109b-6d42-4f30-9d4e-7113ccc5065d",
+      "name": "4YFN",
+      "entity_type": "Event",
+      "mentions": [
+        "4YFN"
+      ]
+    },
+    {
+      "id": "e61d1423-232f-44b9-ad60-8539aeb4f576",
+      "name": "Pier01",
+      "entity_type": "Facility",
+      "mentions": [
+        "Pier01"
+      ]
+    },
+    {
+      "id": "edebcb9c-e246-4275-b17e-0d5fef77b32e",
+      "name": "Pier03",
+      "entity_type": "Facility",
+      "mentions": [
+        "Pier03"
+      ]
+    },
+    {
+      "id": "292a23c7-4123-43cd-bd22-a160e64a32c9",
+      "name": "Barcelona Tech City",
+      "entity_type": "Organization",
+      "mentions": [
+        "Barcelona Tech City"
+      ]
+    },
+    {
+      "id": "c6b0f678-5753-4871-aba1-705a8ad64e7c",
+      "name": "22@ district",
+      "entity_type": "Facility",
+      "mentions": [
+        "22@"
+      ]
+    }
+  ]
+}

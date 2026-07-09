@@ -1,0 +1,401 @@
+{
+  "runId": "dump_213302",
+  "query": "AI and deep-tech startup investment opportunities in Barcelona with strong traction",
+  "segments": [
+    {
+      "agentId": "agent-0-market_mapper",
+      "script": "The market is heating up. Demand signals point to real momentum, and ONLIVE LTD sits right at the center.",
+      "subtitle": "The market is heating up. Demand signals point to real momentum, and ONLIVE LTD sits right at the center.",
+      "audioUrl": "/api/audio/2b88d7aaa1a94d2a",
+      "durationMs": 7600,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "The",
+          "startMs": 0,
+          "endMs": 80
+        },
+        {
+          "text": "market",
+          "startMs": 126,
+          "endMs": 400
+        },
+        {
+          "text": "is",
+          "startMs": 480,
+          "endMs": 640
+        },
+        {
+          "text": "heating",
+          "startMs": 680,
+          "endMs": 960
+        },
+        {
+          "text": "up.",
+          "startMs": 1067,
+          "endMs": 1360
+        },
+        {
+          "text": "Demand",
+          "startMs": 1451,
+          "endMs": 2000
+        },
+        {
+          "text": "signals",
+          "startMs": 2070,
+          "endMs": 2560
+        },
+        {
+          "text": "point",
+          "startMs": 2613,
+          "endMs": 2880
+        },
+        {
+          "text": "to",
+          "startMs": 2907,
+          "endMs": 2960
+        },
+        {
+          "text": "real",
+          "startMs": 3024,
+          "endMs": 3280
+        },
+        {
+          "text": "momentum,",
+          "startMs": 3351,
+          "endMs": 4240
+        },
+        {
+          "text": "and",
+          "startMs": 4300,
+          "endMs": 4480
+        },
+        {
+          "text": "ONLIVE",
+          "startMs": 4613,
+          "endMs": 5120
+        },
+        {
+          "text": "LTD",
+          "startMs": 5280,
+          "endMs": 5760
+        },
+        {
+          "text": "sits",
+          "startMs": 5840,
+          "endMs": 6160
+        },
+        {
+          "text": "right",
+          "startMs": 6213,
+          "endMs": 6480
+        },
+        {
+          "text": "at",
+          "startMs": 6533,
+          "endMs": 6640
+        },
+        {
+          "text": "the",
+          "startMs": 6660,
+          "endMs": 6720
+        },
+        {
+          "text": "center.",
+          "startMs": 6800,
+          "endMs": 7600
+        }
+      ]
+    },
+    {
+      "agentId": "agent-1-company_scout",
+      "script": "Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set.",
+      "subtitle": "Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set.",
+      "audioUrl": "/api/audio/e981619e68554dd7",
+      "durationMs": 10160,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "Our",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "text": "top",
+          "startMs": 220,
+          "endMs": 400
+        },
+        {
+          "text": "candidates",
+          "startMs": 444,
+          "endMs": 880
+        },
+        {
+          "text": "are",
+          "startMs": 940,
+          "endMs": 1120
+        },
+        {
+          "text": "ONLIVE",
+          "startMs": 1253,
+          "endMs": 1760
+        },
+        {
+          "text": "LTD,",
+          "startMs": 1880,
+          "endMs": 2800
+        },
+        {
+          "text": "RISC-V",
+          "startMs": 2880,
+          "endMs": 3520
+        },
+        {
+          "text": "International,",
+          "startMs": 3577,
+          "endMs": 4640
+        },
+        {
+          "text": "Submer.",
+          "startMs": 4820,
+          "endMs": 6360
+        },
+        {
+          "text": "ONLIVE",
+          "startMs": 6587,
+          "endMs": 7280
+        },
+        {
+          "text": "LTD",
+          "startMs": 7380,
+          "endMs": 7680
+        },
+        {
+          "text": "shows",
+          "startMs": 7760,
+          "endMs": 8160
+        },
+        {
+          "text": "the",
+          "startMs": 8200,
+          "endMs": 8320
+        },
+        {
+          "text": "strongest",
+          "startMs": 8376,
+          "endMs": 8880
+        },
+        {
+          "text": "traction",
+          "startMs": 8933,
+          "endMs": 9360
+        },
+        {
+          "text": "of",
+          "startMs": 9387,
+          "endMs": 9440
+        },
+        {
+          "text": "the",
+          "startMs": 9460,
+          "endMs": 9520
+        },
+        {
+          "text": "set.",
+          "startMs": 9620,
+          "endMs": 10160
+        }
+      ]
+    },
+    {
+      "agentId": "agent-2-current_opportunities",
+      "script": "Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set.",
+      "subtitle": "Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set.",
+      "audioUrl": "/api/audio/af0e006d39b94bf5",
+      "durationMs": 10080,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "Our",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "text": "top",
+          "startMs": 240,
+          "endMs": 480
+        },
+        {
+          "text": "candidates",
+          "startMs": 524,
+          "endMs": 960
+        },
+        {
+          "text": "are",
+          "startMs": 1040,
+          "endMs": 1280
+        },
+        {
+          "text": "ONLIVE",
+          "startMs": 1493,
+          "endMs": 2240
+        },
+        {
+          "text": "LTD,",
+          "startMs": 2420,
+          "endMs": 3280
+        },
+        {
+          "text": "RISC-V",
+          "startMs": 3360,
+          "endMs": 4000
+        },
+        {
+          "text": "International,",
+          "startMs": 4063,
+          "endMs": 5120
+        },
+        {
+          "text": "Submer.",
+          "startMs": 5220,
+          "endMs": 6080
+        },
+        {
+          "text": "ONLIVE",
+          "startMs": 6267,
+          "endMs": 6880
+        },
+        {
+          "text": "LTD",
+          "startMs": 7060,
+          "endMs": 7600
+        },
+        {
+          "text": "shows",
+          "startMs": 7653,
+          "endMs": 7920
+        },
+        {
+          "text": "the",
+          "startMs": 7960,
+          "endMs": 8080
+        },
+        {
+          "text": "strongest",
+          "startMs": 8144,
+          "endMs": 8720
+        },
+        {
+          "text": "traction",
+          "startMs": 8782,
+          "endMs": 9280
+        },
+        {
+          "text": "of",
+          "startMs": 9307,
+          "endMs": 9360
+        },
+        {
+          "text": "the",
+          "startMs": 9380,
+          "endMs": 9440
+        },
+        {
+          "text": "set.",
+          "startMs": 9540,
+          "endMs": 10080
+        }
+      ]
+    },
+    {
+      "agentId": "agent-3-funding_analyst",
+      "script": "ONLIVE LTD looks primed for its next raise, likely within the next six to nine months.",
+      "subtitle": "ONLIVE LTD looks primed for its next raise, likely within the next six to nine months.",
+      "audioUrl": "/api/audio/5239f23bb0d2438f",
+      "durationMs": 6160,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "ONLIVE",
+          "startMs": 0,
+          "endMs": 480
+        },
+        {
+          "text": "LTD",
+          "startMs": 600,
+          "endMs": 960
+        },
+        {
+          "text": "looks",
+          "startMs": 1000,
+          "endMs": 1200
+        },
+        {
+          "text": "primed",
+          "startMs": 1280,
+          "endMs": 1760
+        },
+        {
+          "text": "for",
+          "startMs": 1800,
+          "endMs": 1920
+        },
+        {
+          "text": "its",
+          "startMs": 1980,
+          "endMs": 2160
+        },
+        {
+          "text": "next",
+          "startMs": 2224,
+          "endMs": 2480
+        },
+        {
+          "text": "raise,",
+          "startMs": 2560,
+          "endMs": 3360
+        },
+        {
+          "text": "likely",
+          "startMs": 3440,
+          "endMs": 3920
+        },
+        {
+          "text": "within",
+          "startMs": 3966,
+          "endMs": 4240
+        },
+        {
+          "text": "the",
+          "startMs": 4260,
+          "endMs": 4320
+        },
+        {
+          "text": "next",
+          "startMs": 4384,
+          "endMs": 4640
+        },
+        {
+          "text": "six",
+          "startMs": 4760,
+          "endMs": 5120
+        },
+        {
+          "text": "to",
+          "startMs": 5173,
+          "endMs": 5280
+        },
+        {
+          "text": "nine",
+          "startMs": 5328,
+          "endMs": 5520
+        },
+        {
+          "text": "months.",
+          "startMs": 5589,
+          "endMs": 6160
+        }
+      ]
+    }
+  ]
+}

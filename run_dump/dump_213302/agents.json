@@ -1,0 +1,94 @@
+[
+  {
+    "id": "agent-0-market_mapper",
+    "role": "market_mapper",
+    "name": "Market Mapper",
+    "purpose": "Identify current market trends and demand signals for AI startups in Barcelona",
+    "voice": "Trendsetter",
+    "status": "done",
+    "findings": [
+      "Barcelona is identified as Southern Europe’s leading tech hub, with a strong international workforce and concentration of SaaS, HR tech, delivery, and travel tech companies such as Glovo, Typeform, Factorial, and Wallapop.",
+      "Catalonia hosts 340 emerging deep‑tech companies, of which 93 are supported by Barcelona Activa and have collectively raised €174 million, demonstrating a dense deep‑tech ecosystem.",
+      "Catalonia leads Spain in academic and scientific spin‑outs (255 of 588 nationwide), highlighting a strong pipeline of university‑originated deep‑tech and AI ventures.",
+      "Barcelona‑based deep‑tech startups raised €124 million, the highest amount in Southern Europe, confirming the region’s funding leadership.",
+      "Barcelona is identified as the fifth‑best startup ecosystem in the EU and the leading hub for startups in Southern Europe, establishing its status as an AI and tech hub.",
+      "Spain ranks as the fifth‑largest European market for AI investment, with over €2 billion invested since 2020, demonstrating a strong national AI investment base.",
+      "In the first half of 2025 Spain raised €1.95 billion in tech investment, already surpassing the full‑year 2024 total, indicating accelerating AI‑related capital flows.",
+      "A €60 million venture capital fund launched by Additio Capital, imec.istart, Mobile World Capital Barcelona and Eurecat aims to back more than 50 technology startups, reinforcing the funding ecosystem for AI ventures in Barcelona."
+    ],
+    "findings_count": 8
+  },
+  {
+    "id": "agent-1-company_scout",
+    "role": "company_scout",
+    "name": "Company Scout",
+    "purpose": "Find and analyze AI startups in Barcelona with strong traction and funding history",
+    "voice": "Dealhunter",
+    "status": "done",
+    "findings": [
+      "Top candidates: ONLIVE LTD, RISC-V International, Submer.",
+      "Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong environment for AI startups.",
+      "Factorial, founded in Barcelona in 2016, achieved unicorn status in 2022 with a $1 billion valuation and $120 M Series C, confirming its rapid growth.",
+      "Factorial serves over 7,000 customers across 9 countries, shows >200% annual revenue growth since 2019, and secured an additional €110 M from General Catalyst in 2025, underscoring strong traction.",
+      "Onlive.ai was named in the Sifted 250 (2025) as one of Europe’s fastest‑growing startups, demonstrating significant revenue growth.",
+      "Onlive.ai’s AI‑driven video platform delivered a 3× lead‑generation increase for Škoda and a 90% cost‑per‑lead reduction for Seat’s Cupra, evidencing market impact.",
+      "Sherpa.ai raised $18M in a recent round led by Forgepoint Capital with participation from Mundi Ventures, Ekarpen, Allegra Holdings, and SETT, as reported in the venture capital news source.",
+      "Uxia secured a seed round in November 2025, raising €9.1M, with Abac Capital as the lead investor and four additional investors, as listed in the Barcelona AI funding table.",
+      "NeuralTrust completed a seed round in December 2024, raising €3.9M, with Venture Friends as the sole listed investor, according to the same Barcelona AI funding table.",
+      "Kloutit closed a seed round in December 2024, raising €3.4M, with Banco Sabadell as the lead investor and five other investors, as shown in the Barcelona AI funding table.",
+      "Nuclia raised $5.4M in a seed round in April 2022, led by Crane Venture Partners and Elaia (spelled Ealai in one source), confirming its investors and amount.",
+      "Barcelona hosts over 340 deep‑tech startups that collectively raised €544 million between 2019‑2024, establishing the city as a leading European hub for AI and deep‑tech funding.",
+      "The Barcelona Deep Tech Summit 2025 attracted around 600 startups and over 2,500 visitors, highlighting strong ecosystem activity and visibility for AI‑focused companies.",
+      "SLNG, a Barcelona‑based speech‑infrastructure startup, raised €3.3 M pre‑seed led by Earlybird VC, confirming recent funding for AI voice platforms.",
+      "Delfos Energy, an AI “virtual engineer” for the energy sector, secured a €3 M seed‑extension round in March 2026 with investors including Vox Capital and EDP Ventures, demonstrating AI traction in energy.",
+      "Typeform raised €123 M and reported €83 M revenue in 2024, illustrating significant commercial traction for an AI‑enhanced conversational platform."
+    ],
+    "findings_count": 16
+  },
+  {
+    "id": "agent-2-current_opportunities",
+    "role": "current_opportunities",
+    "name": "Current Opportunities",
+    "purpose": "Assign a heat status to the AI startup scene in Barcelona and predict future opportunities",
+    "voice": "Forecastor",
+    "status": "done",
+    "findings": [
+      "Top candidates: Factorial, TIGER GLOBAL MANAGEMENT LLC, CRV.",
+      "Barcelona’s startup ecosystem grew by 40.4% in 2025, highlighting the city’s rapid emergence as a European AI hub.",
+      "Factorial raised €129 million, reached a €2.1 billion valuation and secured an additional €74.5 million Go‑to‑Market investment, demonstrating strong market traction and unicorn status.",
+      "Onlive.ai was named in the Sifted 250 (2025) as one of Europe’s fastest‑growing startups, confirming rapid revenue growth and traction in AI‑powered customer engagement.",
+      "Murphy emerged from stealth with a $15 million pre‑seed round to automate debt collection using AI‑driven virtual agents, indicating early‑stage traction in fintech.",
+      "Modern Relay raised €2.5 million in a round led by Point Nine, an investor known for backing successful European AI companies, showing confidence in its enterprise AI foundation platform.",
+      "The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene.",
+      "Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025.",
+      "The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard.",
+      "Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup.",
+      "NeuralTrust, a Barcelona AI security platform, received seed funding on 23 Dec 2024 from Venture Friends.",
+      "Barcelona hosts 311 deep‑tech startups, of which 118 are funded and 34 have achieved Series A+ funding, establishing a strong ecosystem for AI and deep‑tech ventures.",
+      "Splice Bio is a clinical‑stage biotech in Barcelona developing gene‑therapy platforms; it raised a Series B round of $135 M in June 2025, confirming its high‑traction status.",
+      "Integra Therapeutics, a Barcelona spin‑off from Pompeu Fabra University, raised €10.7 M in a pre‑Series A round (Sept 2025) and has total funding of ~$19.2 M, demonstrating strong investor backing.",
+      "ADmit Therapeutics, founded in Barcelona in 2017, has raised between $12.9 M and $37.5 M across multiple rounds, including a Series A in Oct 2023, highlighting its traction in AI‑enhanced Alzheimer diagnostics.",
+      "NeuralTrust, a Barcelona AI‑infrastructure startup, secured a seed round of approximately €8 M in Dec 2024 led by Venture Friends, illustrating growing funding for AI infrastructure firms."
+    ],
+    "findings_count": 16
+  },
+  {
+    "id": "agent-3-funding_analyst",
+    "role": "funding_analyst",
+    "name": "Funding Analyst",
+    "purpose": "Analyze the funding landscape for AI startups in Barcelona and predict the next raise window",
+    "voice": "Fundfinder",
+    "status": "done",
+    "findings": [
+      "The answer lists Barcelona‑based venture funds that focus on early‑stage tech, which are directly taken from the fact with id de34e854-78e1-4c12-aadc-6d1c119354a6 that names Active Venture Partners, Inveready, Ship2B, Nekko Capital, Nina Capital, Reus Capital Partners, Oceanflow Ventures, Extension Fund, and Arroba Capital as Barcelona‑based investors.",
+      "The pan‑European and international investors mentioned (Y Combinator, Speedinvest, Seedcamp, Creandum, Antler, General Catalyst, Accel, Sequoia Capital, Andreessen Horowitz, Cherry Ventures, EQT Ventures, Northzone, Index Ventures, Lightspeed Venture Partners, Atomico, Balderton Capital) are drawn from the Sifted ranking of the 106 most active AI investors in Europe in 2025, provided in facts 0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2 and b95ffd91-7ccc-4054-9e1b-bc26bf737545.",
+      "The statement that Factorial is in early discussions for a $200 million round that could double its valuation to about $2 billion is supported by the Factorial coverage in facts b63e4ec5-767f-4cbf-9617-bfd7930147fb and 0c59131b-adba-42e5-a37f-9e1ecd63fefd, which describe the prospective raise and its potential impact on valuation.",
+      "The mention of Sherpa.ai raising $18 million from Forgepoint Capital and other insiders comes from fact 46eb033e-66c6-4d17-85c9-72e36bf1e558, which reports that specific funding event.",
+      "Factorial’s most recent financing was a $150 million round that raised its post‑money valuation to $2.5 billion, confirming the large round size cited in the answer.",
+      "The same company also secured an additional $120 million of non‑dilutive funding from General Catalyst, bringing total borrowings to $200 million and supporting its expansion narrative.",
+      "Factorial’s $120 million round doubled its valuation to $1 billion, qualifying it as a European unicorn and underpinning the answer’s claim of a Barcelona AI unicorn.",
+      "Sherpa.ai raised $18 million in a round led by Forgepoint Capital, matching the answer’s description of a recent $18 million funding event for a privacy‑first AI platform."
+    ],
+    "findings_count": 8
+  }
+]

@@ -25,7 +25,13 @@ from typing import Any
 
 from app.agent import prompts, roster
 from app.agent.runtime import SDK_AVAILABLE, llm_enabled, make_model, run_agent_json
-from app.agent.tools import RESEARCH_TOOLS, company_scan_impl, market_scan_impl
+from app.agent.tools import (
+    RESEARCH_TOOLS,
+    company_scan_impl,
+    funding_landscape_impl,
+    market_scan_impl,
+    risk_scan_impl,
+)
 from app.schemas.contract import (
     AgentPlan,
     AgentStatus,
@@ -92,6 +98,10 @@ async def _plan(run: Run, geo: str | None, sector: str | None) -> list[AgentPlan
     if not agents:
         agents = roster.default_plan()
 
+    # The partner/presenter always leads the roster (frames + concludes the
+    # briefing). It is backend-owned, not planner-chosen.
+    agents = [roster.partner_agent()] + [a for a in agents if a.role != roster.PARTNER_ROLE]
+
     run.agents = agents
     _emit(run, RunEventType.ORCHESTRATOR_PLAN, agentCount=len(agents), roles=[a.role for a in agents])
     return agents
@@ -138,6 +148,9 @@ async def _research(run: Run, geo: str | None, sector: str | None) -> dict[str, 
 
 async def _run_subagent(agent: AgentPlan, query: str, geo: str | None, sector: str | None):
     """Return (findings, companies, evidence). LLM path if enabled, else deterministic."""
+    # Partner does not research — it presents in synthesis.
+    if agent.role == roster.PARTNER_ROLE:
+        return ([], [], [])
     if llm_enabled():
         try:
             from agents import Agent  # type: ignore
@@ -166,16 +179,31 @@ async def _run_subagent(agent: AgentPlan, query: str, geo: str | None, sector: s
     if agent.role in ("company_scout", "current_opportunities"):
         c = await asyncio.to_thread(company_scan_impl, query, geo, sector)
         names = ", ".join(x["name"] for x in c["companies"][:3])
-        return ([f"Top candidates: {names}."], c["companies"], c["evidence"])
+        findings = ([f"Top candidates: {names}."] if names else []) + (c.get("findings") or [])
+        return (findings, c["companies"], c["evidence"])
     if agent.role == "funding_analyst":
-        return (["Several candidates likely re-raising within 6–9 months."], [], [])
+        f = await asyncio.to_thread(funding_landscape_impl, query, geo, sector)
+        return (f.get("findings") or [], [], f.get("evidence") or [])
     # risk_analyst
-    return (["Key risks: execution, competitive density, funding-market timing."], [], [])
+    r = await asyncio.to_thread(risk_scan_impl, query, geo, sector)
+    return (r.get("findings") or [], [], r.get("evidence") or [])
 
 
 # ---------------------------------------------------------------------------
 # Phase 3 — synthesis
 # ---------------------------------------------------------------------------
+
+
+def _dedupe_evidence(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Unique evidence rows by url (fallback title), order preserved."""
+    seen: set[str] = set()
+    out: list[dict[str, Any]] = []
+    for e in items:
+        key = e.get("url") or e.get("title")
+        if key and key not in seen:
+            seen.add(key)
+            out.append(e)
+    return out
 
 
 def _to_opportunity(idx: int, c: dict[str, Any]) -> Opportunity:
@@ -208,45 +236,151 @@ async def _synthesize(run: Run, gathered: dict[str, Any]) -> tuple[list[Opportun
     _set_status(run, RunStatus.SYNTHESIZING)
 
     companies = sorted(gathered["companies"], key=lambda c: c.get("goliathScore", 0), reverse=True)[:5]
-    # attach shared evidence when a company carries none
-    shared_ev = gathered["evidence"][:2]
-    for c in companies:
-        c.setdefault("evidence", shared_ev)
+    # Distribute the whole evidence pool across opportunities instead of pinning
+    # the same 2 URLs to every card. Each gets its own rotating slice (up to 3),
+    # deduped, so cards cite varied real sources. Any evidence a company already
+    # carries is kept and takes precedence.
+    pool = _dedupe_evidence(gathered.get("evidence") or [])
+    per = 3
+    for i, c in enumerate(companies):
+        own = c.get("evidence") or []
+        if pool:
+            start = (i * per) % len(pool)
+            share = [pool[(start + k) % len(pool)] for k in range(min(per, len(pool)))]
+        else:
+            share = []
+        c["evidence"] = _dedupe_evidence(list(own) + share)[:per]
     opportunities = [_to_opportunity(i, c) for i, c in enumerate(companies)]
 
-    # one segment per contributing agent
+    # Ordered presentation: partner opens, each expert speaks at length from its
+    # own findings, partner closes with the recommendation.
+    partner = next((a for a in run.agents if a.role == roster.PARTNER_ROLE), None)
+    experts = [a for a in run.agents if a.role != roster.PARTNER_ROLE]
+
+    plan: list[tuple[AgentPlan, str]] = []
+    if partner:
+        plan.append((partner, _presenter_intro(run, opportunities, experts)))
+    for agent in experts:
+        plan.append((agent, _expert_script(agent, opportunities)))
+    if partner:
+        plan.append((partner, _presenter_outro(opportunities)))
+
     segments: list[PresentationSegment] = []
-    top = opportunities[0].name if opportunities else "the top candidate"
-    for agent in run.agents:
+    for agent, script in plan:
         _set_agent(run, agent, AgentStatus.SPEAKING)
-        script = _segment_script(agent, opportunities, top)
-        seg = PresentationSegment(agentId=agent.id, script=script, subtitle=script[:120])
+        seg = PresentationSegment(agentId=agent.id, script=script, subtitle=_subtitle(script))
         segments.append(seg)
         _emit(run, RunEventType.REPORT_SEGMENT_READY, agent.id, subtitle=seg.subtitle)
         _set_agent(run, agent, AgentStatus.DONE)
 
-    # optional LLM polish of segment scripts (best-effort)
-    if llm_enabled():
-        try:
-            await _polish_segments(run, gathered, opportunities, segments)
-        except Exception:
-            log.exception("segment polish failed — keeping deterministic scripts")
+    # NOTE: LLM "polish" is intentionally disabled — it compressed segments back
+    # into one-liners. The long-form scripts above are built from the real
+    # findings and are what we want spoken. (_polish_segments kept for reference.)
 
     # best-effort TTS
     await tts.attach_audio(segments, run.agents)
     return opportunities, segments
 
 
-def _segment_script(agent: AgentPlan, opps: list[Opportunity], top: str) -> str:
-    role = agent.role
-    if role == "market_mapper":
-        return f"The market is heating up. Demand signals point to real momentum, and {top} sits right at the center."
-    if role in ("company_scout", "current_opportunities"):
-        hot = ", ".join(o.name for o in opps[:3]) or top
-        return f"Our top candidates are {hot}. {top} shows the strongest traction of the set."
-    if role == "funding_analyst":
-        return f"{top} looks primed for its next raise, likely within the next six to nine months."
-    return f"On risk: {top} carries manageable execution risk, with competitive density the main watch item."
+# ---------------------------------------------------------------------------
+# Narration. Scripts lead straight with substance (the UI already shows each
+# agent's name + role, so no spoken self-introductions). Each script is capped
+# to ~45s of speech (~110 words) so no orb monologues.
+# ---------------------------------------------------------------------------
+
+# Measured: eleven_v3 speaks dense, number-heavy sentences at ~95 wpm (not the
+# textbook 150). 70 words ≈ 44s worst case — keeps every segment under ~45s.
+MAX_SPEECH_WORDS = 70
+
+
+def _sentence(s: str) -> str:
+    s = (s or "").strip()
+    if not s:
+        return ""
+    return s if s[-1] in ".!?" else s + "."
+
+
+def _fit_words(sentences: list[str], max_words: int = MAX_SPEECH_WORDS) -> str:
+    """Join sentences up to a word budget, never cutting mid-sentence. Always keeps ≥1."""
+    out: list[str] = []
+    used = 0
+    for s in sentences:
+        s = _sentence(s)
+        if not s:
+            continue
+        w = len(s.split())
+        if out and used + w > max_words:
+            break
+        out.append(s)
+        used += w
+    return " ".join(out)
+
+
+def _subtitle(script: str, n: int = 140) -> str:
+    s = script.strip().replace("\n", " ")
+    return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "…"
+
+
+def _clean_findings(agent: AgentPlan, limit: int = 12) -> list[str]:
+    """Agent findings as clean sentences, dropping internal 'Top candidates:' scaffolding."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for f in agent.findings:
+        if not f or f.startswith("Top candidates:"):
+            continue
+        s = _sentence(f)
+        if s and s not in seen:
+            seen.add(s)
+            out.append(s)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def _expert_script(agent: AgentPlan, opps: list[Opportunity]) -> str:
+    # Straight to the findings — no "As market mapper, I…" preamble.
+    findings = _clean_findings(agent)
+    if not findings:
+        names = ", ".join(o.name for o in opps[:3]) or "the shortlist"
+        return f"Signals around {names} are still thin, so treat this read as directional for now."
+    return _fit_words(findings)
+
+
+def _display(role: str) -> str:
+    return (role or "").replace("_", " ").strip() or "an analyst"
+
+
+def _presenter_intro(run: Run, opps: list[Opportunity], experts: list[AgentPlan]) -> str:
+    top = opps[0] if opps else None
+    lines = [f"The question on the table: {run.query.strip().rstrip('.')}."]
+    lines.append(f"We pulled live market data and scored {len(opps)} opportunities.")
+    if top:
+        lines.append(
+            f"{top.name} leads at a Goliath Score of {int(top.goliathScore)}, status {top.status.value}."
+        )
+        lines.append(_sentence(top.prediction))
+    if len(opps) > 1:
+        rest = ", ".join(o.name for o in opps[1:3])
+        if rest:
+            lines.append(f"{rest} round out the shortlist.")
+    lines.append("Here is what the team found.")
+    return _fit_words(lines)
+
+
+def _presenter_outro(opps: list[Opportunity]) -> str:
+    if not opps:
+        return "Nothing cleared the bar this round, so the call is to wait and re-scan next quarter."
+    top = opps[0]
+    lines = [
+        f"{top.name} is where the signal is strongest, scoring {int(top.goliathScore)} at {top.riskLevel.value} risk.",
+        _sentence(top.scoreReason),
+    ]
+    if len(opps) > 1:
+        runners = ", ".join(f"{o.name} ({int(o.goliathScore)})" for o in opps[1:3])
+        if runners:
+            lines.append(f"{runners} are the credible runners-up.")
+    lines.append("Recommendation: take first meetings at the top of this list before the next funding window closes, and size each position to the risk it carries.")
+    return _fit_words(lines)
 
 
 async def _polish_segments(run: Run, gathered, opportunities, segments) -> None:

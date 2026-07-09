@@ -1,0 +1,23 @@
+{
+  "query": "AI and deep-tech startup investment opportunities in Barcelona with strong traction",
+  "geo": "Barcelona",
+  "sector": "AI",
+  "llm_provider": "groq",
+  "agent_model": "llama-3.3-70b-versatile",
+  "elevenlabs_model": "eleven_v3",
+  "cala_live": true,
+  "status": "complete",
+  "phase_timings_s": {
+    "planning_agents": 0.2,
+    "researching": 3.3,
+    "synthesizing": 109.9,
+    "complete": 114.5
+  },
+  "counts": {
+    "agents": 4,
+    "opportunities": 5,
+    "segments": 4,
+    "events": 58
+  },
+  "generated_at": "2026-07-09T19:34:57.017499+00:00"
+}

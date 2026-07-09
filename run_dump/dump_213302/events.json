@@ -1,0 +1,466 @@
+[
+  {
+    "id": "ev-85ac7a00",
+    "type": "orchestrator.plan",
+    "timestamp": "2026-07-09T19:33:05.038553Z",
+    "agentId": null,
+    "title": "Research plan ready",
+    "text": "Planned 4 research agents: Market Mapper, Company Scout, Current Opportunities, Funding Analyst."
+  },
+  {
+    "id": "ev-35f041fa",
+    "type": "agent.spawned",
+    "timestamp": "2026-07-09T19:33:05.038614Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Market Mapper joined the run."
+  },
+  {
+    "id": "ev-6732c6a2",
+    "type": "agent.spawned",
+    "timestamp": "2026-07-09T19:33:05.224981Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Company Scout joined the run."
+  },
+  {
+    "id": "ev-55cd52dc",
+    "type": "agent.spawned",
+    "timestamp": "2026-07-09T19:33:05.421076Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Current Opportunities joined the run."
+  },
+  {
+    "id": "ev-86c6bf42",
+    "type": "agent.spawned",
+    "timestamp": "2026-07-09T19:33:05.616214Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "Funding Analyst joined the run."
+  },
+  {
+    "id": "ev-1cede476",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.998943Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "The answer lists Barcelona‑based venture funds that focus on early‑stage tech, which are directly taken from the fact with id de34e854-78e1-4c12-aadc-6d1c119354a6 that names Active Venture Partners, Inveready, Ship2B, Nekko Capital, Nina Capital, Reus Capital Partners, Oceanflow Ventures, Extension Fund, and Arroba Capital as Barcelona‑based investors."
+  },
+  {
+    "id": "ev-23c97a64",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.998979Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "The pan‑European and international investors mentioned (Y Combinator, Speedinvest, Seedcamp, Creandum, Antler, General Catalyst, Accel, Sequoia Capital, Andreessen Horowitz, Cherry Ventures, EQT Ventures, Northzone, Index Ventures, Lightspeed Venture Partners, Atomico, Balderton Capital) are drawn from the Sifted ranking of the 106 most active AI investors in Europe in 2025, provided in facts 0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2 and b95ffd91-7ccc-4054-9e1b-bc26bf737545."
+  },
+  {
+    "id": "ev-d6ad48e5",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.998990Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "The statement that Factorial is in early discussions for a $200 million round that could double its valuation to about $2 billion is supported by the Factorial coverage in facts b63e4ec5-767f-4cbf-9617-bfd7930147fb and 0c59131b-adba-42e5-a37f-9e1ecd63fefd, which describe the prospective raise and its potential impact on valuation."
+  },
+  {
+    "id": "ev-848d0bcc",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.998998Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "The mention of Sherpa.ai raising $18 million from Forgepoint Capital and other insiders comes from fact 46eb033e-66c6-4d17-85c9-72e36bf1e558, which reports that specific funding event."
+  },
+  {
+    "id": "ev-d4a5e6fa",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.999007Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "Factorial’s most recent financing was a $150 million round that raised its post‑money valuation to $2.5 billion, confirming the large round size cited in the answer."
+  },
+  {
+    "id": "ev-72e60607",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.999014Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "The same company also secured an additional $120 million of non‑dilutive funding from General Catalyst, bringing total borrowings to $200 million and supporting its expansion narrative."
+  },
+  {
+    "id": "ev-c237ce1a",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.999022Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "Factorial’s $120 million round doubled its valuation to $1 billion, qualifying it as a European unicorn and underpinning the answer’s claim of a Barcelona AI unicorn."
+  },
+  {
+    "id": "ev-f5db93f0",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:22.999031Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "Sherpa.ai raised $18 million in a round led by Forgepoint Capital, matching the answer’s description of a recent $18 million funding event for a privacy‑first AI platform."
+  },
+  {
+    "id": "ev-b4bb365a",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052822Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Top candidates: ONLIVE LTD, RISC-V International, Submer."
+  },
+  {
+    "id": "ev-caddf5a5",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052846Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong environment for AI startups."
+  },
+  {
+    "id": "ev-3905497d",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052853Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Factorial, founded in Barcelona in 2016, achieved unicorn status in 2022 with a $1 billion valuation and $120 M Series C, confirming its rapid growth."
+  },
+  {
+    "id": "ev-30484311",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052858Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Factorial serves over 7,000 customers across 9 countries, shows >200% annual revenue growth since 2019, and secured an additional €110 M from General Catalyst in 2025, underscoring strong traction."
+  },
+  {
+    "id": "ev-96733270",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052864Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Onlive.ai was named in the Sifted 250 (2025) as one of Europe’s fastest‑growing startups, demonstrating significant revenue growth."
+  },
+  {
+    "id": "ev-9bddbd50",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052869Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Onlive.ai’s AI‑driven video platform delivered a 3× lead‑generation increase for Škoda and a 90% cost‑per‑lead reduction for Seat’s Cupra, evidencing market impact."
+  },
+  {
+    "id": "ev-5dc5a687",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052875Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Sherpa.ai raised $18M in a recent round led by Forgepoint Capital with participation from Mundi Ventures, Ekarpen, Allegra Holdings, and SETT, as reported in the venture capital news source."
+  },
+  {
+    "id": "ev-32e74635",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052882Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Uxia secured a seed round in November 2025, raising €9.1M, with Abac Capital as the lead investor and four additional investors, as listed in the Barcelona AI funding table."
+  },
+  {
+    "id": "ev-f1524ea9",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052886Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "NeuralTrust completed a seed round in December 2024, raising €3.9M, with Venture Friends as the sole listed investor, according to the same Barcelona AI funding table."
+  },
+  {
+    "id": "ev-20bc66ac",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052891Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Kloutit closed a seed round in December 2024, raising €3.4M, with Banco Sabadell as the lead investor and five other investors, as shown in the Barcelona AI funding table."
+  },
+  {
+    "id": "ev-88d89000",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052896Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Nuclia raised $5.4M in a seed round in April 2022, led by Crane Venture Partners and Elaia (spelled Ealai in one source), confirming its investors and amount."
+  },
+  {
+    "id": "ev-3cfb847d",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052901Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Barcelona hosts over 340 deep‑tech startups that collectively raised €544 million between 2019‑2024, establishing the city as a leading European hub for AI and deep‑tech funding."
+  },
+  {
+    "id": "ev-b8847113",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052906Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "The Barcelona Deep Tech Summit 2025 attracted around 600 startups and over 2,500 visitors, highlighting strong ecosystem activity and visibility for AI‑focused companies."
+  },
+  {
+    "id": "ev-d17f40c5",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052911Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "SLNG, a Barcelona‑based speech‑infrastructure startup, raised €3.3 M pre‑seed led by Earlybird VC, confirming recent funding for AI voice platforms."
+  },
+  {
+    "id": "ev-0e310170",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052917Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Delfos Energy, an AI “virtual engineer” for the energy sector, secured a €3 M seed‑extension round in March 2026 with investors including Vox Capital and EDP Ventures, demonstrating AI traction in energy."
+  },
+  {
+    "id": "ev-d21e2f65",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:33.052922Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Typeform raised €123 M and reported €83 M revenue in 2024, illustrating significant commercial traction for an AI‑enhanced conversational platform."
+  },
+  {
+    "id": "ev-6f5e0073",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313454Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Top candidates: Factorial, TIGER GLOBAL MANAGEMENT LLC, CRV."
+  },
+  {
+    "id": "ev-83e8bac6",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313481Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Barcelona’s startup ecosystem grew by 40.4% in 2025, highlighting the city’s rapid emergence as a European AI hub."
+  },
+  {
+    "id": "ev-fe8fab68",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313489Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Factorial raised €129 million, reached a €2.1 billion valuation and secured an additional €74.5 million Go‑to‑Market investment, demonstrating strong market traction and unicorn status."
+  },
+  {
+    "id": "ev-46a8bcdc",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313495Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Onlive.ai was named in the Sifted 250 (2025) as one of Europe’s fastest‑growing startups, confirming rapid revenue growth and traction in AI‑powered customer engagement."
+  },
+  {
+    "id": "ev-8892a480",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313505Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Murphy emerged from stealth with a $15 million pre‑seed round to automate debt collection using AI‑driven virtual agents, indicating early‑stage traction in fintech."
+  },
+  {
+    "id": "ev-aecf468a",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313511Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Modern Relay raised €2.5 million in a round led by Point Nine, an investor known for backing successful European AI companies, showing confidence in its enterprise AI foundation platform."
+  },
+  {
+    "id": "ev-a7a2e439",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313516Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene."
+  },
+  {
+    "id": "ev-a0eaf769",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313522Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025."
+  },
+  {
+    "id": "ev-0633713c",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313527Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard."
+  },
+  {
+    "id": "ev-647e29b1",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313533Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup."
+  },
+  {
+    "id": "ev-f11046a5",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313545Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "NeuralTrust, a Barcelona AI security platform, received seed funding on 23 Dec 2024 from Venture Friends."
+  },
+  {
+    "id": "ev-f02d7870",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313550Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Barcelona hosts 311 deep‑tech startups, of which 118 are funded and 34 have achieved Series A+ funding, establishing a strong ecosystem for AI and deep‑tech ventures."
+  },
+  {
+    "id": "ev-3292d660",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313559Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Splice Bio is a clinical‑stage biotech in Barcelona developing gene‑therapy platforms; it raised a Series B round of $135 M in June 2025, confirming its high‑traction status."
+  },
+  {
+    "id": "ev-a6dcb8b5",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313565Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Integra Therapeutics, a Barcelona spin‑off from Pompeu Fabra University, raised €10.7 M in a pre‑Series A round (Sept 2025) and has total funding of ~$19.2 M, demonstrating strong investor backing."
+  },
+  {
+    "id": "ev-a989c0c1",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313570Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "ADmit Therapeutics, founded in Barcelona in 2017, has raised between $12.9 M and $37.5 M across multiple rounds, including a Series A in Oct 2023, highlighting its traction in AI‑enhanced Alzheimer diagnostics."
+  },
+  {
+    "id": "ev-4d7020a0",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:48.313575Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "NeuralTrust, a Barcelona AI‑infrastructure startup, secured a seed round of approximately €8 M in Dec 2024 led by Venture Friends, illustrating growing funding for AI infrastructure firms."
+  },
+  {
+    "id": "ev-09e0965c",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152399Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Barcelona is identified as Southern Europe’s leading tech hub, with a strong international workforce and concentration of SaaS, HR tech, delivery, and travel tech companies such as Glovo, Typeform, Factorial, and Wallapop."
+  },
+  {
+    "id": "ev-00fab9db",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152435Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Catalonia hosts 340 emerging deep‑tech companies, of which 93 are supported by Barcelona Activa and have collectively raised €174 million, demonstrating a dense deep‑tech ecosystem."
+  },
+  {
+    "id": "ev-d31345a0",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152449Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Catalonia leads Spain in academic and scientific spin‑outs (255 of 588 nationwide), highlighting a strong pipeline of university‑originated deep‑tech and AI ventures."
+  },
+  {
+    "id": "ev-96e09ec2",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152458Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Barcelona‑based deep‑tech startups raised €124 million, the highest amount in Southern Europe, confirming the region’s funding leadership."
+  },
+  {
+    "id": "ev-cc3de330",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152468Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Barcelona is identified as the fifth‑best startup ecosystem in the EU and the leading hub for startups in Southern Europe, establishing its status as an AI and tech hub."
+  },
+  {
+    "id": "ev-6015d0f4",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152478Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Spain ranks as the fifth‑largest European market for AI investment, with over €2 billion invested since 2020, demonstrating a strong national AI investment base."
+  },
+  {
+    "id": "ev-6c138dd0",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152487Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "In the first half of 2025 Spain raised €1.95 billion in tech investment, already surpassing the full‑year 2024 total, indicating accelerating AI‑related capital flows."
+  },
+  {
+    "id": "ev-ad16e6c2",
+    "type": "agent.finding",
+    "timestamp": "2026-07-09T19:34:52.152495Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "A €60 million venture capital fund launched by Additio Capital, imec.istart, Mobile World Capital Barcelona and Eurecat aims to back more than 50 technology startups, reinforcing the funding ecosystem for AI ventures in Barcelona."
+  },
+  {
+    "id": "ev-1f4003d8",
+    "type": "report.segment_ready",
+    "timestamp": "2026-07-09T19:34:52.152811Z",
+    "agentId": "agent-0-market_mapper",
+    "title": null,
+    "text": "Segment ready: The market is heating up. Demand signals point to real momentum, and ONLIVE LTD sits right at the center."
+  },
+  {
+    "id": "ev-2c0b2844",
+    "type": "report.segment_ready",
+    "timestamp": "2026-07-09T19:34:52.152845Z",
+    "agentId": "agent-1-company_scout",
+    "title": null,
+    "text": "Segment ready: Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set."
+  },
+  {
+    "id": "ev-63b90294",
+    "type": "report.segment_ready",
+    "timestamp": "2026-07-09T19:34:52.152871Z",
+    "agentId": "agent-2-current_opportunities",
+    "title": null,
+    "text": "Segment ready: Our top candidates are ONLIVE LTD, RISC-V International, Submer. ONLIVE LTD shows the strongest traction of the set."
+  },
+  {
+    "id": "ev-4046cdf4",
+    "type": "report.segment_ready",
+    "timestamp": "2026-07-09T19:34:52.152891Z",
+    "agentId": "agent-3-funding_analyst",
+    "title": null,
+    "text": "Segment ready: ONLIVE LTD looks primed for its next raise, likely within the next six to nine months."
+  },
+  {
+    "id": "ev-04bcca44",
+    "type": "run.complete",
+    "timestamp": "2026-07-09T19:34:56.946861Z",
+    "agentId": null,
+    "title": "Run complete",
+    "text": "Research complete. 5 opportunities scored."
+  }
+]

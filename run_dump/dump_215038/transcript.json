@@ -1,0 +1,6571 @@
+{
+  "runId": "dump_215038",
+  "query": "AI and deep-tech startup investment opportunities in Barcelona with strong traction",
+  "segments": [
+    {
+      "agentId": "agent-0-partner",
+      "script": "Welcome — I am the partner leading this investment briefing, and I will hand you to the team in a moment. You asked us to look at: AI and deep-tech startup investment opportunities in Barcelona with strong traction. To answer it properly I spun up a focused crew — market mapper, company scout, current opportunities, funding analyst — each chasing a different edge of the question. Between them they pulled evidence from live market data and scored 5 opportunities for you. The headline is Uxia, our strongest read at a Goliath Score of 60 and a status of warming. Strong traction signals in AI. Uxia is positioned to raise within 9 months. Close behind it you will hear about Encomenda, NeuralTrust, which round out the shortlist. Each of my colleagues will now walk you through their piece, and I will come back at the end with the recommendation.",
+      "subtitle": "Welcome — I am the partner leading this investment briefing, and I will hand you to the team in a moment. You asked us to look at: AI and…",
+      "audioUrl": "/api/audio/df52b4df96c64645",
+      "durationMs": 58160,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "Welcome",
+          "startMs": 0,
+          "endMs": 400
+        },
+        {
+          "text": "—",
+          "startMs": 680,
+          "endMs": 960
+        },
+        {
+          "text": "I",
+          "startMs": 1040,
+          "endMs": 1120
+        },
+        {
+          "text": "am",
+          "startMs": 1173,
+          "endMs": 1280
+        },
+        {
+          "text": "the",
+          "startMs": 1300,
+          "endMs": 1360
+        },
+        {
+          "text": "partner",
+          "startMs": 1410,
+          "endMs": 1760
+        },
+        {
+          "text": "leading",
+          "startMs": 1810,
+          "endMs": 2160
+        },
+        {
+          "text": "this",
+          "startMs": 2192,
+          "endMs": 2320
+        },
+        {
+          "text": "investment",
+          "startMs": 2364,
+          "endMs": 2800
+        },
+        {
+          "text": "briefing,",
+          "startMs": 2853,
+          "endMs": 3600
+        },
+        {
+          "text": "and",
+          "startMs": 3640,
+          "endMs": 3760
+        },
+        {
+          "text": "I",
+          "startMs": 3800,
+          "endMs": 3840
+        },
+        {
+          "text": "will",
+          "startMs": 3872,
+          "endMs": 4000
+        },
+        {
+          "text": "hand",
+          "startMs": 4064,
+          "endMs": 4320
+        },
+        {
+          "text": "you",
+          "startMs": 4360,
+          "endMs": 4480
+        },
+        {
+          "text": "to",
+          "startMs": 4507,
+          "endMs": 4560
+        },
+        {
+          "text": "the",
+          "startMs": 4600,
+          "endMs": 4720
+        },
+        {
+          "text": "team",
+          "startMs": 4768,
+          "endMs": 4960
+        },
+        {
+          "text": "in",
+          "startMs": 4987,
+          "endMs": 5040
+        },
+        {
+          "text": "a",
+          "startMs": 5080,
+          "endMs": 5120
+        },
+        {
+          "text": "moment.",
+          "startMs": 5177,
+          "endMs": 5600
+        },
+        {
+          "text": "You",
+          "startMs": 5900,
+          "endMs": 6800
+        },
+        {
+          "text": "asked",
+          "startMs": 6853,
+          "endMs": 7120
+        },
+        {
+          "text": "us",
+          "startMs": 7173,
+          "endMs": 7280
+        },
+        {
+          "text": "to",
+          "startMs": 7307,
+          "endMs": 7360
+        },
+        {
+          "text": "look",
+          "startMs": 7408,
+          "endMs": 7600
+        },
+        {
+          "text": "at:",
+          "startMs": 7653,
+          "endMs": 7840
+        },
+        {
+          "text": "AI",
+          "startMs": 8160,
+          "endMs": 8800
+        },
+        {
+          "text": "and",
+          "startMs": 8840,
+          "endMs": 8960
+        },
+        {
+          "text": "deep-tech",
+          "startMs": 9024,
+          "endMs": 9600
+        },
+        {
+          "text": "startup",
+          "startMs": 9660,
+          "endMs": 10080
+        },
+        {
+          "text": "investment",
+          "startMs": 10131,
+          "endMs": 10640
+        },
+        {
+          "text": "opportunities",
+          "startMs": 10697,
+          "endMs": 11440
+        },
+        {
+          "text": "in",
+          "startMs": 11547,
+          "endMs": 11760
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 11832,
+          "endMs": 12480
+        },
+        {
+          "text": "with",
+          "startMs": 12528,
+          "endMs": 12720
+        },
+        {
+          "text": "strong",
+          "startMs": 12777,
+          "endMs": 13120
+        },
+        {
+          "text": "traction.",
+          "startMs": 13191,
+          "endMs": 13840
+        },
+        {
+          "text": "To",
+          "startMs": 14133,
+          "endMs": 14720
+        },
+        {
+          "text": "answer",
+          "startMs": 14766,
+          "endMs": 15040
+        },
+        {
+          "text": "it",
+          "startMs": 15093,
+          "endMs": 15200
+        },
+        {
+          "text": "properly",
+          "startMs": 15253,
+          "endMs": 15680
+        },
+        {
+          "text": "I",
+          "startMs": 15880,
+          "endMs": 16080
+        },
+        {
+          "text": "spun",
+          "startMs": 16128,
+          "endMs": 16320
+        },
+        {
+          "text": "up",
+          "startMs": 16373,
+          "endMs": 16480
+        },
+        {
+          "text": "a",
+          "startMs": 16560,
+          "endMs": 16640
+        },
+        {
+          "text": "focused",
+          "startMs": 16690,
+          "endMs": 17040
+        },
+        {
+          "text": "crew",
+          "startMs": 17152,
+          "endMs": 17600
+        },
+        {
+          "text": "—",
+          "startMs": 17880,
+          "endMs": 18160
+        },
+        {
+          "text": "market",
+          "startMs": 18217,
+          "endMs": 18560
+        },
+        {
+          "text": "mapper,",
+          "startMs": 18617,
+          "endMs": 19280
+        },
+        {
+          "text": "company",
+          "startMs": 19330,
+          "endMs": 19680
+        },
+        {
+          "text": "scout,",
+          "startMs": 19747,
+          "endMs": 20400
+        },
+        {
+          "text": "current",
+          "startMs": 20440,
+          "endMs": 20720
+        },
+        {
+          "text": "opportunities,",
+          "startMs": 20783,
+          "endMs": 21920
+        },
+        {
+          "text": "funding",
+          "startMs": 21980,
+          "endMs": 22400
+        },
+        {
+          "text": "analyst",
+          "startMs": 22490,
+          "endMs": 23120
+        },
+        {
+          "text": "—",
+          "startMs": 23400,
+          "endMs": 23680
+        },
+        {
+          "text": "each",
+          "startMs": 23744,
+          "endMs": 24000
+        },
+        {
+          "text": "chasing",
+          "startMs": 24050,
+          "endMs": 24400
+        },
+        {
+          "text": "a",
+          "startMs": 24440,
+          "endMs": 24480
+        },
+        {
+          "text": "different",
+          "startMs": 24512,
+          "endMs": 24800
+        },
+        {
+          "text": "edge",
+          "startMs": 24864,
+          "endMs": 25120
+        },
+        {
+          "text": "of",
+          "startMs": 25173,
+          "endMs": 25280
+        },
+        {
+          "text": "the",
+          "startMs": 25300,
+          "endMs": 25360
+        },
+        {
+          "text": "question.",
+          "startMs": 25413,
+          "endMs": 26000
+        },
+        {
+          "text": "Between",
+          "startMs": 26130,
+          "endMs": 27040
+        },
+        {
+          "text": "them",
+          "startMs": 27088,
+          "endMs": 27280
+        },
+        {
+          "text": "they",
+          "startMs": 27360,
+          "endMs": 27680
+        },
+        {
+          "text": "pulled",
+          "startMs": 27714,
+          "endMs": 27920
+        },
+        {
+          "text": "evidence",
+          "startMs": 27964,
+          "endMs": 28320
+        },
+        {
+          "text": "from",
+          "startMs": 28368,
+          "endMs": 28560
+        },
+        {
+          "text": "live",
+          "startMs": 28640,
+          "endMs": 28960
+        },
+        {
+          "text": "market",
+          "startMs": 29017,
+          "endMs": 29360
+        },
+        {
+          "text": "data",
+          "startMs": 29440,
+          "endMs": 29760
+        },
+        {
+          "text": "and",
+          "startMs": 29860,
+          "endMs": 30160
+        },
+        {
+          "text": "scored",
+          "startMs": 30206,
+          "endMs": 30480
+        },
+        {
+          "text": "5",
+          "startMs": 30640,
+          "endMs": 30880
+        },
+        {
+          "text": "opportunities",
+          "startMs": 30931,
+          "endMs": 31600
+        },
+        {
+          "text": "for",
+          "startMs": 31640,
+          "endMs": 31760
+        },
+        {
+          "text": "you.",
+          "startMs": 31820,
+          "endMs": 32160
+        },
+        {
+          "text": "The",
+          "startMs": 32360,
+          "endMs": 32960
+        },
+        {
+          "text": "headline",
+          "startMs": 33013,
+          "endMs": 33440
+        },
+        {
+          "text": "is",
+          "startMs": 33467,
+          "endMs": 33520
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 33640,
+          "endMs": 34240
+        },
+        {
+          "text": "our",
+          "startMs": 34340,
+          "endMs": 34640
+        },
+        {
+          "text": "strongest",
+          "startMs": 34696,
+          "endMs": 35200
+        },
+        {
+          "text": "read",
+          "startMs": 35280,
+          "endMs": 35600
+        },
+        {
+          "text": "at",
+          "startMs": 35707,
+          "endMs": 35920
+        },
+        {
+          "text": "a",
+          "startMs": 35960,
+          "endMs": 36000
+        },
+        {
+          "text": "Goliath",
+          "startMs": 36040,
+          "endMs": 36400
+        },
+        {
+          "text": "Score",
+          "startMs": 36467,
+          "endMs": 36800
+        },
+        {
+          "text": "of",
+          "startMs": 36827,
+          "endMs": 36880
+        },
+        {
+          "text": "60",
+          "startMs": 36960,
+          "endMs": 37520
+        },
+        {
+          "text": "and",
+          "startMs": 37600,
+          "endMs": 37840
+        },
+        {
+          "text": "a",
+          "startMs": 37880,
+          "endMs": 37920
+        },
+        {
+          "text": "status",
+          "startMs": 37977,
+          "endMs": 38320
+        },
+        {
+          "text": "of",
+          "startMs": 38373,
+          "endMs": 38480
+        },
+        {
+          "text": "warming.",
+          "startMs": 38540,
+          "endMs": 39600
+        },
+        {
+          "text": "Strong",
+          "startMs": 39691,
+          "endMs": 40240
+        },
+        {
+          "text": "traction",
+          "startMs": 40293,
+          "endMs": 40720
+        },
+        {
+          "text": "signals",
+          "startMs": 40790,
+          "endMs": 41280
+        },
+        {
+          "text": "in",
+          "startMs": 41333,
+          "endMs": 41440
+        },
+        {
+          "text": "AI.",
+          "startMs": 41627,
+          "endMs": 42080
+        },
+        {
+          "text": "Uxia",
+          "startMs": 42400,
+          "endMs": 43040
+        },
+        {
+          "text": "is",
+          "startMs": 43120,
+          "endMs": 43280
+        },
+        {
+          "text": "positioned",
+          "startMs": 43316,
+          "endMs": 43680
+        },
+        {
+          "text": "to",
+          "startMs": 43707,
+          "endMs": 43760
+        },
+        {
+          "text": "raise",
+          "startMs": 43840,
+          "endMs": 44240
+        },
+        {
+          "text": "within",
+          "startMs": 44286,
+          "endMs": 44560
+        },
+        {
+          "text": "9",
+          "startMs": 44680,
+          "endMs": 44800
+        },
+        {
+          "text": "months.",
+          "startMs": 44869,
+          "endMs": 45360
+        },
+        {
+          "text": "Close",
+          "startMs": 45533,
+          "endMs": 46400
+        },
+        {
+          "text": "behind",
+          "startMs": 46469,
+          "endMs": 46880
+        },
+        {
+          "text": "it",
+          "startMs": 46933,
+          "endMs": 47040
+        },
+        {
+          "text": "you",
+          "startMs": 47100,
+          "endMs": 47280
+        },
+        {
+          "text": "will",
+          "startMs": 47328,
+          "endMs": 47520
+        },
+        {
+          "text": "hear",
+          "startMs": 47552,
+          "endMs": 47680
+        },
+        {
+          "text": "about",
+          "startMs": 47733,
+          "endMs": 48000
+        },
+        {
+          "text": "Encomenda,",
+          "startMs": 48080,
+          "endMs": 48960
+        },
+        {
+          "text": "NeuralTrust,",
+          "startMs": 49063,
+          "endMs": 50320
+        },
+        {
+          "text": "which",
+          "startMs": 50347,
+          "endMs": 50480
+        },
+        {
+          "text": "round",
+          "startMs": 50547,
+          "endMs": 50880
+        },
+        {
+          "text": "out",
+          "startMs": 50920,
+          "endMs": 51040
+        },
+        {
+          "text": "the",
+          "startMs": 51060,
+          "endMs": 51120
+        },
+        {
+          "text": "shortlist.",
+          "startMs": 51173,
+          "endMs": 51920
+        },
+        {
+          "text": "Each",
+          "startMs": 52112,
+          "endMs": 52880
+        },
+        {
+          "text": "of",
+          "startMs": 52907,
+          "endMs": 52960
+        },
+        {
+          "text": "my",
+          "startMs": 53067,
+          "endMs": 53280
+        },
+        {
+          "text": "colleagues",
+          "startMs": 53316,
+          "endMs": 53680
+        },
+        {
+          "text": "will",
+          "startMs": 53712,
+          "endMs": 53840
+        },
+        {
+          "text": "now",
+          "startMs": 53900,
+          "endMs": 54080
+        },
+        {
+          "text": "walk",
+          "startMs": 54128,
+          "endMs": 54320
+        },
+        {
+          "text": "you",
+          "startMs": 54360,
+          "endMs": 54480
+        },
+        {
+          "text": "through",
+          "startMs": 54510,
+          "endMs": 54720
+        },
+        {
+          "text": "their",
+          "startMs": 54760,
+          "endMs": 54960
+        },
+        {
+          "text": "piece,",
+          "startMs": 55027,
+          "endMs": 55680
+        },
+        {
+          "text": "and",
+          "startMs": 55720,
+          "endMs": 55840
+        },
+        {
+          "text": "I",
+          "startMs": 55880,
+          "endMs": 55920
+        },
+        {
+          "text": "will",
+          "startMs": 55952,
+          "endMs": 56080
+        },
+        {
+          "text": "come",
+          "startMs": 56128,
+          "endMs": 56320
+        },
+        {
+          "text": "back",
+          "startMs": 56352,
+          "endMs": 56480
+        },
+        {
+          "text": "at",
+          "startMs": 56533,
+          "endMs": 56640
+        },
+        {
+          "text": "the",
+          "startMs": 56660,
+          "endMs": 56720
+        },
+        {
+          "text": "end",
+          "startMs": 56800,
+          "endMs": 57040
+        },
+        {
+          "text": "with",
+          "startMs": 57056,
+          "endMs": 57120
+        },
+        {
+          "text": "the",
+          "startMs": 57140,
+          "endMs": 57200
+        },
+        {
+          "text": "recommendation.",
+          "startMs": 57259,
+          "endMs": 58160
+        }
+      ]
+    },
+    {
+      "agentId": "agent-0-market_mapper",
+      "script": "As market mapper, I traced where demand is concentrating and how fast the segment is expanding. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Barcelona is identified as the fifth‑best startup ecosystem in the EU and the leading hub for startups in Southern Europe, establishing its status as an AI and tech hub. Spain ranks as the fifth‑largest European market for AI investment, with over €2 billion invested since 2020, demonstrating a strong national AI investment base. In the first half of 2025 Spain raised €1.95 billion in tech investment, already surpassing the full‑year 2024 total, indicating accelerating AI‑related capital flows. A €60 million venture capital fund launched by Additio Capital, imec.istart, Mobile World Capital Barcelona and Eurecat aims to back more than 50 technology startups, reinforcing the funding ecosystem for AI ventures in Barcelona. Barcelona is identified as Southern Europe’s leading tech hub, with a strong international workforce and concentration of SaaS, HR tech, delivery, and travel tech companies such as Glovo, Typeform, Factorial, and Wallapop. Catalonia hosts 340 emerging deep‑tech companies, of which 93 are supported by Barcelona Activa and have collectively raised €174 million, demonstrating a dense deep‑tech ecosystem. Catalonia leads Spain in academic and scientific spin‑outs (255 of 588 nationwide), highlighting a strong pipeline of university‑originated deep‑tech and AI ventures. Barcelona‑based deep‑tech startups raised €124 million, the highest amount in Southern Europe, confirming the region’s funding leadership. Net-net, the market backdrop is supportive, and the leaders are compounding that tailwind.",
+      "subtitle": "As market mapper, I traced where demand is concentrating and how fast the segment is expanding. Here is what the data actually says about…",
+      "audioUrl": "/api/audio/bdfbf75abcec40cc",
+      "durationMs": 119760,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "As",
+          "startMs": 0,
+          "endMs": 80
+        },
+        {
+          "text": "market",
+          "startMs": 137,
+          "endMs": 480
+        },
+        {
+          "text": "mapper,",
+          "startMs": 537,
+          "endMs": 1040
+        },
+        {
+          "text": "I",
+          "startMs": 1160,
+          "endMs": 1280
+        },
+        {
+          "text": "traced",
+          "startMs": 1326,
+          "endMs": 1600
+        },
+        {
+          "text": "where",
+          "startMs": 1627,
+          "endMs": 1760
+        },
+        {
+          "text": "demand",
+          "startMs": 1817,
+          "endMs": 2160
+        },
+        {
+          "text": "is",
+          "startMs": 2213,
+          "endMs": 2320
+        },
+        {
+          "text": "concentrating",
+          "startMs": 2377,
+          "endMs": 3120
+        },
+        {
+          "text": "and",
+          "startMs": 3220,
+          "endMs": 3520
+        },
+        {
+          "text": "how",
+          "startMs": 3560,
+          "endMs": 3680
+        },
+        {
+          "text": "fast",
+          "startMs": 3760,
+          "endMs": 4080
+        },
+        {
+          "text": "the",
+          "startMs": 4100,
+          "endMs": 4160
+        },
+        {
+          "text": "segment",
+          "startMs": 4210,
+          "endMs": 4560
+        },
+        {
+          "text": "is",
+          "startMs": 4613,
+          "endMs": 4720
+        },
+        {
+          "text": "expanding.",
+          "startMs": 4776,
+          "endMs": 5680
+        },
+        {
+          "text": "Here",
+          "startMs": 5776,
+          "endMs": 6160
+        },
+        {
+          "text": "is",
+          "startMs": 6213,
+          "endMs": 6320
+        },
+        {
+          "text": "what",
+          "startMs": 6352,
+          "endMs": 6480
+        },
+        {
+          "text": "the",
+          "startMs": 6520,
+          "endMs": 6640
+        },
+        {
+          "text": "data",
+          "startMs": 6704,
+          "endMs": 6960
+        },
+        {
+          "text": "actually",
+          "startMs": 7022,
+          "endMs": 7520
+        },
+        {
+          "text": "says",
+          "startMs": 7616,
+          "endMs": 8000
+        },
+        {
+          "text": "about",
+          "startMs": 8040,
+          "endMs": 8240
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 8320,
+          "endMs": 8960
+        },
+        {
+          "text": "Encomenda,",
+          "startMs": 9013,
+          "endMs": 9680
+        },
+        {
+          "text": "NeuralTrust.",
+          "startMs": 9749,
+          "endMs": 10800
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 10920,
+          "endMs": 12000
+        },
+        {
+          "text": "is",
+          "startMs": 12053,
+          "endMs": 12160
+        },
+        {
+          "text": "identified",
+          "startMs": 12218,
+          "endMs": 12800
+        },
+        {
+          "text": "as",
+          "startMs": 12853,
+          "endMs": 12960
+        },
+        {
+          "text": "the",
+          "startMs": 12980,
+          "endMs": 13040
+        },
+        {
+          "text": "fifth‑best",
+          "startMs": 13107,
+          "endMs": 13760
+        },
+        {
+          "text": "startup",
+          "startMs": 13800,
+          "endMs": 14080
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 14144,
+          "endMs": 14720
+        },
+        {
+          "text": "in",
+          "startMs": 14773,
+          "endMs": 14880
+        },
+        {
+          "text": "the",
+          "startMs": 14900,
+          "endMs": 14960
+        },
+        {
+          "text": "EU",
+          "startMs": 15120,
+          "endMs": 15440
+        },
+        {
+          "text": "and",
+          "startMs": 15560,
+          "endMs": 15920
+        },
+        {
+          "text": "the",
+          "startMs": 15940,
+          "endMs": 16000
+        },
+        {
+          "text": "leading",
+          "startMs": 16050,
+          "endMs": 16400
+        },
+        {
+          "text": "hub",
+          "startMs": 16480,
+          "endMs": 16720
+        },
+        {
+          "text": "for",
+          "startMs": 16740,
+          "endMs": 16800
+        },
+        {
+          "text": "startups",
+          "startMs": 16862,
+          "endMs": 17360
+        },
+        {
+          "text": "in",
+          "startMs": 17413,
+          "endMs": 17520
+        },
+        {
+          "text": "Southern",
+          "startMs": 17556,
+          "endMs": 17840
+        },
+        {
+          "text": "Europe,",
+          "startMs": 17897,
+          "endMs": 18560
+        },
+        {
+          "text": "establishing",
+          "startMs": 18603,
+          "endMs": 19120
+        },
+        {
+          "text": "its",
+          "startMs": 19160,
+          "endMs": 19280
+        },
+        {
+          "text": "status",
+          "startMs": 19349,
+          "endMs": 19760
+        },
+        {
+          "text": "as",
+          "startMs": 19787,
+          "endMs": 19840
+        },
+        {
+          "text": "an",
+          "startMs": 19893,
+          "endMs": 20000
+        },
+        {
+          "text": "AI",
+          "startMs": 20160,
+          "endMs": 20480
+        },
+        {
+          "text": "and",
+          "startMs": 20500,
+          "endMs": 20560
+        },
+        {
+          "text": "tech",
+          "startMs": 20624,
+          "endMs": 20880
+        },
+        {
+          "text": "hub.",
+          "startMs": 20960,
+          "endMs": 21440
+        },
+        {
+          "text": "Spain",
+          "startMs": 21600,
+          "endMs": 22400
+        },
+        {
+          "text": "ranks",
+          "startMs": 22467,
+          "endMs": 22800
+        },
+        {
+          "text": "as",
+          "startMs": 22853,
+          "endMs": 22960
+        },
+        {
+          "text": "the",
+          "startMs": 23000,
+          "endMs": 23120
+        },
+        {
+          "text": "fifth‑largest",
+          "startMs": 23173,
+          "endMs": 23840
+        },
+        {
+          "text": "European",
+          "startMs": 23893,
+          "endMs": 24320
+        },
+        {
+          "text": "market",
+          "startMs": 24377,
+          "endMs": 24720
+        },
+        {
+          "text": "for",
+          "startMs": 24760,
+          "endMs": 24880
+        },
+        {
+          "text": "AI",
+          "startMs": 24987,
+          "endMs": 25200
+        },
+        {
+          "text": "investment,",
+          "startMs": 25251,
+          "endMs": 26080
+        },
+        {
+          "text": "with",
+          "startMs": 26112,
+          "endMs": 26240
+        },
+        {
+          "text": "over",
+          "startMs": 26288,
+          "endMs": 26480
+        },
+        {
+          "text": "€2",
+          "startMs": 26560,
+          "endMs": 27039
+        },
+        {
+          "text": "billion",
+          "startMs": 27040,
+          "endMs": 27840
+        },
+        {
+          "text": "invested",
+          "startMs": 27893,
+          "endMs": 28320
+        },
+        {
+          "text": "since",
+          "startMs": 28360,
+          "endMs": 28560
+        },
+        {
+          "text": "2020,",
+          "startMs": 28640,
+          "endMs": 29680
+        },
+        {
+          "text": "demonstrating",
+          "startMs": 29720,
+          "endMs": 30240
+        },
+        {
+          "text": "a",
+          "startMs": 30280,
+          "endMs": 30320
+        },
+        {
+          "text": "strong",
+          "startMs": 30400,
+          "endMs": 30880
+        },
+        {
+          "text": "national",
+          "startMs": 30933,
+          "endMs": 31360
+        },
+        {
+          "text": "AI",
+          "startMs": 31493,
+          "endMs": 31760
+        },
+        {
+          "text": "investment",
+          "startMs": 31804,
+          "endMs": 32240
+        },
+        {
+          "text": "base.",
+          "startMs": 32320,
+          "endMs": 32960
+        },
+        {
+          "text": "In",
+          "startMs": 33120,
+          "endMs": 33440
+        },
+        {
+          "text": "the",
+          "startMs": 33480,
+          "endMs": 33600
+        },
+        {
+          "text": "first",
+          "startMs": 33640,
+          "endMs": 33840
+        },
+        {
+          "text": "half",
+          "startMs": 33904,
+          "endMs": 34160
+        },
+        {
+          "text": "of",
+          "startMs": 34187,
+          "endMs": 34240
+        },
+        {
+          "text": "2025",
+          "startMs": 34320,
+          "endMs": 35200
+        },
+        {
+          "text": "Spain",
+          "startMs": 35307,
+          "endMs": 35840
+        },
+        {
+          "text": "raised",
+          "startMs": 35897,
+          "endMs": 36240
+        },
+        {
+          "text": "€1.95",
+          "startMs": 36320,
+          "endMs": 37600
+        },
+        {
+          "text": "billion",
+          "startMs": 37640,
+          "endMs": 38480
+        },
+        {
+          "text": "in",
+          "startMs": 38507,
+          "endMs": 38560
+        },
+        {
+          "text": "tech",
+          "startMs": 38608,
+          "endMs": 38800
+        },
+        {
+          "text": "investment,",
+          "startMs": 38851,
+          "endMs": 39840
+        },
+        {
+          "text": "already",
+          "startMs": 39890,
+          "endMs": 40240
+        },
+        {
+          "text": "surpassing",
+          "startMs": 40310,
+          "endMs": 40880
+        },
+        {
+          "text": "the",
+          "startMs": 40900,
+          "endMs": 40960
+        },
+        {
+          "text": "full‑year",
+          "startMs": 41024,
+          "endMs": 41600
+        },
+        {
+          "text": "2024",
+          "startMs": 41680,
+          "endMs": 42400
+        },
+        {
+          "text": "total,",
+          "startMs": 42467,
+          "endMs": 43280
+        },
+        {
+          "text": "indicating",
+          "startMs": 43324,
+          "endMs": 43760
+        },
+        {
+          "text": "accelerating",
+          "startMs": 43822,
+          "endMs": 44560
+        },
+        {
+          "text": "AI‑related",
+          "startMs": 44693,
+          "endMs": 45360
+        },
+        {
+          "text": "capital",
+          "startMs": 45410,
+          "endMs": 45760
+        },
+        {
+          "text": "flows.",
+          "startMs": 45853,
+          "endMs": 46640
+        },
+        {
+          "text": "A",
+          "startMs": 46880,
+          "endMs": 47120
+        },
+        {
+          "text": "€60",
+          "startMs": 47160,
+          "endMs": 47680
+        },
+        {
+          "text": "million",
+          "startMs": 48040,
+          "endMs": 48400
+        },
+        {
+          "text": "venture",
+          "startMs": 48450,
+          "endMs": 48800
+        },
+        {
+          "text": "capital",
+          "startMs": 48850,
+          "endMs": 49200
+        },
+        {
+          "text": "fund",
+          "startMs": 49280,
+          "endMs": 49600
+        },
+        {
+          "text": "launched",
+          "startMs": 49653,
+          "endMs": 50080
+        },
+        {
+          "text": "by",
+          "startMs": 50133,
+          "endMs": 50240
+        },
+        {
+          "text": "Additio",
+          "startMs": 50300,
+          "endMs": 50720
+        },
+        {
+          "text": "Capital,",
+          "startMs": 50790,
+          "endMs": 51600
+        },
+        {
+          "text": "imec.istart,",
+          "startMs": 51680,
+          "endMs": 53280
+        },
+        {
+          "text": "Mobile",
+          "startMs": 53337,
+          "endMs": 53680
+        },
+        {
+          "text": "World",
+          "startMs": 53733,
+          "endMs": 54000
+        },
+        {
+          "text": "Capital",
+          "startMs": 54050,
+          "endMs": 54400
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 54472,
+          "endMs": 55120
+        },
+        {
+          "text": "and",
+          "startMs": 55200,
+          "endMs": 55440
+        },
+        {
+          "text": "Eurecat",
+          "startMs": 55480,
+          "endMs": 56080
+        },
+        {
+          "text": "aims",
+          "startMs": 56176,
+          "endMs": 56560
+        },
+        {
+          "text": "to",
+          "startMs": 56587,
+          "endMs": 56640
+        },
+        {
+          "text": "back",
+          "startMs": 56688,
+          "endMs": 56880
+        },
+        {
+          "text": "more",
+          "startMs": 56912,
+          "endMs": 57040
+        },
+        {
+          "text": "than",
+          "startMs": 57072,
+          "endMs": 57200
+        },
+        {
+          "text": "50",
+          "startMs": 57360,
+          "endMs": 57680
+        },
+        {
+          "text": "technology",
+          "startMs": 57738,
+          "endMs": 58320
+        },
+        {
+          "text": "startups,",
+          "startMs": 58391,
+          "endMs": 59280
+        },
+        {
+          "text": "reinforcing",
+          "startMs": 59327,
+          "endMs": 59840
+        },
+        {
+          "text": "the",
+          "startMs": 59880,
+          "endMs": 60000
+        },
+        {
+          "text": "funding",
+          "startMs": 60040,
+          "endMs": 60320
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 60376,
+          "endMs": 60880
+        },
+        {
+          "text": "for",
+          "startMs": 60940,
+          "endMs": 61120
+        },
+        {
+          "text": "AI",
+          "startMs": 61227,
+          "endMs": 61440
+        },
+        {
+          "text": "ventures",
+          "startMs": 61484,
+          "endMs": 61840
+        },
+        {
+          "text": "in",
+          "startMs": 61867,
+          "endMs": 61920
+        },
+        {
+          "text": "Barcelona.",
+          "startMs": 61984,
+          "endMs": 62880
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 62976,
+          "endMs": 63840
+        },
+        {
+          "text": "is",
+          "startMs": 63893,
+          "endMs": 64000
+        },
+        {
+          "text": "identified",
+          "startMs": 64051,
+          "endMs": 64560
+        },
+        {
+          "text": "as",
+          "startMs": 64587,
+          "endMs": 64640
+        },
+        {
+          "text": "Southern",
+          "startMs": 64684,
+          "endMs": 65040
+        },
+        {
+          "text": "Europe’s",
+          "startMs": 65074,
+          "endMs": 65360
+        },
+        {
+          "text": "leading",
+          "startMs": 65410,
+          "endMs": 65760
+        },
+        {
+          "text": "tech",
+          "startMs": 65808,
+          "endMs": 66000
+        },
+        {
+          "text": "hub,",
+          "startMs": 66080,
+          "endMs": 66640
+        },
+        {
+          "text": "with",
+          "startMs": 66656,
+          "endMs": 66720
+        },
+        {
+          "text": "a",
+          "startMs": 66800,
+          "endMs": 66880
+        },
+        {
+          "text": "strong",
+          "startMs": 66937,
+          "endMs": 67280
+        },
+        {
+          "text": "international",
+          "startMs": 67326,
+          "endMs": 67920
+        },
+        {
+          "text": "workforce",
+          "startMs": 67984,
+          "endMs": 68560
+        },
+        {
+          "text": "and",
+          "startMs": 68580,
+          "endMs": 68640
+        },
+        {
+          "text": "concentration",
+          "startMs": 68691,
+          "endMs": 69360
+        },
+        {
+          "text": "of",
+          "startMs": 69387,
+          "endMs": 69440
+        },
+        {
+          "text": "SaaS,",
+          "startMs": 69560,
+          "endMs": 70160
+        },
+        {
+          "text": "HR",
+          "startMs": 70293,
+          "endMs": 70560
+        },
+        {
+          "text": "tech,",
+          "startMs": 70624,
+          "endMs": 71280
+        },
+        {
+          "text": "delivery,",
+          "startMs": 71324,
+          "endMs": 71760
+        },
+        {
+          "text": "and",
+          "startMs": 71800,
+          "endMs": 71920
+        },
+        {
+          "text": "travel",
+          "startMs": 71966,
+          "endMs": 72240
+        },
+        {
+          "text": "tech",
+          "startMs": 72288,
+          "endMs": 72480
+        },
+        {
+          "text": "companies",
+          "startMs": 72536,
+          "endMs": 73040
+        },
+        {
+          "text": "such",
+          "startMs": 73104,
+          "endMs": 73360
+        },
+        {
+          "text": "as",
+          "startMs": 73387,
+          "endMs": 73440
+        },
+        {
+          "text": "Glovo,",
+          "startMs": 73520,
+          "endMs": 74320
+        },
+        {
+          "text": "Typeform,",
+          "startMs": 74384,
+          "endMs": 75280
+        },
+        {
+          "text": "Factorial,",
+          "startMs": 75326,
+          "endMs": 75840
+        },
+        {
+          "text": "and",
+          "startMs": 75860,
+          "endMs": 75920
+        },
+        {
+          "text": "Wallapop.",
+          "startMs": 75984,
+          "endMs": 76720
+        },
+        {
+          "text": "Catalonia",
+          "startMs": 76840,
+          "endMs": 77920
+        },
+        {
+          "text": "hosts",
+          "startMs": 78000,
+          "endMs": 78400
+        },
+        {
+          "text": "340",
+          "startMs": 78480,
+          "endMs": 79520
+        },
+        {
+          "text": "emerging",
+          "startMs": 79582,
+          "endMs": 80080
+        },
+        {
+          "text": "deep‑tech",
+          "startMs": 80128,
+          "endMs": 80560
+        },
+        {
+          "text": "companies,",
+          "startMs": 80616,
+          "endMs": 81440
+        },
+        {
+          "text": "of",
+          "startMs": 81493,
+          "endMs": 81600
+        },
+        {
+          "text": "which",
+          "startMs": 81627,
+          "endMs": 81760
+        },
+        {
+          "text": "93",
+          "startMs": 81840,
+          "endMs": 82560
+        },
+        {
+          "text": "are",
+          "startMs": 82600,
+          "endMs": 82720
+        },
+        {
+          "text": "supported",
+          "startMs": 82760,
+          "endMs": 83120
+        },
+        {
+          "text": "by",
+          "startMs": 83173,
+          "endMs": 83280
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 83336,
+          "endMs": 83840
+        },
+        {
+          "text": "Activa",
+          "startMs": 83920,
+          "endMs": 84480
+        },
+        {
+          "text": "and",
+          "startMs": 84600,
+          "endMs": 84960
+        },
+        {
+          "text": "have",
+          "startMs": 84992,
+          "endMs": 85120
+        },
+        {
+          "text": "collectively",
+          "startMs": 85163,
+          "endMs": 85680
+        },
+        {
+          "text": "raised",
+          "startMs": 85737,
+          "endMs": 86080
+        },
+        {
+          "text": "€174",
+          "startMs": 86160,
+          "endMs": 87760
+        },
+        {
+          "text": "million,",
+          "startMs": 88200,
+          "endMs": 89040
+        },
+        {
+          "text": "demonstrating",
+          "startMs": 89080,
+          "endMs": 89600
+        },
+        {
+          "text": "a",
+          "startMs": 89640,
+          "endMs": 89680
+        },
+        {
+          "text": "dense",
+          "startMs": 89760,
+          "endMs": 90160
+        },
+        {
+          "text": "deep‑tech",
+          "startMs": 90224,
+          "endMs": 90800
+        },
+        {
+          "text": "ecosystem.",
+          "startMs": 90872,
+          "endMs": 91760
+        },
+        {
+          "text": "Catalonia",
+          "startMs": 91872,
+          "endMs": 92880
+        },
+        {
+          "text": "leads",
+          "startMs": 92947,
+          "endMs": 93280
+        },
+        {
+          "text": "Spain",
+          "startMs": 93360,
+          "endMs": 93760
+        },
+        {
+          "text": "in",
+          "startMs": 93813,
+          "endMs": 93920
+        },
+        {
+          "text": "academic",
+          "startMs": 93982,
+          "endMs": 94480
+        },
+        {
+          "text": "and",
+          "startMs": 94520,
+          "endMs": 94640
+        },
+        {
+          "text": "scientific",
+          "startMs": 94684,
+          "endMs": 95120
+        },
+        {
+          "text": "spin‑outs",
+          "startMs": 95184,
+          "endMs": 96000
+        },
+        {
+          "text": "(255",
+          "startMs": 96040,
+          "endMs": 97200
+        },
+        {
+          "text": "of",
+          "startMs": 97227,
+          "endMs": 97280
+        },
+        {
+          "text": "588",
+          "startMs": 97440,
+          "endMs": 98400
+        },
+        {
+          "text": "nationwide),",
+          "startMs": 98465,
+          "endMs": 99520
+        },
+        {
+          "text": "highlighting",
+          "startMs": 99557,
+          "endMs": 100000
+        },
+        {
+          "text": "a",
+          "startMs": 100040,
+          "endMs": 100080
+        },
+        {
+          "text": "strong",
+          "startMs": 100149,
+          "endMs": 100560
+        },
+        {
+          "text": "pipeline",
+          "startMs": 100622,
+          "endMs": 101120
+        },
+        {
+          "text": "of",
+          "startMs": 101173,
+          "endMs": 101280
+        },
+        {
+          "text": "university‑originated",
+          "startMs": 101331,
+          "endMs": 102480
+        },
+        {
+          "text": "deep‑tech",
+          "startMs": 102544,
+          "endMs": 103200
+        },
+        {
+          "text": "and",
+          "startMs": 103240,
+          "endMs": 103360
+        },
+        {
+          "text": "AI",
+          "startMs": 103493,
+          "endMs": 103760
+        },
+        {
+          "text": "ventures.",
+          "startMs": 103822,
+          "endMs": 104400
+        },
+        {
+          "text": "Barcelona‑based",
+          "startMs": 104528,
+          "endMs": 106000
+        },
+        {
+          "text": "deep‑tech",
+          "startMs": 106064,
+          "endMs": 106640
+        },
+        {
+          "text": "startups",
+          "startMs": 106702,
+          "endMs": 107200
+        },
+        {
+          "text": "raised",
+          "startMs": 107257,
+          "endMs": 107600
+        },
+        {
+          "text": "€124",
+          "startMs": 107640,
+          "endMs": 108960
+        },
+        {
+          "text": "million,",
+          "startMs": 109400,
+          "endMs": 110240
+        },
+        {
+          "text": "the",
+          "startMs": 110260,
+          "endMs": 110320
+        },
+        {
+          "text": "highest",
+          "startMs": 110370,
+          "endMs": 110720
+        },
+        {
+          "text": "amount",
+          "startMs": 110754,
+          "endMs": 110960
+        },
+        {
+          "text": "in",
+          "startMs": 111013,
+          "endMs": 111120
+        },
+        {
+          "text": "Southern",
+          "startMs": 111156,
+          "endMs": 111440
+        },
+        {
+          "text": "Europe,",
+          "startMs": 111486,
+          "endMs": 112080
+        },
+        {
+          "text": "confirming",
+          "startMs": 112131,
+          "endMs": 112640
+        },
+        {
+          "text": "the",
+          "startMs": 112660,
+          "endMs": 112720
+        },
+        {
+          "text": "region’s",
+          "startMs": 112766,
+          "endMs": 113200
+        },
+        {
+          "text": "funding",
+          "startMs": 113240,
+          "endMs": 113520
+        },
+        {
+          "text": "leadership.",
+          "startMs": 113571,
+          "endMs": 114240
+        },
+        {
+          "text": "Net-net,",
+          "startMs": 114460,
+          "endMs": 115680
+        },
+        {
+          "text": "the",
+          "startMs": 115700,
+          "endMs": 115760
+        },
+        {
+          "text": "market",
+          "startMs": 115806,
+          "endMs": 116080
+        },
+        {
+          "text": "backdrop",
+          "startMs": 116133,
+          "endMs": 116560
+        },
+        {
+          "text": "is",
+          "startMs": 116613,
+          "endMs": 116720
+        },
+        {
+          "text": "supportive,",
+          "startMs": 116771,
+          "endMs": 117440
+        },
+        {
+          "text": "and",
+          "startMs": 117460,
+          "endMs": 117520
+        },
+        {
+          "text": "the",
+          "startMs": 117540,
+          "endMs": 117600
+        },
+        {
+          "text": "leaders",
+          "startMs": 117650,
+          "endMs": 118000
+        },
+        {
+          "text": "are",
+          "startMs": 118040,
+          "endMs": 118160
+        },
+        {
+          "text": "compounding",
+          "startMs": 118208,
+          "endMs": 118720
+        },
+        {
+          "text": "that",
+          "startMs": 118752,
+          "endMs": 118880
+        },
+        {
+          "text": "tailwind.",
+          "startMs": 118944,
+          "endMs": 119760
+        }
+      ]
+    },
+    {
+      "agentId": "agent-1-company_scout",
+      "script": "As company scout, I went hunting for the startups with real traction behind the headlines. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene. Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1‍ million in a pre‑seed round in November‍ 2025. The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier‍ Darriba, Marsal‍ Gavaldà and William‍ Leppard. NeuralTrust, a Barcelona AI security platform, received seed funding on 23‍ Dec‍ 2024 from Venture Friends. Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment. Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120‍ M at a €1‍ B+ valuation, and secured an additional €74.5‍ M from General Catalyst to fund growth without dilution. Typeform, headquartered in Barcelona with a San‍ Francisco office and over 450 employees, raised €123‍ M for its conversational interaction platform, confirming its strong traction and international presence. Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement. Sherpa.ai raised $18‍ M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence. These are the teams I would take a first meeting with tomorrow.",
+      "subtitle": "As company scout, I went hunting for the startups with real traction behind the headlines. Here is what the data actually says about Uxia,…",
+      "audioUrl": "/api/audio/53f850c0c432471d",
+      "durationMs": 122960,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "As",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "text": "company",
+          "startMs": 210,
+          "endMs": 560
+        },
+        {
+          "text": "scout,",
+          "startMs": 640,
+          "endMs": 1120
+        },
+        {
+          "text": "I",
+          "startMs": 1200,
+          "endMs": 1280
+        },
+        {
+          "text": "went",
+          "startMs": 1312,
+          "endMs": 1440
+        },
+        {
+          "text": "hunting",
+          "startMs": 1480,
+          "endMs": 1760
+        },
+        {
+          "text": "for",
+          "startMs": 1800,
+          "endMs": 1920
+        },
+        {
+          "text": "the",
+          "startMs": 1940,
+          "endMs": 2000
+        },
+        {
+          "text": "startups",
+          "startMs": 2062,
+          "endMs": 2560
+        },
+        {
+          "text": "with",
+          "startMs": 2592,
+          "endMs": 2720
+        },
+        {
+          "text": "real",
+          "startMs": 2800,
+          "endMs": 3120
+        },
+        {
+          "text": "traction",
+          "startMs": 3173,
+          "endMs": 3600
+        },
+        {
+          "text": "behind",
+          "startMs": 3646,
+          "endMs": 3920
+        },
+        {
+          "text": "the",
+          "startMs": 3940,
+          "endMs": 4000
+        },
+        {
+          "text": "headlines.",
+          "startMs": 4072,
+          "endMs": 5040
+        },
+        {
+          "text": "Here",
+          "startMs": 5104,
+          "endMs": 5360
+        },
+        {
+          "text": "is",
+          "startMs": 5440,
+          "endMs": 5600
+        },
+        {
+          "text": "what",
+          "startMs": 5616,
+          "endMs": 5680
+        },
+        {
+          "text": "the",
+          "startMs": 5720,
+          "endMs": 5840
+        },
+        {
+          "text": "data",
+          "startMs": 5920,
+          "endMs": 6240
+        },
+        {
+          "text": "actually",
+          "startMs": 6293,
+          "endMs": 6720
+        },
+        {
+          "text": "says",
+          "startMs": 6784,
+          "endMs": 7040
+        },
+        {
+          "text": "about",
+          "startMs": 7080,
+          "endMs": 7280
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 7360,
+          "endMs": 7920
+        },
+        {
+          "text": "Encomenda,",
+          "startMs": 8027,
+          "endMs": 8800
+        },
+        {
+          "text": "NeuralTrust.",
+          "startMs": 8891,
+          "endMs": 10080
+        },
+        {
+          "text": "The",
+          "startMs": 10180,
+          "endMs": 10480
+        },
+        {
+          "text": "AI",
+          "startMs": 10613,
+          "endMs": 10880
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 10944,
+          "endMs": 11520
+        },
+        {
+          "text": "in",
+          "startMs": 11547,
+          "endMs": 11600
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 11672,
+          "endMs": 12320
+        },
+        {
+          "text": "includes",
+          "startMs": 12382,
+          "endMs": 12880
+        },
+        {
+          "text": "81",
+          "startMs": 13120,
+          "endMs": 13360
+        },
+        {
+          "text": "AI",
+          "startMs": 13493,
+          "endMs": 13760
+        },
+        {
+          "text": "companies,",
+          "startMs": 13824,
+          "endMs": 14560
+        },
+        {
+          "text": "of",
+          "startMs": 14613,
+          "endMs": 14720
+        },
+        {
+          "text": "which",
+          "startMs": 14760,
+          "endMs": 14960
+        },
+        {
+          "text": "28",
+          "startMs": 15040,
+          "endMs": 15520
+        },
+        {
+          "text": "have",
+          "startMs": 15552,
+          "endMs": 15680
+        },
+        {
+          "text": "secured",
+          "startMs": 15730,
+          "endMs": 16080
+        },
+        {
+          "text": "funding,",
+          "startMs": 16140,
+          "endMs": 16720
+        },
+        {
+          "text": "confirming",
+          "startMs": 16778,
+          "endMs": 17360
+        },
+        {
+          "text": "a",
+          "startMs": 17400,
+          "endMs": 17440
+        },
+        {
+          "text": "vibrant",
+          "startMs": 17510,
+          "endMs": 18000
+        },
+        {
+          "text": "startup",
+          "startMs": 18050,
+          "endMs": 18400
+        },
+        {
+          "text": "scene.",
+          "startMs": 18467,
+          "endMs": 19120
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 19280,
+          "endMs": 20000
+        },
+        {
+          "text": "a",
+          "startMs": 20040,
+          "endMs": 20080
+        },
+        {
+          "text": "Barcelona-based",
+          "startMs": 20136,
+          "endMs": 21040
+        },
+        {
+          "text": "AI-powered",
+          "startMs": 21173,
+          "endMs": 21840
+        },
+        {
+          "text": "UX",
+          "startMs": 21973,
+          "endMs": 22240
+        },
+        {
+          "text": "testing",
+          "startMs": 22290,
+          "endMs": 22640
+        },
+        {
+          "text": "platform,",
+          "startMs": 22711,
+          "endMs": 23440
+        },
+        {
+          "text": "raised",
+          "startMs": 23474,
+          "endMs": 23680
+        },
+        {
+          "text": "approximately",
+          "startMs": 23726,
+          "endMs": 24320
+        },
+        {
+          "text": "€1‍",
+          "startMs": 24400,
+          "endMs": 25120
+        },
+        {
+          "text": "million",
+          "startMs": 25170,
+          "endMs": 25520
+        },
+        {
+          "text": "in",
+          "startMs": 25547,
+          "endMs": 25600
+        },
+        {
+          "text": "a",
+          "startMs": 25640,
+          "endMs": 25680
+        },
+        {
+          "text": "pre‑seed",
+          "startMs": 25740,
+          "endMs": 26240
+        },
+        {
+          "text": "round",
+          "startMs": 26293,
+          "endMs": 26560
+        },
+        {
+          "text": "in",
+          "startMs": 26613,
+          "endMs": 26720
+        },
+        {
+          "text": "November‍",
+          "startMs": 26764,
+          "endMs": 27200
+        },
+        {
+          "text": "2025.",
+          "startMs": 27280,
+          "endMs": 28320
+        },
+        {
+          "text": "The",
+          "startMs": 28420,
+          "endMs": 28720
+        },
+        {
+          "text": "Uxia",
+          "startMs": 28840,
+          "endMs": 29280
+        },
+        {
+          "text": "round",
+          "startMs": 29333,
+          "endMs": 29600
+        },
+        {
+          "text": "was",
+          "startMs": 29640,
+          "endMs": 29760
+        },
+        {
+          "text": "led",
+          "startMs": 29800,
+          "endMs": 29920
+        },
+        {
+          "text": "by",
+          "startMs": 29973,
+          "endMs": 30080
+        },
+        {
+          "text": "Abac",
+          "startMs": 30187,
+          "endMs": 30560
+        },
+        {
+          "text": "Nest",
+          "startMs": 30624,
+          "endMs": 30880
+        },
+        {
+          "text": "Ventures",
+          "startMs": 30942,
+          "endMs": 31440
+        },
+        {
+          "text": "with",
+          "startMs": 31488,
+          "endMs": 31680
+        },
+        {
+          "text": "participation",
+          "startMs": 31743,
+          "endMs": 32560
+        },
+        {
+          "text": "from",
+          "startMs": 32592,
+          "endMs": 32720
+        },
+        {
+          "text": "Encomenda",
+          "startMs": 32800,
+          "endMs": 33360
+        },
+        {
+          "text": "VC",
+          "startMs": 33547,
+          "endMs": 33920
+        },
+        {
+          "text": "and",
+          "startMs": 34020,
+          "endMs": 34320
+        },
+        {
+          "text": "angel",
+          "startMs": 34373,
+          "endMs": 34640
+        },
+        {
+          "text": "investors",
+          "startMs": 34696,
+          "endMs": 35200
+        },
+        {
+          "text": "Javier‍",
+          "startMs": 35269,
+          "endMs": 35800
+        },
+        {
+          "text": "Darriba,",
+          "startMs": 35830,
+          "endMs": 36480
+        },
+        {
+          "text": "Marsal‍",
+          "startMs": 36528,
+          "endMs": 36880
+        },
+        {
+          "text": "Gavaldà",
+          "startMs": 36920,
+          "endMs": 37440
+        },
+        {
+          "text": "and",
+          "startMs": 37540,
+          "endMs": 37840
+        },
+        {
+          "text": "William‍",
+          "startMs": 37880,
+          "endMs": 38240
+        },
+        {
+          "text": "Leppard.",
+          "startMs": 38267,
+          "endMs": 38960
+        },
+        {
+          "text": "NeuralTrust,",
+          "startMs": 39063,
+          "endMs": 40160
+        },
+        {
+          "text": "a",
+          "startMs": 40200,
+          "endMs": 40240
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 40304,
+          "endMs": 40880
+        },
+        {
+          "text": "AI",
+          "startMs": 41013,
+          "endMs": 41280
+        },
+        {
+          "text": "security",
+          "startMs": 41333,
+          "endMs": 41760
+        },
+        {
+          "text": "platform,",
+          "startMs": 41831,
+          "endMs": 42480
+        },
+        {
+          "text": "received",
+          "startMs": 42524,
+          "endMs": 42880
+        },
+        {
+          "text": "seed",
+          "startMs": 42944,
+          "endMs": 43200
+        },
+        {
+          "text": "funding",
+          "startMs": 43260,
+          "endMs": 43680
+        },
+        {
+          "text": "on",
+          "startMs": 43733,
+          "endMs": 43840
+        },
+        {
+          "text": "23‍",
+          "startMs": 43920,
+          "endMs": 44560
+        },
+        {
+          "text": "Dec‍",
+          "startMs": 44580,
+          "endMs": 44880
+        },
+        {
+          "text": "2024",
+          "startMs": 45040,
+          "endMs": 45920
+        },
+        {
+          "text": "from",
+          "startMs": 45984,
+          "endMs": 46240
+        },
+        {
+          "text": "Venture",
+          "startMs": 46290,
+          "endMs": 46640
+        },
+        {
+          "text": "Friends.",
+          "startMs": 46710,
+          "endMs": 47440
+        },
+        {
+          "text": "Barcelona’s",
+          "startMs": 47520,
+          "endMs": 48320
+        },
+        {
+          "text": "startup",
+          "startMs": 48370,
+          "endMs": 48720
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 48792,
+          "endMs": 49440
+        },
+        {
+          "text": "grew",
+          "startMs": 49504,
+          "endMs": 49760
+        },
+        {
+          "text": "40.4%",
+          "startMs": 49920,
+          "endMs": 51280
+        },
+        {
+          "text": "in",
+          "startMs": 51333,
+          "endMs": 51440
+        },
+        {
+          "text": "2025,",
+          "startMs": 51520,
+          "endMs": 52640
+        },
+        {
+          "text": "ranking",
+          "startMs": 52690,
+          "endMs": 53040
+        },
+        {
+          "text": "#32",
+          "startMs": 53240,
+          "endMs": 53920
+        },
+        {
+          "text": "globally,",
+          "startMs": 53991,
+          "endMs": 54800
+        },
+        {
+          "text": "highlighting",
+          "startMs": 54837,
+          "endMs": 55280
+        },
+        {
+          "text": "the",
+          "startMs": 55300,
+          "endMs": 55360
+        },
+        {
+          "text": "city’s",
+          "startMs": 55424,
+          "endMs": 55760
+        },
+        {
+          "text": "strong",
+          "startMs": 55829,
+          "endMs": 56240
+        },
+        {
+          "text": "AI",
+          "startMs": 56400,
+          "endMs": 56720
+        },
+        {
+          "text": "and",
+          "startMs": 56760,
+          "endMs": 56880
+        },
+        {
+          "text": "tech",
+          "startMs": 56944,
+          "endMs": 57200
+        },
+        {
+          "text": "environment.",
+          "startMs": 57260,
+          "endMs": 58160
+        },
+        {
+          "text": "Factorial",
+          "startMs": 58274,
+          "endMs": 59200
+        },
+        {
+          "text": "expanded",
+          "startMs": 59253,
+          "endMs": 59680
+        },
+        {
+          "text": "its",
+          "startMs": 59720,
+          "endMs": 59840
+        },
+        {
+          "text": "customer",
+          "startMs": 59884,
+          "endMs": 60240
+        },
+        {
+          "text": "base",
+          "startMs": 60304,
+          "endMs": 60560
+        },
+        {
+          "text": "from",
+          "startMs": 60608,
+          "endMs": 60800
+        },
+        {
+          "text": "70",
+          "startMs": 60880,
+          "endMs": 61360
+        },
+        {
+          "text": "to",
+          "startMs": 61413,
+          "endMs": 61520
+        },
+        {
+          "text": "7,000",
+          "startMs": 61680,
+          "endMs": 62560
+        },
+        {
+          "text": "since",
+          "startMs": 62600,
+          "endMs": 62800
+        },
+        {
+          "text": "2019,",
+          "startMs": 62880,
+          "endMs": 63920
+        },
+        {
+          "text": "became",
+          "startMs": 63977,
+          "endMs": 64320
+        },
+        {
+          "text": "a",
+          "startMs": 64360,
+          "endMs": 64400
+        },
+        {
+          "text": "unicorn",
+          "startMs": 64480,
+          "endMs": 65040
+        },
+        {
+          "text": "after",
+          "startMs": 65093,
+          "endMs": 65360
+        },
+        {
+          "text": "raising",
+          "startMs": 65410,
+          "endMs": 65760
+        },
+        {
+          "text": "over",
+          "startMs": 65808,
+          "endMs": 66000
+        },
+        {
+          "text": "€120‍",
+          "startMs": 66120,
+          "endMs": 67120
+        },
+        {
+          "text": "M",
+          "startMs": 67200,
+          "endMs": 67280
+        },
+        {
+          "text": "at",
+          "startMs": 67573,
+          "endMs": 68160
+        },
+        {
+          "text": "a",
+          "startMs": 68200,
+          "endMs": 68240
+        },
+        {
+          "text": "€1‍",
+          "startMs": 68360,
+          "endMs": 68560
+        },
+        {
+          "text": "B+",
+          "startMs": 68840,
+          "endMs": 69440
+        },
+        {
+          "text": "valuation,",
+          "startMs": 69512,
+          "endMs": 70400
+        },
+        {
+          "text": "and",
+          "startMs": 70440,
+          "endMs": 70560
+        },
+        {
+          "text": "secured",
+          "startMs": 70610,
+          "endMs": 70960
+        },
+        {
+          "text": "an",
+          "startMs": 70987,
+          "endMs": 71040
+        },
+        {
+          "text": "additional",
+          "startMs": 71091,
+          "endMs": 71600
+        },
+        {
+          "text": "€74.5‍",
+          "startMs": 71680,
+          "endMs": 73040
+        },
+        {
+          "text": "M",
+          "startMs": 73160,
+          "endMs": 73280
+        },
+        {
+          "text": "from",
+          "startMs": 73424,
+          "endMs": 74000
+        },
+        {
+          "text": "General",
+          "startMs": 74040,
+          "endMs": 74320
+        },
+        {
+          "text": "Catalyst",
+          "startMs": 74400,
+          "endMs": 75040
+        },
+        {
+          "text": "to",
+          "startMs": 75093,
+          "endMs": 75200
+        },
+        {
+          "text": "fund",
+          "startMs": 75264,
+          "endMs": 75520
+        },
+        {
+          "text": "growth",
+          "startMs": 75577,
+          "endMs": 75920
+        },
+        {
+          "text": "without",
+          "startMs": 75960,
+          "endMs": 76240
+        },
+        {
+          "text": "dilution.",
+          "startMs": 76320,
+          "endMs": 77280
+        },
+        {
+          "text": "Typeform,",
+          "startMs": 77408,
+          "endMs": 78320
+        },
+        {
+          "text": "headquartered",
+          "startMs": 78360,
+          "endMs": 78880
+        },
+        {
+          "text": "in",
+          "startMs": 78907,
+          "endMs": 78960
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 79032,
+          "endMs": 79680
+        },
+        {
+          "text": "with",
+          "startMs": 79712,
+          "endMs": 79840
+        },
+        {
+          "text": "a",
+          "startMs": 79880,
+          "endMs": 79920
+        },
+        {
+          "text": "San‍",
+          "startMs": 79980,
+          "endMs": 80440
+        },
+        {
+          "text": "Francisco",
+          "startMs": 80468,
+          "endMs": 80720
+        },
+        {
+          "text": "office",
+          "startMs": 80789,
+          "endMs": 81200
+        },
+        {
+          "text": "and",
+          "startMs": 81240,
+          "endMs": 81360
+        },
+        {
+          "text": "over",
+          "startMs": 81408,
+          "endMs": 81600
+        },
+        {
+          "text": "450",
+          "startMs": 81760,
+          "endMs": 82640
+        },
+        {
+          "text": "employees,",
+          "startMs": 82712,
+          "endMs": 83520
+        },
+        {
+          "text": "raised",
+          "startMs": 83566,
+          "endMs": 83840
+        },
+        {
+          "text": "€123‍",
+          "startMs": 83960,
+          "endMs": 85280
+        },
+        {
+          "text": "M",
+          "startMs": 85320,
+          "endMs": 85360
+        },
+        {
+          "text": "for",
+          "startMs": 85600,
+          "endMs": 86320
+        },
+        {
+          "text": "its",
+          "startMs": 86360,
+          "endMs": 86480
+        },
+        {
+          "text": "conversational",
+          "startMs": 86540,
+          "endMs": 87280
+        },
+        {
+          "text": "interaction",
+          "startMs": 87333,
+          "endMs": 87920
+        },
+        {
+          "text": "platform,",
+          "startMs": 87991,
+          "endMs": 88800
+        },
+        {
+          "text": "confirming",
+          "startMs": 88858,
+          "endMs": 89440
+        },
+        {
+          "text": "its",
+          "startMs": 89500,
+          "endMs": 89680
+        },
+        {
+          "text": "strong",
+          "startMs": 89726,
+          "endMs": 90000
+        },
+        {
+          "text": "traction",
+          "startMs": 90080,
+          "endMs": 90720
+        },
+        {
+          "text": "and",
+          "startMs": 90760,
+          "endMs": 90880
+        },
+        {
+          "text": "international",
+          "startMs": 90926,
+          "endMs": 91520
+        },
+        {
+          "text": "presence.",
+          "startMs": 91600,
+          "endMs": 92480
+        },
+        {
+          "text": "Onlive.ai",
+          "startMs": 92667,
+          "endMs": 94080
+        },
+        {
+          "text": "was",
+          "startMs": 94120,
+          "endMs": 94240
+        },
+        {
+          "text": "named",
+          "startMs": 94293,
+          "endMs": 94560
+        },
+        {
+          "text": "among",
+          "startMs": 94600,
+          "endMs": 94800
+        },
+        {
+          "text": "Europe’s",
+          "startMs": 94846,
+          "endMs": 95200
+        },
+        {
+          "text": "250",
+          "startMs": 95280,
+          "endMs": 96160
+        },
+        {
+          "text": "fastest‑growing",
+          "startMs": 96250,
+          "endMs": 97200
+        },
+        {
+          "text": "startups",
+          "startMs": 97262,
+          "endMs": 97760
+        },
+        {
+          "text": "in",
+          "startMs": 97813,
+          "endMs": 97920
+        },
+        {
+          "text": "the",
+          "startMs": 97940,
+          "endMs": 98000
+        },
+        {
+          "text": "Sifted",
+          "startMs": 98080,
+          "endMs": 98480
+        },
+        {
+          "text": "250",
+          "startMs": 98560,
+          "endMs": 99280
+        },
+        {
+          "text": "list",
+          "startMs": 99360,
+          "endMs": 99680
+        },
+        {
+          "text": "for",
+          "startMs": 99700,
+          "endMs": 99760
+        },
+        {
+          "text": "2025,",
+          "startMs": 99840,
+          "endMs": 101040
+        },
+        {
+          "text": "demonstrating",
+          "startMs": 101086,
+          "endMs": 101680
+        },
+        {
+          "text": "rapid",
+          "startMs": 101747,
+          "endMs": 102080
+        },
+        {
+          "text": "revenue",
+          "startMs": 102130,
+          "endMs": 102480
+        },
+        {
+          "text": "growth",
+          "startMs": 102549,
+          "endMs": 102960
+        },
+        {
+          "text": "and",
+          "startMs": 103000,
+          "endMs": 103120
+        },
+        {
+          "text": "market",
+          "startMs": 103166,
+          "endMs": 103440
+        },
+        {
+          "text": "momentum",
+          "startMs": 103511,
+          "endMs": 104080
+        },
+        {
+          "text": "in",
+          "startMs": 104133,
+          "endMs": 104240
+        },
+        {
+          "text": "AI‑powered",
+          "startMs": 104373,
+          "endMs": 105120
+        },
+        {
+          "text": "customer",
+          "startMs": 105164,
+          "endMs": 105520
+        },
+        {
+          "text": "engagement.",
+          "startMs": 105593,
+          "endMs": 106560
+        },
+        {
+          "text": "Sherpa.ai",
+          "startMs": 106688,
+          "endMs": 108240
+        },
+        {
+          "text": "raised",
+          "startMs": 108297,
+          "endMs": 108640
+        },
+        {
+          "text": "$18‍",
+          "startMs": 108680,
+          "endMs": 109280
+        },
+        {
+          "text": "M",
+          "startMs": 109320,
+          "endMs": 109360
+        },
+        {
+          "text": "from",
+          "startMs": 109520,
+          "endMs": 110160
+        },
+        {
+          "text": "Forgepoint",
+          "startMs": 110240,
+          "endMs": 110880
+        },
+        {
+          "text": "Capital",
+          "startMs": 110940,
+          "endMs": 111360
+        },
+        {
+          "text": "and",
+          "startMs": 111400,
+          "endMs": 111520
+        },
+        {
+          "text": "other",
+          "startMs": 111560,
+          "endMs": 111760
+        },
+        {
+          "text": "investors,",
+          "startMs": 111824,
+          "endMs": 112640
+        },
+        {
+          "text": "building",
+          "startMs": 112676,
+          "endMs": 112960
+        },
+        {
+          "text": "privacy‑preserving",
+          "startMs": 113020,
+          "endMs": 114080
+        },
+        {
+          "text": "conversational",
+          "startMs": 114140,
+          "endMs": 114960
+        },
+        {
+          "text": "and",
+          "startMs": 115020,
+          "endMs": 115200
+        },
+        {
+          "text": "predictive",
+          "startMs": 115244,
+          "endMs": 115680
+        },
+        {
+          "text": "AI",
+          "startMs": 115813,
+          "endMs": 116080
+        },
+        {
+          "text": "assistants,",
+          "startMs": 116145,
+          "endMs": 117040
+        },
+        {
+          "text": "evidencing",
+          "startMs": 117088,
+          "endMs": 117600
+        },
+        {
+          "text": "strong",
+          "startMs": 117680,
+          "endMs": 118160
+        },
+        {
+          "text": "investor",
+          "startMs": 118213,
+          "endMs": 118640
+        },
+        {
+          "text": "confidence.",
+          "startMs": 118713,
+          "endMs": 119680
+        },
+        {
+          "text": "These",
+          "startMs": 119760,
+          "endMs": 120160
+        },
+        {
+          "text": "are",
+          "startMs": 120180,
+          "endMs": 120240
+        },
+        {
+          "text": "the",
+          "startMs": 120280,
+          "endMs": 120400
+        },
+        {
+          "text": "teams",
+          "startMs": 120453,
+          "endMs": 120720
+        },
+        {
+          "text": "I",
+          "startMs": 120800,
+          "endMs": 120880
+        },
+        {
+          "text": "would",
+          "startMs": 120907,
+          "endMs": 121040
+        },
+        {
+          "text": "take",
+          "startMs": 121088,
+          "endMs": 121280
+        },
+        {
+          "text": "a",
+          "startMs": 121320,
+          "endMs": 121360
+        },
+        {
+          "text": "first",
+          "startMs": 121413,
+          "endMs": 121680
+        },
+        {
+          "text": "meeting",
+          "startMs": 121710,
+          "endMs": 121920
+        },
+        {
+          "text": "with",
+          "startMs": 121968,
+          "endMs": 122160
+        },
+        {
+          "text": "tomorrow.",
+          "startMs": 122213,
+          "endMs": 122960
+        }
+      ]
+    },
+    {
+      "agentId": "agent-2-current_opportunities",
+      "script": "My job is heat: which of these names are moving right now, and how hot each one runs. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment. Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120 M at a €1 B+ valuation, and secured an additional €74.5 M from General Catalyst to fund growth without dilution. Typeform, headquartered in Barcelona with a San Francisco office and over 450 employees, raised €123 M for its conversational interaction platform, confirming its strong traction and international presence. Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement. Sherpa.ai raised $18 M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence. The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene. Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025. The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard. Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup. Watch the hot names closely — heat like this tends to pull forward the next raise.",
+      "subtitle": "My job is heat: which of these names are moving right now, and how hot each one runs. Here is what the data actually says about Uxia,…",
+      "audioUrl": "/api/audio/cf2b2491e4d4423d",
+      "durationMs": 146402,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "My",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "text": "job",
+          "startMs": 280,
+          "endMs": 640
+        },
+        {
+          "text": "is",
+          "startMs": 800,
+          "endMs": 1120
+        },
+        {
+          "text": "heat:",
+          "startMs": 1184,
+          "endMs": 2240
+        },
+        {
+          "text": "which",
+          "startMs": 2267,
+          "endMs": 2400
+        },
+        {
+          "text": "of",
+          "startMs": 2453,
+          "endMs": 2560
+        },
+        {
+          "text": "these",
+          "startMs": 2600,
+          "endMs": 2800
+        },
+        {
+          "text": "names",
+          "startMs": 2853,
+          "endMs": 3120
+        },
+        {
+          "text": "are",
+          "startMs": 3140,
+          "endMs": 3200
+        },
+        {
+          "text": "moving",
+          "startMs": 3257,
+          "endMs": 3600
+        },
+        {
+          "text": "right",
+          "startMs": 3667,
+          "endMs": 4000
+        },
+        {
+          "text": "now,",
+          "startMs": 4100,
+          "endMs": 4800
+        },
+        {
+          "text": "and",
+          "startMs": 4840,
+          "endMs": 4960
+        },
+        {
+          "text": "how",
+          "startMs": 5020,
+          "endMs": 5200
+        },
+        {
+          "text": "hot",
+          "startMs": 5300,
+          "endMs": 5600
+        },
+        {
+          "text": "each",
+          "startMs": 5664,
+          "endMs": 5920
+        },
+        {
+          "text": "one",
+          "startMs": 5980,
+          "endMs": 6160
+        },
+        {
+          "text": "runs.",
+          "startMs": 6256,
+          "endMs": 6800
+        },
+        {
+          "text": "Here",
+          "startMs": 7104,
+          "endMs": 8320
+        },
+        {
+          "text": "is",
+          "startMs": 8347,
+          "endMs": 8400
+        },
+        {
+          "text": "what",
+          "startMs": 8432,
+          "endMs": 8560
+        },
+        {
+          "text": "the",
+          "startMs": 8580,
+          "endMs": 8640
+        },
+        {
+          "text": "data",
+          "startMs": 8720,
+          "endMs": 9040
+        },
+        {
+          "text": "actually",
+          "startMs": 9102,
+          "endMs": 9600
+        },
+        {
+          "text": "says",
+          "startMs": 9664,
+          "endMs": 9920
+        },
+        {
+          "text": "about",
+          "startMs": 9960,
+          "endMs": 10160
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 10280,
+          "endMs": 11040
+        },
+        {
+          "text": "Encomenda,",
+          "startMs": 11120,
+          "endMs": 11760
+        },
+        {
+          "text": "NeuralTrust.",
+          "startMs": 11863,
+          "endMs": 12880
+        },
+        {
+          "text": "Barcelona’s",
+          "startMs": 13024,
+          "endMs": 14560
+        },
+        {
+          "text": "startup",
+          "startMs": 14610,
+          "endMs": 14960
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 15032,
+          "endMs": 15680
+        },
+        {
+          "text": "grew",
+          "startMs": 15744,
+          "endMs": 16000
+        },
+        {
+          "text": "40.4%",
+          "startMs": 16080,
+          "endMs": 17600
+        },
+        {
+          "text": "in",
+          "startMs": 17653,
+          "endMs": 17760
+        },
+        {
+          "text": "2025,",
+          "startMs": 17840,
+          "endMs": 19200
+        },
+        {
+          "text": "ranking",
+          "startMs": 19250,
+          "endMs": 19600
+        },
+        {
+          "text": "#32",
+          "startMs": 19840,
+          "endMs": 20800
+        },
+        {
+          "text": "globally,",
+          "startMs": 20862,
+          "endMs": 21840
+        },
+        {
+          "text": "highlighting",
+          "startMs": 21877,
+          "endMs": 22320
+        },
+        {
+          "text": "the",
+          "startMs": 22340,
+          "endMs": 22400
+        },
+        {
+          "text": "city’s",
+          "startMs": 22464,
+          "endMs": 22960
+        },
+        {
+          "text": "strong",
+          "startMs": 23029,
+          "endMs": 23440
+        },
+        {
+          "text": "AI",
+          "startMs": 23627,
+          "endMs": 24000
+        },
+        {
+          "text": "and",
+          "startMs": 24060,
+          "endMs": 24240
+        },
+        {
+          "text": "tech",
+          "startMs": 24320,
+          "endMs": 24640
+        },
+        {
+          "text": "environment.",
+          "startMs": 24693,
+          "endMs": 25360
+        },
+        {
+          "text": "Factorial",
+          "startMs": 25577,
+          "endMs": 27120
+        },
+        {
+          "text": "expanded",
+          "startMs": 27191,
+          "endMs": 27760
+        },
+        {
+          "text": "its",
+          "startMs": 27800,
+          "endMs": 27920
+        },
+        {
+          "text": "customer",
+          "startMs": 27973,
+          "endMs": 28400
+        },
+        {
+          "text": "base",
+          "startMs": 28464,
+          "endMs": 28720
+        },
+        {
+          "text": "from",
+          "startMs": 28768,
+          "endMs": 28960
+        },
+        {
+          "text": "70",
+          "startMs": 29120,
+          "endMs": 29520
+        },
+        {
+          "text": "to",
+          "startMs": 29653,
+          "endMs": 29920
+        },
+        {
+          "text": "7,000",
+          "startMs": 30080,
+          "endMs": 31120
+        },
+        {
+          "text": "since",
+          "startMs": 31173,
+          "endMs": 31440
+        },
+        {
+          "text": "2019,",
+          "startMs": 31520,
+          "endMs": 32880
+        },
+        {
+          "text": "became",
+          "startMs": 32937,
+          "endMs": 33280
+        },
+        {
+          "text": "a",
+          "startMs": 33360,
+          "endMs": 33440
+        },
+        {
+          "text": "unicorn",
+          "startMs": 33530,
+          "endMs": 34160
+        },
+        {
+          "text": "after",
+          "startMs": 34227,
+          "endMs": 34560
+        },
+        {
+          "text": "raising",
+          "startMs": 34610,
+          "endMs": 34960
+        },
+        {
+          "text": "over",
+          "startMs": 35024,
+          "endMs": 35280
+        },
+        {
+          "text": "€120",
+          "startMs": 35360,
+          "endMs": 36640
+        },
+        {
+          "text": "M",
+          "startMs": 37040,
+          "endMs": 37440
+        },
+        {
+          "text": "at",
+          "startMs": 37573,
+          "endMs": 37840
+        },
+        {
+          "text": "a",
+          "startMs": 37920,
+          "endMs": 38000
+        },
+        {
+          "text": "€1",
+          "startMs": 38100,
+          "endMs": 38400
+        },
+        {
+          "text": "B+",
+          "startMs": 38720,
+          "endMs": 39680
+        },
+        {
+          "text": "valuation,",
+          "startMs": 39760,
+          "endMs": 40880
+        },
+        {
+          "text": "and",
+          "startMs": 40920,
+          "endMs": 41040
+        },
+        {
+          "text": "secured",
+          "startMs": 41110,
+          "endMs": 41600
+        },
+        {
+          "text": "an",
+          "startMs": 41653,
+          "endMs": 41760
+        },
+        {
+          "text": "additional",
+          "startMs": 41804,
+          "endMs": 42240
+        },
+        {
+          "text": "€74.5",
+          "startMs": 42280,
+          "endMs": 43679
+        },
+        {
+          "text": "M",
+          "startMs": 43680,
+          "endMs": 43681
+        },
+        {
+          "text": "from",
+          "startMs": 43905,
+          "endMs": 44801
+        },
+        {
+          "text": "General",
+          "startMs": 44851,
+          "endMs": 45201
+        },
+        {
+          "text": "Catalyst",
+          "startMs": 45272,
+          "endMs": 45841
+        },
+        {
+          "text": "to",
+          "startMs": 45974,
+          "endMs": 46241
+        },
+        {
+          "text": "fund",
+          "startMs": 46321,
+          "endMs": 46641
+        },
+        {
+          "text": "growth",
+          "startMs": 46721,
+          "endMs": 47201
+        },
+        {
+          "text": "without",
+          "startMs": 47261,
+          "endMs": 47681
+        },
+        {
+          "text": "dilution.",
+          "startMs": 47741,
+          "endMs": 48321
+        },
+        {
+          "text": "Typeform,",
+          "startMs": 48641,
+          "endMs": 50561
+        },
+        {
+          "text": "headquartered",
+          "startMs": 50601,
+          "endMs": 51121
+        },
+        {
+          "text": "in",
+          "startMs": 51174,
+          "endMs": 51281
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 51345,
+          "endMs": 51921
+        },
+        {
+          "text": "with",
+          "startMs": 51953,
+          "endMs": 52081
+        },
+        {
+          "text": "a",
+          "startMs": 52121,
+          "endMs": 52161
+        },
+        {
+          "text": "San",
+          "startMs": 52221,
+          "endMs": 52401
+        },
+        {
+          "text": "Francisco",
+          "startMs": 52521,
+          "endMs": 52961
+        },
+        {
+          "text": "office",
+          "startMs": 53030,
+          "endMs": 53441
+        },
+        {
+          "text": "and",
+          "startMs": 53541,
+          "endMs": 53841
+        },
+        {
+          "text": "over",
+          "startMs": 53889,
+          "endMs": 54081
+        },
+        {
+          "text": "450",
+          "startMs": 54241,
+          "endMs": 55281
+        },
+        {
+          "text": "employees,",
+          "startMs": 55361,
+          "endMs": 56481
+        },
+        {
+          "text": "raised",
+          "startMs": 56538,
+          "endMs": 56881
+        },
+        {
+          "text": "€123",
+          "startMs": 57001,
+          "endMs": 58401
+        },
+        {
+          "text": "M",
+          "startMs": 58774,
+          "endMs": 59148
+        },
+        {
+          "text": "for",
+          "startMs": 59241,
+          "endMs": 59521
+        },
+        {
+          "text": "its",
+          "startMs": 59581,
+          "endMs": 59761
+        },
+        {
+          "text": "conversational",
+          "startMs": 59821,
+          "endMs": 60641
+        },
+        {
+          "text": "interaction",
+          "startMs": 60701,
+          "endMs": 61361
+        },
+        {
+          "text": "platform,",
+          "startMs": 61432,
+          "endMs": 62401
+        },
+        {
+          "text": "confirming",
+          "startMs": 62452,
+          "endMs": 62961
+        },
+        {
+          "text": "its",
+          "startMs": 63041,
+          "endMs": 63281
+        },
+        {
+          "text": "strong",
+          "startMs": 63350,
+          "endMs": 63761
+        },
+        {
+          "text": "traction",
+          "startMs": 63823,
+          "endMs": 64321
+        },
+        {
+          "text": "and",
+          "startMs": 64401,
+          "endMs": 64641
+        },
+        {
+          "text": "international",
+          "startMs": 64692,
+          "endMs": 65361
+        },
+        {
+          "text": "presence.",
+          "startMs": 65414,
+          "endMs": 66001
+        },
+        {
+          "text": "Onlive.ai",
+          "startMs": 66428,
+          "endMs": 68241
+        },
+        {
+          "text": "was",
+          "startMs": 68301,
+          "endMs": 68481
+        },
+        {
+          "text": "named",
+          "startMs": 68534,
+          "endMs": 68801
+        },
+        {
+          "text": "among",
+          "startMs": 68854,
+          "endMs": 69121
+        },
+        {
+          "text": "Europe’s",
+          "startMs": 69167,
+          "endMs": 69601
+        },
+        {
+          "text": "250",
+          "startMs": 70121,
+          "endMs": 70641
+        },
+        {
+          "text": "fastest‑growing",
+          "startMs": 70711,
+          "endMs": 71601
+        },
+        {
+          "text": "startups",
+          "startMs": 71672,
+          "endMs": 72241
+        },
+        {
+          "text": "in",
+          "startMs": 72374,
+          "endMs": 72641
+        },
+        {
+          "text": "the",
+          "startMs": 72681,
+          "endMs": 72801
+        },
+        {
+          "text": "Sifted",
+          "startMs": 72881,
+          "endMs": 73361
+        },
+        {
+          "text": "250",
+          "startMs": 73521,
+          "endMs": 74081
+        },
+        {
+          "text": "list",
+          "startMs": 74145,
+          "endMs": 74401
+        },
+        {
+          "text": "for",
+          "startMs": 74501,
+          "endMs": 74801
+        },
+        {
+          "text": "2025,",
+          "startMs": 74881,
+          "endMs": 76321
+        },
+        {
+          "text": "demonstrating",
+          "startMs": 76367,
+          "endMs": 76961
+        },
+        {
+          "text": "rapid",
+          "startMs": 77041,
+          "endMs": 77441
+        },
+        {
+          "text": "revenue",
+          "startMs": 77491,
+          "endMs": 77841
+        },
+        {
+          "text": "growth",
+          "startMs": 77910,
+          "endMs": 78321
+        },
+        {
+          "text": "and",
+          "startMs": 78381,
+          "endMs": 78561
+        },
+        {
+          "text": "market",
+          "startMs": 78618,
+          "endMs": 78961
+        },
+        {
+          "text": "momentum",
+          "startMs": 79023,
+          "endMs": 79521
+        },
+        {
+          "text": "in",
+          "startMs": 79734,
+          "endMs": 80161
+        },
+        {
+          "text": "AI‑powered",
+          "startMs": 80294,
+          "endMs": 81041
+        },
+        {
+          "text": "customer",
+          "startMs": 81094,
+          "endMs": 81521
+        },
+        {
+          "text": "engagement.",
+          "startMs": 81586,
+          "endMs": 82321
+        },
+        {
+          "text": "Sherpa.ai",
+          "startMs": 82609,
+          "endMs": 84641
+        },
+        {
+          "text": "raised",
+          "startMs": 84710,
+          "endMs": 85121
+        },
+        {
+          "text": "$18",
+          "startMs": 85161,
+          "endMs": 85760
+        },
+        {
+          "text": "M",
+          "startMs": 85761,
+          "endMs": 85762
+        },
+        {
+          "text": "from",
+          "startMs": 85922,
+          "endMs": 86562
+        },
+        {
+          "text": "Forgepoint",
+          "startMs": 86655,
+          "endMs": 87282
+        },
+        {
+          "text": "Capital",
+          "startMs": 87352,
+          "endMs": 87842
+        },
+        {
+          "text": "and",
+          "startMs": 87922,
+          "endMs": 88162
+        },
+        {
+          "text": "other",
+          "startMs": 88202,
+          "endMs": 88402
+        },
+        {
+          "text": "investors,",
+          "startMs": 88466,
+          "endMs": 89442
+        },
+        {
+          "text": "building",
+          "startMs": 89486,
+          "endMs": 89842
+        },
+        {
+          "text": "privacy‑preserving",
+          "startMs": 89912,
+          "endMs": 91042
+        },
+        {
+          "text": "conversational",
+          "startMs": 91112,
+          "endMs": 92002
+        },
+        {
+          "text": "and",
+          "startMs": 92082,
+          "endMs": 92322
+        },
+        {
+          "text": "predictive",
+          "startMs": 92387,
+          "endMs": 93042
+        },
+        {
+          "text": "AI",
+          "startMs": 93202,
+          "endMs": 93522
+        },
+        {
+          "text": "assistants,",
+          "startMs": 93580,
+          "endMs": 94562
+        },
+        {
+          "text": "evidencing",
+          "startMs": 94610,
+          "endMs": 95122
+        },
+        {
+          "text": "strong",
+          "startMs": 95213,
+          "endMs": 95762
+        },
+        {
+          "text": "investor",
+          "startMs": 95824,
+          "endMs": 96322
+        },
+        {
+          "text": "confidence.",
+          "startMs": 96380,
+          "endMs": 97122
+        },
+        {
+          "text": "The",
+          "startMs": 97422,
+          "endMs": 98322
+        },
+        {
+          "text": "AI",
+          "startMs": 98455,
+          "endMs": 98722
+        },
+        {
+          "text": "ecosystem",
+          "startMs": 98786,
+          "endMs": 99362
+        },
+        {
+          "text": "in",
+          "startMs": 99415,
+          "endMs": 99522
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 99578,
+          "endMs": 100082
+        },
+        {
+          "text": "includes",
+          "startMs": 100144,
+          "endMs": 100642
+        },
+        {
+          "text": "81",
+          "startMs": 100802,
+          "endMs": 101442
+        },
+        {
+          "text": "AI",
+          "startMs": 101549,
+          "endMs": 101762
+        },
+        {
+          "text": "companies,",
+          "startMs": 101818,
+          "endMs": 102722
+        },
+        {
+          "text": "of",
+          "startMs": 102775,
+          "endMs": 102882
+        },
+        {
+          "text": "which",
+          "startMs": 102922,
+          "endMs": 103122
+        },
+        {
+          "text": "28",
+          "startMs": 103282,
+          "endMs": 104002
+        },
+        {
+          "text": "have",
+          "startMs": 104050,
+          "endMs": 104242
+        },
+        {
+          "text": "secured",
+          "startMs": 104302,
+          "endMs": 104722
+        },
+        {
+          "text": "funding,",
+          "startMs": 104782,
+          "endMs": 105602
+        },
+        {
+          "text": "confirming",
+          "startMs": 105660,
+          "endMs": 106242
+        },
+        {
+          "text": "a",
+          "startMs": 106282,
+          "endMs": 106322
+        },
+        {
+          "text": "vibrant",
+          "startMs": 106392,
+          "endMs": 106882
+        },
+        {
+          "text": "startup",
+          "startMs": 106952,
+          "endMs": 107442
+        },
+        {
+          "text": "scene.",
+          "startMs": 107509,
+          "endMs": 108402
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 108682,
+          "endMs": 109602
+        },
+        {
+          "text": "a",
+          "startMs": 109642,
+          "endMs": 109682
+        },
+        {
+          "text": "Barcelona-based",
+          "startMs": 109746,
+          "endMs": 110642
+        },
+        {
+          "text": "AI-powered",
+          "startMs": 110802,
+          "endMs": 111682
+        },
+        {
+          "text": "UX",
+          "startMs": 111842,
+          "endMs": 112162
+        },
+        {
+          "text": "testing",
+          "startMs": 112222,
+          "endMs": 112642
+        },
+        {
+          "text": "platform,",
+          "startMs": 112713,
+          "endMs": 113602
+        },
+        {
+          "text": "raised",
+          "startMs": 113648,
+          "endMs": 113922
+        },
+        {
+          "text": "approximately",
+          "startMs": 113979,
+          "endMs": 114722
+        },
+        {
+          "text": "€1",
+          "startMs": 114842,
+          "endMs": 115202
+        },
+        {
+          "text": "million",
+          "startMs": 115682,
+          "endMs": 116162
+        },
+        {
+          "text": "in",
+          "startMs": 116215,
+          "endMs": 116322
+        },
+        {
+          "text": "a",
+          "startMs": 116402,
+          "endMs": 116482
+        },
+        {
+          "text": "pre‑seed",
+          "startMs": 116542,
+          "endMs": 117122
+        },
+        {
+          "text": "round",
+          "startMs": 117202,
+          "endMs": 117602
+        },
+        {
+          "text": "in",
+          "startMs": 117682,
+          "endMs": 117842
+        },
+        {
+          "text": "November",
+          "startMs": 117895,
+          "endMs": 118322
+        },
+        {
+          "text": "2025.",
+          "startMs": 118402,
+          "endMs": 119522
+        },
+        {
+          "text": "The",
+          "startMs": 119722,
+          "endMs": 120322
+        },
+        {
+          "text": "Uxia",
+          "startMs": 120402,
+          "endMs": 120802
+        },
+        {
+          "text": "round",
+          "startMs": 120855,
+          "endMs": 121122
+        },
+        {
+          "text": "was",
+          "startMs": 121162,
+          "endMs": 121282
+        },
+        {
+          "text": "led",
+          "startMs": 121362,
+          "endMs": 121602
+        },
+        {
+          "text": "by",
+          "startMs": 121655,
+          "endMs": 121762
+        },
+        {
+          "text": "Abac",
+          "startMs": 121869,
+          "endMs": 122322
+        },
+        {
+          "text": "Nest",
+          "startMs": 122386,
+          "endMs": 122642
+        },
+        {
+          "text": "Ventures",
+          "startMs": 122704,
+          "endMs": 123202
+        },
+        {
+          "text": "with",
+          "startMs": 123298,
+          "endMs": 123682
+        },
+        {
+          "text": "participation",
+          "startMs": 123751,
+          "endMs": 124642
+        },
+        {
+          "text": "from",
+          "startMs": 124690,
+          "endMs": 124882
+        },
+        {
+          "text": "Encomenda",
+          "startMs": 125015,
+          "endMs": 125682
+        },
+        {
+          "text": "VC",
+          "startMs": 125922,
+          "endMs": 126402
+        },
+        {
+          "text": "and",
+          "startMs": 126482,
+          "endMs": 126722
+        },
+        {
+          "text": "angel",
+          "startMs": 126789,
+          "endMs": 127122
+        },
+        {
+          "text": "investors",
+          "startMs": 127186,
+          "endMs": 127762
+        },
+        {
+          "text": "Javier",
+          "startMs": 127876,
+          "endMs": 128562
+        },
+        {
+          "text": "Darriba,",
+          "startMs": 128642,
+          "endMs": 129442
+        },
+        {
+          "text": "Marsal",
+          "startMs": 129506,
+          "endMs": 130002
+        },
+        {
+          "text": "Gavaldà",
+          "startMs": 130042,
+          "endMs": 130482
+        },
+        {
+          "text": "and",
+          "startMs": 130622,
+          "endMs": 131042
+        },
+        {
+          "text": "William",
+          "startMs": 131092,
+          "endMs": 131442
+        },
+        {
+          "text": "Leppard.",
+          "startMs": 131522,
+          "endMs": 132002
+        },
+        {
+          "text": "Additional",
+          "startMs": 132111,
+          "endMs": 133202
+        },
+        {
+          "text": "sources",
+          "startMs": 133272,
+          "endMs": 133762
+        },
+        {
+          "text": "corroborate",
+          "startMs": 133815,
+          "endMs": 134402
+        },
+        {
+          "text": "Uxia’s",
+          "startMs": 134482,
+          "endMs": 135042
+        },
+        {
+          "text": "pre‑seed",
+          "startMs": 135102,
+          "endMs": 135682
+        },
+        {
+          "text": "funding",
+          "startMs": 135732,
+          "endMs": 136082
+        },
+        {
+          "text": "amount",
+          "startMs": 136139,
+          "endMs": 136482
+        },
+        {
+          "text": "(€1",
+          "startMs": 136682,
+          "endMs": 137122
+        },
+        {
+          "text": "M)",
+          "startMs": 137442,
+          "endMs": 138082
+        },
+        {
+          "text": "and",
+          "startMs": 138162,
+          "endMs": 138402
+        },
+        {
+          "text": "its",
+          "startMs": 138462,
+          "endMs": 138642
+        },
+        {
+          "text": "investor",
+          "startMs": 138695,
+          "endMs": 139122
+        },
+        {
+          "text": "lineup.",
+          "startMs": 139191,
+          "endMs": 139682
+        },
+        {
+          "text": "Watch",
+          "startMs": 139935,
+          "endMs": 141202
+        },
+        {
+          "text": "the",
+          "startMs": 141242,
+          "endMs": 141362
+        },
+        {
+          "text": "hot",
+          "startMs": 141442,
+          "endMs": 141682
+        },
+        {
+          "text": "names",
+          "startMs": 141749,
+          "endMs": 142082
+        },
+        {
+          "text": "closely",
+          "startMs": 142152,
+          "endMs": 142642
+        },
+        {
+          "text": "—",
+          "startMs": 142962,
+          "endMs": 143282
+        },
+        {
+          "text": "heat",
+          "startMs": 143330,
+          "endMs": 143522
+        },
+        {
+          "text": "like",
+          "startMs": 143586,
+          "endMs": 143842
+        },
+        {
+          "text": "this",
+          "startMs": 143906,
+          "endMs": 144162
+        },
+        {
+          "text": "tends",
+          "startMs": 144215,
+          "endMs": 144482
+        },
+        {
+          "text": "to",
+          "startMs": 144509,
+          "endMs": 144562
+        },
+        {
+          "text": "pull",
+          "startMs": 144626,
+          "endMs": 144882
+        },
+        {
+          "text": "forward",
+          "startMs": 144942,
+          "endMs": 145362
+        },
+        {
+          "text": "the",
+          "startMs": 145382,
+          "endMs": 145442
+        },
+        {
+          "text": "next",
+          "startMs": 145522,
+          "endMs": 145842
+        },
+        {
+          "text": "raise.",
+          "startMs": 145909,
+          "endMs": 146402
+        }
+      ]
+    },
+    {
+      "agentId": "agent-3-funding_analyst",
+      "script": "On the money: I looked at recent rounds, who is writing cheques, and when these teams raise next. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Factorial’s most recent financing was a $150 million round that raised its post‑money valuation to $2.5 billion, confirming the large round size cited in the answer. The same company also secured an additional $120 million of non‑dilutive funding from General Catalyst, bringing total borrowings to $200 million and supporting its expansion narrative. Factorial’s $120 million round doubled its valuation to $1 billion, qualifying it as a European unicorn and underpinning the answer’s claim of a Barcelona AI unicorn. Sherpa.ai raised $18 million in a round led by Forgepoint Capital, matching the answer’s description of a recent $18 million funding event for a privacy‑first AI platform. The answer lists Barcelona‑based venture funds that focus on early‑stage tech, which are directly taken from the fact with id de34e854-78e1-4c12-aadc-6d1c119354a6 that names Active Venture Partners, Inveready, Ship2B, Nekko Capital, Nina Capital, Reus Capital Partners, Oceanflow Ventures, Extension Fund, and Arroba Capital as Barcelona‑based investors. The pan‑European and international investors mentioned (Y Combinator, Speedinvest, Seedcamp, Creandum, Antler, General Catalyst, Accel, Sequoia Capital, Andreessen Horowitz, Cherry Ventures, EQT Ventures, Northzone, Index Ventures, Lightspeed Venture Partners, Atomico, Balderton Capital) are drawn from the Sifted ranking of the 106 most active AI investors in Europe in 2025, provided in facts 0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2 and b95ffd91-7ccc-4054-9e1b-bc26bf737545. The statement that Factorial is in early discussions for a $200 million round that could double its valuation to about $2 billion is supported by the Factorial coverage in facts b63e4ec5-767f-4cbf-9617-bfd7930147fb and 0c59131b-adba-42e5-a37f-9e1ecd63fefd, which describe the prospective raise and its potential impact on valuation. The mention of Sherpa.ai raising $18 million from Forgepoint Capital and other insiders comes from fact 46eb033e-66c6-4d17-85c9-72e36bf1e558, which reports that specific funding event. Timing matters here: the next-raise window is the moment to get on the cap table.",
+      "subtitle": "On the money: I looked at recent rounds, who is writing cheques, and when these teams raise next. Here is what the data actually says…",
+      "audioUrl": "/api/audio/8552c88619454f30",
+      "durationMs": 249120,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "On",
+          "startMs": 0,
+          "endMs": 240
+        },
+        {
+          "text": "the",
+          "startMs": 260,
+          "endMs": 320
+        },
+        {
+          "text": "money:",
+          "startMs": 387,
+          "endMs": 1120
+        },
+        {
+          "text": "I",
+          "startMs": 1200,
+          "endMs": 1280
+        },
+        {
+          "text": "looked",
+          "startMs": 1314,
+          "endMs": 1520
+        },
+        {
+          "text": "at",
+          "startMs": 1547,
+          "endMs": 1600
+        },
+        {
+          "text": "recent",
+          "startMs": 1646,
+          "endMs": 1920
+        },
+        {
+          "text": "rounds,",
+          "startMs": 1989,
+          "endMs": 2800
+        },
+        {
+          "text": "who",
+          "startMs": 2840,
+          "endMs": 2960
+        },
+        {
+          "text": "is",
+          "startMs": 3040,
+          "endMs": 3200
+        },
+        {
+          "text": "writing",
+          "startMs": 3240,
+          "endMs": 3520
+        },
+        {
+          "text": "cheques,",
+          "startMs": 3600,
+          "endMs": 4320
+        },
+        {
+          "text": "and",
+          "startMs": 4420,
+          "endMs": 4720
+        },
+        {
+          "text": "when",
+          "startMs": 4768,
+          "endMs": 4960
+        },
+        {
+          "text": "these",
+          "startMs": 5013,
+          "endMs": 5280
+        },
+        {
+          "text": "teams",
+          "startMs": 5360,
+          "endMs": 5760
+        },
+        {
+          "text": "raise",
+          "startMs": 5840,
+          "endMs": 6240
+        },
+        {
+          "text": "next.",
+          "startMs": 6352,
+          "endMs": 6880
+        },
+        {
+          "text": "Here",
+          "startMs": 7056,
+          "endMs": 7760
+        },
+        {
+          "text": "is",
+          "startMs": 7813,
+          "endMs": 7920
+        },
+        {
+          "text": "what",
+          "startMs": 7952,
+          "endMs": 8080
+        },
+        {
+          "text": "the",
+          "startMs": 8100,
+          "endMs": 8160
+        },
+        {
+          "text": "data",
+          "startMs": 8240,
+          "endMs": 8560
+        },
+        {
+          "text": "actually",
+          "startMs": 8613,
+          "endMs": 9040
+        },
+        {
+          "text": "says",
+          "startMs": 9120,
+          "endMs": 9440
+        },
+        {
+          "text": "about",
+          "startMs": 9480,
+          "endMs": 9680
+        },
+        {
+          "text": "Uxia,",
+          "startMs": 9800,
+          "endMs": 10640
+        },
+        {
+          "text": "Encomenda,",
+          "startMs": 10720,
+          "endMs": 11520
+        },
+        {
+          "text": "NeuralTrust.",
+          "startMs": 11634,
+          "endMs": 12800
+        },
+        {
+          "text": "Factorial’s",
+          "startMs": 12971,
+          "endMs": 14240
+        },
+        {
+          "text": "most",
+          "startMs": 14288,
+          "endMs": 14480
+        },
+        {
+          "text": "recent",
+          "startMs": 14526,
+          "endMs": 14800
+        },
+        {
+          "text": "financing",
+          "startMs": 14872,
+          "endMs": 15520
+        },
+        {
+          "text": "was",
+          "startMs": 15560,
+          "endMs": 15680
+        },
+        {
+          "text": "a",
+          "startMs": 15760,
+          "endMs": 15840
+        },
+        {
+          "text": "$150",
+          "startMs": 15880,
+          "endMs": 16960
+        },
+        {
+          "text": "million",
+          "startMs": 17280,
+          "endMs": 17600
+        },
+        {
+          "text": "round",
+          "startMs": 17693,
+          "endMs": 18160
+        },
+        {
+          "text": "that",
+          "startMs": 18256,
+          "endMs": 18640
+        },
+        {
+          "text": "raised",
+          "startMs": 18697,
+          "endMs": 19040
+        },
+        {
+          "text": "its",
+          "startMs": 19080,
+          "endMs": 19200
+        },
+        {
+          "text": "post‑money",
+          "startMs": 19280,
+          "endMs": 19840
+        },
+        {
+          "text": "valuation",
+          "startMs": 19912,
+          "endMs": 20560
+        },
+        {
+          "text": "to",
+          "startMs": 20640,
+          "endMs": 20800
+        },
+        {
+          "text": "$2.5",
+          "startMs": 20840,
+          "endMs": 21920
+        },
+        {
+          "text": "billion,",
+          "startMs": 22240,
+          "endMs": 23280
+        },
+        {
+          "text": "confirming",
+          "startMs": 23331,
+          "endMs": 23840
+        },
+        {
+          "text": "the",
+          "startMs": 23880,
+          "endMs": 24000
+        },
+        {
+          "text": "large",
+          "startMs": 24053,
+          "endMs": 24320
+        },
+        {
+          "text": "round",
+          "startMs": 24373,
+          "endMs": 24640
+        },
+        {
+          "text": "size",
+          "startMs": 24736,
+          "endMs": 25120
+        },
+        {
+          "text": "cited",
+          "startMs": 25173,
+          "endMs": 25440
+        },
+        {
+          "text": "in",
+          "startMs": 25467,
+          "endMs": 25520
+        },
+        {
+          "text": "the",
+          "startMs": 25560,
+          "endMs": 25680
+        },
+        {
+          "text": "answer.",
+          "startMs": 25737,
+          "endMs": 26240
+        },
+        {
+          "text": "The",
+          "startMs": 26420,
+          "endMs": 26960
+        },
+        {
+          "text": "same",
+          "startMs": 27008,
+          "endMs": 27200
+        },
+        {
+          "text": "company",
+          "startMs": 27270,
+          "endMs": 27760
+        },
+        {
+          "text": "also",
+          "startMs": 27824,
+          "endMs": 28080
+        },
+        {
+          "text": "secured",
+          "startMs": 28150,
+          "endMs": 28640
+        },
+        {
+          "text": "an",
+          "startMs": 28693,
+          "endMs": 28800
+        },
+        {
+          "text": "additional",
+          "startMs": 28851,
+          "endMs": 29360
+        },
+        {
+          "text": "$120",
+          "startMs": 29400,
+          "endMs": 30479
+        },
+        {
+          "text": "million",
+          "startMs": 30480,
+          "endMs": 31200
+        },
+        {
+          "text": "of",
+          "startMs": 31280,
+          "endMs": 31440
+        },
+        {
+          "text": "non‑dilutive",
+          "startMs": 31520,
+          "endMs": 32240
+        },
+        {
+          "text": "funding",
+          "startMs": 32310,
+          "endMs": 32800
+        },
+        {
+          "text": "from",
+          "startMs": 32896,
+          "endMs": 33280
+        },
+        {
+          "text": "General",
+          "startMs": 33330,
+          "endMs": 33680
+        },
+        {
+          "text": "Catalyst,",
+          "startMs": 33751,
+          "endMs": 34720
+        },
+        {
+          "text": "bringing",
+          "startMs": 34756,
+          "endMs": 35040
+        },
+        {
+          "text": "total",
+          "startMs": 35107,
+          "endMs": 35440
+        },
+        {
+          "text": "borrowings",
+          "startMs": 35486,
+          "endMs": 36000
+        },
+        {
+          "text": "to",
+          "startMs": 36053,
+          "endMs": 36160
+        },
+        {
+          "text": "$200",
+          "startMs": 36240,
+          "endMs": 36879
+        },
+        {
+          "text": "million",
+          "startMs": 36880,
+          "endMs": 37760
+        },
+        {
+          "text": "and",
+          "startMs": 37860,
+          "endMs": 38160
+        },
+        {
+          "text": "supporting",
+          "startMs": 38211,
+          "endMs": 38720
+        },
+        {
+          "text": "its",
+          "startMs": 38760,
+          "endMs": 38880
+        },
+        {
+          "text": "expansion",
+          "startMs": 38928,
+          "endMs": 39360
+        },
+        {
+          "text": "narrative.",
+          "startMs": 39416,
+          "endMs": 40000
+        },
+        {
+          "text": "Factorial’s",
+          "startMs": 40160,
+          "endMs": 41440
+        },
+        {
+          "text": "$120",
+          "startMs": 41480,
+          "endMs": 42480
+        },
+        {
+          "text": "million",
+          "startMs": 42800,
+          "endMs": 43120
+        },
+        {
+          "text": "round",
+          "startMs": 43200,
+          "endMs": 43600
+        },
+        {
+          "text": "doubled",
+          "startMs": 43680,
+          "endMs": 44240
+        },
+        {
+          "text": "its",
+          "startMs": 44280,
+          "endMs": 44400
+        },
+        {
+          "text": "valuation",
+          "startMs": 44464,
+          "endMs": 45040
+        },
+        {
+          "text": "to",
+          "startMs": 45093,
+          "endMs": 45200
+        },
+        {
+          "text": "$1",
+          "startMs": 45240,
+          "endMs": 45520
+        },
+        {
+          "text": "billion,",
+          "startMs": 45840,
+          "endMs": 46960
+        },
+        {
+          "text": "qualifying",
+          "startMs": 47018,
+          "endMs": 47600
+        },
+        {
+          "text": "it",
+          "startMs": 47653,
+          "endMs": 47760
+        },
+        {
+          "text": "as",
+          "startMs": 47813,
+          "endMs": 47920
+        },
+        {
+          "text": "a",
+          "startMs": 47960,
+          "endMs": 48000
+        },
+        {
+          "text": "European",
+          "startMs": 48062,
+          "endMs": 48560
+        },
+        {
+          "text": "unicorn",
+          "startMs": 48660,
+          "endMs": 49360
+        },
+        {
+          "text": "and",
+          "startMs": 49480,
+          "endMs": 49840
+        },
+        {
+          "text": "underpinning",
+          "startMs": 49893,
+          "endMs": 50480
+        },
+        {
+          "text": "the",
+          "startMs": 50500,
+          "endMs": 50560
+        },
+        {
+          "text": "answer’s",
+          "startMs": 50617,
+          "endMs": 51040
+        },
+        {
+          "text": "claim",
+          "startMs": 51107,
+          "endMs": 51440
+        },
+        {
+          "text": "of",
+          "startMs": 51493,
+          "endMs": 51600
+        },
+        {
+          "text": "a",
+          "startMs": 51640,
+          "endMs": 51680
+        },
+        {
+          "text": "Barcelona",
+          "startMs": 51744,
+          "endMs": 52320
+        },
+        {
+          "text": "AI",
+          "startMs": 52507,
+          "endMs": 52880
+        },
+        {
+          "text": "unicorn.",
+          "startMs": 52980,
+          "endMs": 54200
+        },
+        {
+          "text": "Sherpa.ai",
+          "startMs": 54304,
+          "endMs": 55600
+        },
+        {
+          "text": "raised",
+          "startMs": 55657,
+          "endMs": 56000
+        },
+        {
+          "text": "$18",
+          "startMs": 56040,
+          "endMs": 56640
+        },
+        {
+          "text": "million",
+          "startMs": 57040,
+          "endMs": 57440
+        },
+        {
+          "text": "in",
+          "startMs": 57493,
+          "endMs": 57600
+        },
+        {
+          "text": "a",
+          "startMs": 57640,
+          "endMs": 57680
+        },
+        {
+          "text": "round",
+          "startMs": 57760,
+          "endMs": 58160
+        },
+        {
+          "text": "led",
+          "startMs": 58240,
+          "endMs": 58480
+        },
+        {
+          "text": "by",
+          "startMs": 58533,
+          "endMs": 58640
+        },
+        {
+          "text": "Forgepoint",
+          "startMs": 58733,
+          "endMs": 59440
+        },
+        {
+          "text": "Capital,",
+          "startMs": 59500,
+          "endMs": 60480
+        },
+        {
+          "text": "matching",
+          "startMs": 60524,
+          "endMs": 60880
+        },
+        {
+          "text": "the",
+          "startMs": 60900,
+          "endMs": 60960
+        },
+        {
+          "text": "answer’s",
+          "startMs": 61017,
+          "endMs": 61440
+        },
+        {
+          "text": "description",
+          "startMs": 61493,
+          "endMs": 62080
+        },
+        {
+          "text": "of",
+          "startMs": 62133,
+          "endMs": 62240
+        },
+        {
+          "text": "a",
+          "startMs": 62280,
+          "endMs": 62320
+        },
+        {
+          "text": "recent",
+          "startMs": 62377,
+          "endMs": 62720
+        },
+        {
+          "text": "$18",
+          "startMs": 62760,
+          "endMs": 63360
+        },
+        {
+          "text": "million",
+          "startMs": 63680,
+          "endMs": 64000
+        },
+        {
+          "text": "funding",
+          "startMs": 64050,
+          "endMs": 64400
+        },
+        {
+          "text": "event",
+          "startMs": 64467,
+          "endMs": 64800
+        },
+        {
+          "text": "for",
+          "startMs": 64920,
+          "endMs": 65280
+        },
+        {
+          "text": "a",
+          "startMs": 65320,
+          "endMs": 65360
+        },
+        {
+          "text": "privacy‑first",
+          "startMs": 65430,
+          "endMs": 66400
+        },
+        {
+          "text": "AI",
+          "startMs": 66533,
+          "endMs": 66800
+        },
+        {
+          "text": "platform.",
+          "startMs": 66880,
+          "endMs": 67680
+        },
+        {
+          "text": "The",
+          "startMs": 67880,
+          "endMs": 68480
+        },
+        {
+          "text": "answer",
+          "startMs": 68537,
+          "endMs": 68880
+        },
+        {
+          "text": "lists",
+          "startMs": 68960,
+          "endMs": 69360
+        },
+        {
+          "text": "Barcelona‑based",
+          "startMs": 69432,
+          "endMs": 70400
+        },
+        {
+          "text": "venture",
+          "startMs": 70450,
+          "endMs": 70800
+        },
+        {
+          "text": "funds",
+          "startMs": 70880,
+          "endMs": 71280
+        },
+        {
+          "text": "that",
+          "startMs": 71296,
+          "endMs": 71360
+        },
+        {
+          "text": "focus",
+          "startMs": 71427,
+          "endMs": 71760
+        },
+        {
+          "text": "on",
+          "startMs": 71840,
+          "endMs": 72000
+        },
+        {
+          "text": "early‑stage",
+          "startMs": 72053,
+          "endMs": 72720
+        },
+        {
+          "text": "tech,",
+          "startMs": 72816,
+          "endMs": 73600
+        },
+        {
+          "text": "which",
+          "startMs": 73627,
+          "endMs": 73760
+        },
+        {
+          "text": "are",
+          "startMs": 73800,
+          "endMs": 73920
+        },
+        {
+          "text": "directly",
+          "startMs": 73982,
+          "endMs": 74480
+        },
+        {
+          "text": "taken",
+          "startMs": 74533,
+          "endMs": 74800
+        },
+        {
+          "text": "from",
+          "startMs": 74848,
+          "endMs": 75040
+        },
+        {
+          "text": "the",
+          "startMs": 75060,
+          "endMs": 75120
+        },
+        {
+          "text": "fact",
+          "startMs": 75216,
+          "endMs": 75600
+        },
+        {
+          "text": "with",
+          "startMs": 75632,
+          "endMs": 75760
+        },
+        {
+          "text": "id",
+          "startMs": 75893,
+          "endMs": 76160
+        },
+        {
+          "text": "de34e854-78e1-4c12-aadc-6d1c119354a6",
+          "startMs": 76373,
+          "endMs": 89120
+        },
+        {
+          "text": "that",
+          "startMs": 89248,
+          "endMs": 89760
+        },
+        {
+          "text": "names",
+          "startMs": 89813,
+          "endMs": 90080
+        },
+        {
+          "text": "Active",
+          "startMs": 90137,
+          "endMs": 90480
+        },
+        {
+          "text": "Venture",
+          "startMs": 90530,
+          "endMs": 90880
+        },
+        {
+          "text": "Partners,",
+          "startMs": 90951,
+          "endMs": 91680
+        },
+        {
+          "text": "Inveready,",
+          "startMs": 91733,
+          "endMs": 92400
+        },
+        {
+          "text": "Ship2B,",
+          "startMs": 92528,
+          "endMs": 93520
+        },
+        {
+          "text": "Nekko",
+          "startMs": 93720,
+          "endMs": 94160
+        },
+        {
+          "text": "Capital,",
+          "startMs": 94230,
+          "endMs": 94800
+        },
+        {
+          "text": "Nina",
+          "startMs": 94928,
+          "endMs": 95440
+        },
+        {
+          "text": "Capital,",
+          "startMs": 95500,
+          "endMs": 96080
+        },
+        {
+          "text": "Reus",
+          "startMs": 96213,
+          "endMs": 96720
+        },
+        {
+          "text": "Capital",
+          "startMs": 96770,
+          "endMs": 97120
+        },
+        {
+          "text": "Partners,",
+          "startMs": 97182,
+          "endMs": 97760
+        },
+        {
+          "text": "Oceanflow",
+          "startMs": 97893,
+          "endMs": 98720
+        },
+        {
+          "text": "Ventures,",
+          "startMs": 98791,
+          "endMs": 99440
+        },
+        {
+          "text": "Extension",
+          "startMs": 99528,
+          "endMs": 100320
+        },
+        {
+          "text": "Fund,",
+          "startMs": 100400,
+          "endMs": 100800
+        },
+        {
+          "text": "and",
+          "startMs": 100920,
+          "endMs": 101280
+        },
+        {
+          "text": "Arroba",
+          "startMs": 101333,
+          "endMs": 101680
+        },
+        {
+          "text": "Capital",
+          "startMs": 101750,
+          "endMs": 102240
+        },
+        {
+          "text": "as",
+          "startMs": 102320,
+          "endMs": 102480
+        },
+        {
+          "text": "Barcelona‑based",
+          "startMs": 102544,
+          "endMs": 103440
+        },
+        {
+          "text": "investors.",
+          "startMs": 103520,
+          "endMs": 104320
+        },
+        {
+          "text": "The",
+          "startMs": 104520,
+          "endMs": 105120
+        },
+        {
+          "text": "pan‑European",
+          "startMs": 105180,
+          "endMs": 106080
+        },
+        {
+          "text": "and",
+          "startMs": 106140,
+          "endMs": 106320
+        },
+        {
+          "text": "international",
+          "startMs": 106366,
+          "endMs": 106960
+        },
+        {
+          "text": "investors",
+          "startMs": 107016,
+          "endMs": 107520
+        },
+        {
+          "text": "mentioned",
+          "startMs": 107600,
+          "endMs": 108320
+        },
+        {
+          "text": "(Y",
+          "startMs": 108440,
+          "endMs": 108880
+        },
+        {
+          "text": "Combinator,",
+          "startMs": 108960,
+          "endMs": 109520
+        },
+        {
+          "text": "Speedinvest,",
+          "startMs": 109587,
+          "endMs": 110480
+        },
+        {
+          "text": "Seedcamp,",
+          "startMs": 110560,
+          "endMs": 111280
+        },
+        {
+          "text": "Creandum,",
+          "startMs": 111360,
+          "endMs": 112080
+        },
+        {
+          "text": "Antler,",
+          "startMs": 112160,
+          "endMs": 112720
+        },
+        {
+          "text": "General",
+          "startMs": 112800,
+          "endMs": 113360
+        },
+        {
+          "text": "Catalyst,",
+          "startMs": 113440,
+          "endMs": 114080
+        },
+        {
+          "text": "Accel,",
+          "startMs": 114180,
+          "endMs": 114800
+        },
+        {
+          "text": "Sequoia",
+          "startMs": 114912,
+          "endMs": 115520
+        },
+        {
+          "text": "Capital,",
+          "startMs": 115590,
+          "endMs": 116160
+        },
+        {
+          "text": "Andreessen",
+          "startMs": 116213,
+          "endMs": 116720
+        },
+        {
+          "text": "Horowitz,",
+          "startMs": 116840,
+          "endMs": 117440
+        },
+        {
+          "text": "Cherry",
+          "startMs": 117509,
+          "endMs": 117920
+        },
+        {
+          "text": "Ventures,",
+          "startMs": 117991,
+          "endMs": 118640
+        },
+        {
+          "text": "EQT",
+          "startMs": 118880,
+          "endMs": 119680
+        },
+        {
+          "text": "Ventures,",
+          "startMs": 119760,
+          "endMs": 120240
+        },
+        {
+          "text": "Northzone,",
+          "startMs": 120347,
+          "endMs": 121360
+        },
+        {
+          "text": "Index",
+          "startMs": 121467,
+          "endMs": 122000
+        },
+        {
+          "text": "Ventures,",
+          "startMs": 122120,
+          "endMs": 122640
+        },
+        {
+          "text": "Lightspeed",
+          "startMs": 122731,
+          "endMs": 123440
+        },
+        {
+          "text": "Venture",
+          "startMs": 123480,
+          "endMs": 123760
+        },
+        {
+          "text": "Partners,",
+          "startMs": 123831,
+          "endMs": 124800
+        },
+        {
+          "text": "Atomico,",
+          "startMs": 124857,
+          "endMs": 125600
+        },
+        {
+          "text": "Balderton",
+          "startMs": 125696,
+          "endMs": 126400
+        },
+        {
+          "text": "Capital)",
+          "startMs": 126470,
+          "endMs": 127360
+        },
+        {
+          "text": "are",
+          "startMs": 127400,
+          "endMs": 127520
+        },
+        {
+          "text": "drawn",
+          "startMs": 127573,
+          "endMs": 127840
+        },
+        {
+          "text": "from",
+          "startMs": 127888,
+          "endMs": 128080
+        },
+        {
+          "text": "the",
+          "startMs": 128100,
+          "endMs": 128160
+        },
+        {
+          "text": "Sifted",
+          "startMs": 128240,
+          "endMs": 128640
+        },
+        {
+          "text": "ranking",
+          "startMs": 128700,
+          "endMs": 129120
+        },
+        {
+          "text": "of",
+          "startMs": 129173,
+          "endMs": 129280
+        },
+        {
+          "text": "the",
+          "startMs": 129320,
+          "endMs": 129440
+        },
+        {
+          "text": "106",
+          "startMs": 129520,
+          "endMs": 130480
+        },
+        {
+          "text": "most",
+          "startMs": 130544,
+          "endMs": 130800
+        },
+        {
+          "text": "active",
+          "startMs": 130869,
+          "endMs": 131280
+        },
+        {
+          "text": "AI",
+          "startMs": 131440,
+          "endMs": 131760
+        },
+        {
+          "text": "investors",
+          "startMs": 131808,
+          "endMs": 132240
+        },
+        {
+          "text": "in",
+          "startMs": 132293,
+          "endMs": 132400
+        },
+        {
+          "text": "Europe",
+          "startMs": 132457,
+          "endMs": 132800
+        },
+        {
+          "text": "in",
+          "startMs": 132880,
+          "endMs": 133040
+        },
+        {
+          "text": "2025,",
+          "startMs": 133120,
+          "endMs": 134160
+        },
+        {
+          "text": "provided",
+          "startMs": 134258,
+          "endMs": 135040
+        },
+        {
+          "text": "in",
+          "startMs": 135067,
+          "endMs": 135120
+        },
+        {
+          "text": "facts",
+          "startMs": 135227,
+          "endMs": 135760
+        },
+        {
+          "text": "0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2",
+          "startMs": 135920,
+          "endMs": 150480
+        },
+        {
+          "text": "and",
+          "startMs": 150680,
+          "endMs": 151280
+        },
+        {
+          "text": "b95ffd91-7ccc-4054-9e1b-bc26bf737545.",
+          "startMs": 151640,
+          "endMs": 167280
+        },
+        {
+          "text": "The",
+          "startMs": 167460,
+          "endMs": 168000
+        },
+        {
+          "text": "statement",
+          "startMs": 168048,
+          "endMs": 168480
+        },
+        {
+          "text": "that",
+          "startMs": 168512,
+          "endMs": 168640
+        },
+        {
+          "text": "Factorial",
+          "startMs": 168709,
+          "endMs": 169360
+        },
+        {
+          "text": "is",
+          "startMs": 169440,
+          "endMs": 169600
+        },
+        {
+          "text": "in",
+          "startMs": 169653,
+          "endMs": 169760
+        },
+        {
+          "text": "early",
+          "startMs": 169813,
+          "endMs": 170080
+        },
+        {
+          "text": "discussions",
+          "startMs": 170133,
+          "endMs": 170720
+        },
+        {
+          "text": "for",
+          "startMs": 170760,
+          "endMs": 170880
+        },
+        {
+          "text": "a",
+          "startMs": 170960,
+          "endMs": 171040
+        },
+        {
+          "text": "$200",
+          "startMs": 171080,
+          "endMs": 171680
+        },
+        {
+          "text": "million",
+          "startMs": 172000,
+          "endMs": 172320
+        },
+        {
+          "text": "round",
+          "startMs": 172400,
+          "endMs": 172800
+        },
+        {
+          "text": "that",
+          "startMs": 172896,
+          "endMs": 173280
+        },
+        {
+          "text": "could",
+          "startMs": 173307,
+          "endMs": 173440
+        },
+        {
+          "text": "double",
+          "startMs": 173486,
+          "endMs": 173760
+        },
+        {
+          "text": "its",
+          "startMs": 173800,
+          "endMs": 173920
+        },
+        {
+          "text": "valuation",
+          "startMs": 173992,
+          "endMs": 174640
+        },
+        {
+          "text": "to",
+          "startMs": 174693,
+          "endMs": 174800
+        },
+        {
+          "text": "about",
+          "startMs": 174853,
+          "endMs": 175120
+        },
+        {
+          "text": "$2",
+          "startMs": 175200,
+          "endMs": 175520
+        },
+        {
+          "text": "billion",
+          "startMs": 175560,
+          "endMs": 176480
+        },
+        {
+          "text": "is",
+          "startMs": 176667,
+          "endMs": 177040
+        },
+        {
+          "text": "supported",
+          "startMs": 177088,
+          "endMs": 177520
+        },
+        {
+          "text": "by",
+          "startMs": 177573,
+          "endMs": 177680
+        },
+        {
+          "text": "the",
+          "startMs": 177720,
+          "endMs": 177840
+        },
+        {
+          "text": "Factorial",
+          "startMs": 177909,
+          "endMs": 178480
+        },
+        {
+          "text": "coverage",
+          "startMs": 178542,
+          "endMs": 179040
+        },
+        {
+          "text": "in",
+          "startMs": 179120,
+          "endMs": 179280
+        },
+        {
+          "text": "facts",
+          "startMs": 179387,
+          "endMs": 179920
+        },
+        {
+          "text": "b63e4ec5-767f-4cbf-9617-bfd7930147fb",
+          "startMs": 180320,
+          "endMs": 195360
+        },
+        {
+          "text": "and",
+          "startMs": 195480,
+          "endMs": 195840
+        },
+        {
+          "text": "0c59131b-adba-42e5-a37f-9e1ecd63fefd,",
+          "startMs": 195920,
+          "endMs": 211040
+        },
+        {
+          "text": "which",
+          "startMs": 211093,
+          "endMs": 211360
+        },
+        {
+          "text": "describe",
+          "startMs": 211413,
+          "endMs": 211840
+        },
+        {
+          "text": "the",
+          "startMs": 211860,
+          "endMs": 211920
+        },
+        {
+          "text": "prospective",
+          "startMs": 211973,
+          "endMs": 212560
+        },
+        {
+          "text": "raise",
+          "startMs": 212653,
+          "endMs": 213120
+        },
+        {
+          "text": "and",
+          "startMs": 213160,
+          "endMs": 213280
+        },
+        {
+          "text": "its",
+          "startMs": 213320,
+          "endMs": 213440
+        },
+        {
+          "text": "potential",
+          "startMs": 213488,
+          "endMs": 213920
+        },
+        {
+          "text": "impact",
+          "startMs": 214000,
+          "endMs": 214480
+        },
+        {
+          "text": "on",
+          "startMs": 214533,
+          "endMs": 214640
+        },
+        {
+          "text": "valuation.",
+          "startMs": 214720,
+          "endMs": 215520
+        },
+        {
+          "text": "The",
+          "startMs": 215720,
+          "endMs": 216320
+        },
+        {
+          "text": "mention",
+          "startMs": 216360,
+          "endMs": 216640
+        },
+        {
+          "text": "of",
+          "startMs": 216693,
+          "endMs": 216800
+        },
+        {
+          "text": "Sherpa.ai",
+          "startMs": 216848,
+          "endMs": 218000
+        },
+        {
+          "text": "raising",
+          "startMs": 218070,
+          "endMs": 218560
+        },
+        {
+          "text": "$18",
+          "startMs": 218700,
+          "endMs": 219120
+        },
+        {
+          "text": "million",
+          "startMs": 219520,
+          "endMs": 219920
+        },
+        {
+          "text": "from",
+          "startMs": 219952,
+          "endMs": 220080
+        },
+        {
+          "text": "Forgepoint",
+          "startMs": 220160,
+          "endMs": 220800
+        },
+        {
+          "text": "Capital",
+          "startMs": 220870,
+          "endMs": 221360
+        },
+        {
+          "text": "and",
+          "startMs": 221400,
+          "endMs": 221520
+        },
+        {
+          "text": "other",
+          "startMs": 221573,
+          "endMs": 221840
+        },
+        {
+          "text": "insiders",
+          "startMs": 221920,
+          "endMs": 222560
+        },
+        {
+          "text": "comes",
+          "startMs": 222680,
+          "endMs": 223280
+        },
+        {
+          "text": "from",
+          "startMs": 223312,
+          "endMs": 223440
+        },
+        {
+          "text": "fact",
+          "startMs": 223552,
+          "endMs": 224000
+        },
+        {
+          "text": "46eb033e-66c6-4d17-85c9-72e36bf1e558,",
+          "startMs": 224400,
+          "endMs": 240640
+        },
+        {
+          "text": "which",
+          "startMs": 240693,
+          "endMs": 240960
+        },
+        {
+          "text": "reports",
+          "startMs": 241030,
+          "endMs": 241520
+        },
+        {
+          "text": "that",
+          "startMs": 241568,
+          "endMs": 241760
+        },
+        {
+          "text": "specific",
+          "startMs": 241831,
+          "endMs": 242400
+        },
+        {
+          "text": "funding",
+          "startMs": 242450,
+          "endMs": 242800
+        },
+        {
+          "text": "event.",
+          "startMs": 242880,
+          "endMs": 243440
+        },
+        {
+          "text": "Timing",
+          "startMs": 243566,
+          "endMs": 244320
+        },
+        {
+          "text": "matters",
+          "startMs": 244380,
+          "endMs": 244800
+        },
+        {
+          "text": "here:",
+          "startMs": 244864,
+          "endMs": 245200
+        },
+        {
+          "text": "the",
+          "startMs": 245340,
+          "endMs": 245760
+        },
+        {
+          "text": "next-raise",
+          "startMs": 245840,
+          "endMs": 246480
+        },
+        {
+          "text": "window",
+          "startMs": 246549,
+          "endMs": 246960
+        },
+        {
+          "text": "is",
+          "startMs": 247013,
+          "endMs": 247120
+        },
+        {
+          "text": "the",
+          "startMs": 247160,
+          "endMs": 247280
+        },
+        {
+          "text": "moment",
+          "startMs": 247337,
+          "endMs": 247680
+        },
+        {
+          "text": "to",
+          "startMs": 247733,
+          "endMs": 247840
+        },
+        {
+          "text": "get",
+          "startMs": 247880,
+          "endMs": 248000
+        },
+        {
+          "text": "on",
+          "startMs": 248027,
+          "endMs": 248080
+        },
+        {
+          "text": "the",
+          "startMs": 248120,
+          "endMs": 248240
+        },
+        {
+          "text": "cap",
+          "startMs": 248300,
+          "endMs": 248480
+        },
+        {
+          "text": "table.",
+          "startMs": 248560,
+          "endMs": 249120
+        }
+      ]
+    },
+    {
+      "agentId": "agent-0-partner",
+      "script": "Let me bring it together. Across everything the team surfaced, Uxia is where the signal is strongest, scoring 60 with a medium risk profile. Strong traction signals in AI. Uxia is positioned to raise within 9 months. For a diversified look, Encomenda (60), NeuralTrust (60) are the credible runners-up. My recommendation: take first meetings with the top of this list before the next funding window closes,. size the position to the risk each one carries, and let the heat signals tell you when to move. That is the brief — thank you.",
+      "subtitle": "Let me bring it together. Across everything the team surfaced, Uxia is where the signal is strongest, scoring 60 with a medium risk…",
+      "audioUrl": "/api/audio/4c6de5766ac6418e",
+      "durationMs": 38800,
+      "timingSource": "provider",
+      "wordTimings": [
+        {
+          "text": "Let",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "text": "me",
+          "startMs": 187,
+          "endMs": 240
+        },
+        {
+          "text": "bring",
+          "startMs": 280,
+          "endMs": 480
+        },
+        {
+          "text": "it",
+          "startMs": 507,
+          "endMs": 560
+        },
+        {
+          "text": "together.",
+          "startMs": 613,
+          "endMs": 1680
+        },
+        {
+          "text": "Across",
+          "startMs": 1771,
+          "endMs": 2320
+        },
+        {
+          "text": "everything",
+          "startMs": 2364,
+          "endMs": 2800
+        },
+        {
+          "text": "the",
+          "startMs": 2820,
+          "endMs": 2880
+        },
+        {
+          "text": "team",
+          "startMs": 2944,
+          "endMs": 3200
+        },
+        {
+          "text": "surfaced,",
+          "startMs": 3262,
+          "endMs": 4160
+        },
+        {
+          "text": "Uxia",
+          "startMs": 4280,
+          "endMs": 4720
+        },
+        {
+          "text": "is",
+          "startMs": 4773,
+          "endMs": 4880
+        },
+        {
+          "text": "where",
+          "startMs": 4907,
+          "endMs": 5040
+        },
+        {
+          "text": "the",
+          "startMs": 5060,
+          "endMs": 5120
+        },
+        {
+          "text": "signal",
+          "startMs": 5177,
+          "endMs": 5520
+        },
+        {
+          "text": "is",
+          "startMs": 5573,
+          "endMs": 5680
+        },
+        {
+          "text": "strongest,",
+          "startMs": 5744,
+          "endMs": 6720
+        },
+        {
+          "text": "scoring",
+          "startMs": 6780,
+          "endMs": 7200
+        },
+        {
+          "text": "60",
+          "startMs": 7280,
+          "endMs": 7760
+        },
+        {
+          "text": "with",
+          "startMs": 7808,
+          "endMs": 8000
+        },
+        {
+          "text": "a",
+          "startMs": 8040,
+          "endMs": 8080
+        },
+        {
+          "text": "medium",
+          "startMs": 8137,
+          "endMs": 8480
+        },
+        {
+          "text": "risk",
+          "startMs": 8544,
+          "endMs": 8800
+        },
+        {
+          "text": "profile.",
+          "startMs": 8880,
+          "endMs": 9520
+        },
+        {
+          "text": "Strong",
+          "startMs": 9680,
+          "endMs": 10640
+        },
+        {
+          "text": "traction",
+          "startMs": 10684,
+          "endMs": 11040
+        },
+        {
+          "text": "signals",
+          "startMs": 11100,
+          "endMs": 11520
+        },
+        {
+          "text": "in",
+          "startMs": 11573,
+          "endMs": 11680
+        },
+        {
+          "text": "AI.",
+          "startMs": 11893,
+          "endMs": 12400
+        },
+        {
+          "text": "Uxia",
+          "startMs": 12760,
+          "endMs": 13440
+        },
+        {
+          "text": "is",
+          "startMs": 13493,
+          "endMs": 13600
+        },
+        {
+          "text": "positioned",
+          "startMs": 13644,
+          "endMs": 14080
+        },
+        {
+          "text": "to",
+          "startMs": 14107,
+          "endMs": 14160
+        },
+        {
+          "text": "raise",
+          "startMs": 14227,
+          "endMs": 14560
+        },
+        {
+          "text": "within",
+          "startMs": 14606,
+          "endMs": 14880
+        },
+        {
+          "text": "9",
+          "startMs": 14960,
+          "endMs": 15200
+        },
+        {
+          "text": "months.",
+          "startMs": 15269,
+          "endMs": 15760
+        },
+        {
+          "text": "For",
+          "startMs": 15940,
+          "endMs": 16480
+        },
+        {
+          "text": "a",
+          "startMs": 16520,
+          "endMs": 16560
+        },
+        {
+          "text": "diversified",
+          "startMs": 16627,
+          "endMs": 17360
+        },
+        {
+          "text": "look,",
+          "startMs": 17424,
+          "endMs": 18000
+        },
+        {
+          "text": "Encomenda",
+          "startMs": 18080,
+          "endMs": 18720
+        },
+        {
+          "text": "(60),",
+          "startMs": 18880,
+          "endMs": 19920
+        },
+        {
+          "text": "NeuralTrust",
+          "startMs": 19989,
+          "endMs": 20720
+        },
+        {
+          "text": "(60)",
+          "startMs": 20840,
+          "endMs": 21360
+        },
+        {
+          "text": "are",
+          "startMs": 21460,
+          "endMs": 21760
+        },
+        {
+          "text": "the",
+          "startMs": 21780,
+          "endMs": 21840
+        },
+        {
+          "text": "credible",
+          "startMs": 21884,
+          "endMs": 22240
+        },
+        {
+          "text": "runners-up.",
+          "startMs": 22280,
+          "endMs": 22960
+        },
+        {
+          "text": "My",
+          "startMs": 23253,
+          "endMs": 23840
+        },
+        {
+          "text": "recommendation:",
+          "startMs": 23893,
+          "endMs": 24800
+        },
+        {
+          "text": "take",
+          "startMs": 24928,
+          "endMs": 25440
+        },
+        {
+          "text": "first",
+          "startMs": 25493,
+          "endMs": 25760
+        },
+        {
+          "text": "meetings",
+          "startMs": 25813,
+          "endMs": 26240
+        },
+        {
+          "text": "with",
+          "startMs": 26272,
+          "endMs": 26400
+        },
+        {
+          "text": "the",
+          "startMs": 26420,
+          "endMs": 26480
+        },
+        {
+          "text": "top",
+          "startMs": 26540,
+          "endMs": 26720
+        },
+        {
+          "text": "of",
+          "startMs": 26747,
+          "endMs": 26800
+        },
+        {
+          "text": "this",
+          "startMs": 26848,
+          "endMs": 27040
+        },
+        {
+          "text": "list",
+          "startMs": 27120,
+          "endMs": 27440
+        },
+        {
+          "text": "before",
+          "startMs": 27509,
+          "endMs": 27920
+        },
+        {
+          "text": "the",
+          "startMs": 27960,
+          "endMs": 28080
+        },
+        {
+          "text": "next",
+          "startMs": 28144,
+          "endMs": 28400
+        },
+        {
+          "text": "funding",
+          "startMs": 28450,
+          "endMs": 28800
+        },
+        {
+          "text": "window",
+          "startMs": 28846,
+          "endMs": 29120
+        },
+        {
+          "text": "closes,.",
+          "startMs": 29200,
+          "endMs": 29840
+        },
+        {
+          "text": "size",
+          "startMs": 30048,
+          "endMs": 30880
+        },
+        {
+          "text": "the",
+          "startMs": 30920,
+          "endMs": 31040
+        },
+        {
+          "text": "position",
+          "startMs": 31084,
+          "endMs": 31440
+        },
+        {
+          "text": "to",
+          "startMs": 31493,
+          "endMs": 31600
+        },
+        {
+          "text": "the",
+          "startMs": 31620,
+          "endMs": 31680
+        },
+        {
+          "text": "risk",
+          "startMs": 31760,
+          "endMs": 32080
+        },
+        {
+          "text": "each",
+          "startMs": 32128,
+          "endMs": 32320
+        },
+        {
+          "text": "one",
+          "startMs": 32380,
+          "endMs": 32560
+        },
+        {
+          "text": "carries,",
+          "startMs": 32630,
+          "endMs": 33520
+        },
+        {
+          "text": "and",
+          "startMs": 33560,
+          "endMs": 33680
+        },
+        {
+          "text": "let",
+          "startMs": 33720,
+          "endMs": 33840
+        },
+        {
+          "text": "the",
+          "startMs": 33880,
+          "endMs": 34000
+        },
+        {
+          "text": "heat",
+          "startMs": 34048,
+          "endMs": 34240
+        },
+        {
+          "text": "signals",
+          "startMs": 34300,
+          "endMs": 34720
+        },
+        {
+          "text": "tell",
+          "startMs": 34768,
+          "endMs": 34960
+        },
+        {
+          "text": "you",
+          "startMs": 34980,
+          "endMs": 35040
+        },
+        {
+          "text": "when",
+          "startMs": 35088,
+          "endMs": 35280
+        },
+        {
+          "text": "to",
+          "startMs": 35333,
+          "endMs": 35440
+        },
+        {
+          "text": "move.",
+          "startMs": 35520,
+          "endMs": 35920
+        },
+        {
+          "text": "That",
+          "startMs": 36128,
+          "endMs": 36960
+        },
+        {
+          "text": "is",
+          "startMs": 37013,
+          "endMs": 37120
+        },
+        {
+          "text": "the",
+          "startMs": 37140,
+          "endMs": 37200
+        },
+        {
+          "text": "brief",
+          "startMs": 37267,
+          "endMs": 37600
+        },
+        {
+          "text": "—",
+          "startMs": 37880,
+          "endMs": 38160
+        },
+        {
+          "text": "thank",
+          "startMs": 38213,
+          "endMs": 38480
+        },
+        {
+          "text": "you.",
+          "startMs": 38540,
+          "endMs": 38800
+        }
+      ]
+    }
+  ]
+}

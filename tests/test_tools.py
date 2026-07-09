@@ -35,4 +35,5 @@ def test_funding_scan_returns_note():
 
 def test_function_tool_wrappers_exist():
     # SDK-facing wrappers should be registered for the agent path
-    assert len(tools.RESEARCH_TOOLS) == 3
+    # (market, company, funding_scan, funding_landscape, risk_scan)
+    assert len(tools.RESEARCH_TOOLS) == 5

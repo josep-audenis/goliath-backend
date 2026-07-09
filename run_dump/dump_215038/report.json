@@ -1,0 +1,268 @@
+{
+  "runId": "dump_215038",
+  "createdAt": "2026-07-09T19:52:43.485078Z",
+  "opportunities": [
+    {
+      "id": "opp-0",
+      "startupName": "Uxia",
+      "goliathScore": 60.0,
+      "status": "warming",
+      "confidence": 0.55,
+      "riskLevel": "medium",
+      "scoreReason": "Strong traction signals in AI.",
+      "prediction": "Uxia is positioned to raise within 9 months.",
+      "sector": "AI",
+      "location": "Barcelona",
+      "stage": null,
+      "evidence": [
+        {
+          "id": "evd-aea311fb",
+          "source": "web",
+          "title": "Spain fifth largest European market for AI investment since 2020",
+          "url": "https://www.investinspain.org/content/icex-invest/en/noticias-main/2025/dealroom",
+          "snippet": null
+        },
+        {
+          "id": "evd-095388e7",
+          "source": "web",
+          "title": "Barcelona: leading hub for startups in Southern Europe.  - Eo Mobility Consultancy",
+          "url": "https://eomobility.com/barcelona-hub-for-europe-startups",
+          "snippet": null
+        },
+        {
+          "id": "evd-91095cb5",
+          "source": "web",
+          "title": "Catalonia solidifies its position as Spain leading technology hub - catalonia.com",
+          "url": "https://catalonia.com/w/catalonia-solidifies-its-position-as-spain-leading-technology-hub",
+          "snippet": null
+        }
+      ],
+      "summary": "Ai in barcelona"
+    },
+    {
+      "id": "opp-1",
+      "startupName": "Encomenda",
+      "goliathScore": 60.0,
+      "status": "warming",
+      "confidence": 0.55,
+      "riskLevel": "medium",
+      "scoreReason": "Strong traction signals in AI.",
+      "prediction": "Encomenda is positioned to raise within 9 months.",
+      "sector": "AI",
+      "location": "Barcelona",
+      "stage": null,
+      "evidence": [
+        {
+          "id": "evd-2af59b0d",
+          "source": "web",
+          "title": "Imec partner in a €60M fund to boost Tech Ecosystem in Spain - imec.istart",
+          "url": "https://www.imecistart.com/en/news/imec-partner-in-a-60m-fund-to-boost-tech-ecosystem-in-spain",
+          "snippet": null
+        },
+        {
+          "id": "evd-bd5ce1ea",
+          "source": "web",
+          "title": "Spain Data Center Market to Reach USD 8.83 Billion by 2031 at ...",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/spain-data-center-market-reach-090100475.html",
+          "snippet": null
+        },
+        {
+          "id": "evd-62f2f78a",
+          "source": "web",
+          "title": "Amazon Pledges Nearly $40 Billion to Expand AI Data-Center ... - WSJ",
+          "url": "https://www.wsj.com/tech/ai/amazon-pledges-nearly-40-billion-to-expand-ai-data-center-infrastructure-in-spain-7746166a",
+          "snippet": null
+        }
+      ],
+      "summary": "Ai in barcelona"
+    },
+    {
+      "id": "opp-2",
+      "startupName": "NeuralTrust",
+      "goliathScore": 60.0,
+      "status": "warming",
+      "confidence": 0.55,
+      "riskLevel": "medium",
+      "scoreReason": "Strong traction signals in AI.",
+      "prediction": "NeuralTrust is positioned to raise within 9 months.",
+      "sector": "AI",
+      "location": "Barcelona",
+      "stage": null,
+      "evidence": [
+        {
+          "id": "evd-fb09df23",
+          "source": "web",
+          "title": "Total Addressable Market Growth Rate (CAGR) Benchmarks | Guru Startups Market Intelligence 2025",
+          "url": "https://www.gurustartups.com/reports/total-addressable-market-growth-rate-cagr-benchmarks",
+          "snippet": null
+        },
+        {
+          "id": "evd-a33168b7",
+          "source": "web",
+          "title": "Roughy 10% Of Enterprise Functions Use AI Agents, McKinsey Finds",
+          "url": "https://www.forbes.com/sites/josipamajic/2026/03/22/10-of-enterprise-functions-use-ai-agents-mckinsey-finds",
+          "snippet": null
+        },
+        {
+          "id": "evd-f3492a3c",
+          "source": "web",
+          "title": "AI Progress in Europe Driven by Large Companies as Smaller Firms Lag - Hotel News Resource",
+          "url": "https://www.hotelnewsresource.com/article141968.html",
+          "snippet": null
+        }
+      ],
+      "summary": "Ai in barcelona"
+    },
+    {
+      "id": "opp-3",
+      "startupName": "Plug and Play",
+      "goliathScore": 60.0,
+      "status": "warming",
+      "confidence": 0.55,
+      "riskLevel": "medium",
+      "scoreReason": "Strong traction signals in AI.",
+      "prediction": "Plug and Play is positioned to raise within 9 months.",
+      "sector": "AI",
+      "location": "Barcelona",
+      "stage": null,
+      "evidence": [
+        {
+          "id": "evd-a810b62a",
+          "source": "web",
+          "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+          "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+          "snippet": null
+        },
+        {
+          "id": "evd-bf68a6f5",
+          "source": "web",
+          "title": "Top startups in Deep Tech in Barcelona, Spain (Jan, 2026) - Tracxn",
+          "url": "https://tracxn.com/d/explore/deep-tech-startups-in-barcelona-spain/__19jXouKIL6z_ravPPBisApx8j_Is4A_4IIgxovKPoP4/companies",
+          "snippet": null
+        },
+        {
+          "id": "evd-73952738",
+          "source": "web",
+          "title": "Top startups in Artificial Intelligence in Barcelona, Spain (Jan, 2026) - Tracxn",
+          "url": "https://tracxn.com/d/explore/artificial-intelligence-startups-in-barcelona-spain/__PbuLbXhwRQZgFaP878DrLyqYq15u2YcqGMW8JignvDM/companies",
+          "snippet": null
+        }
+      ],
+      "summary": "Ai in barcelona"
+    },
+    {
+      "id": "opp-4",
+      "startupName": "Europa",
+      "goliathScore": 60.0,
+      "status": "warming",
+      "confidence": 0.55,
+      "riskLevel": "medium",
+      "scoreReason": "Strong traction signals in AI.",
+      "prediction": "Europa is positioned to raise within 9 months.",
+      "sector": "AI",
+      "location": "Barcelona",
+      "stage": null,
+      "evidence": [
+        {
+          "id": "evd-06d5eb15",
+          "source": "web",
+          "title": "Artificial Intelligence in High Tech in Barcelona, Spain - 2026 Market & Investment Trends - Tracxn",
+          "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-high-tech-in-barcelona-in-spain/__HOI0vmbXqBXhwqS6-WRaa4EmN8Y8iq3NMFEkdekEa0E",
+          "snippet": null
+        },
+        {
+          "id": "evd-a1c75d54",
+          "source": "web",
+          "title": "LuxQuanta Series A lands €8M to secure the quantum future | StartupHub.ai",
+          "url": "https://www.startuphub.ai/ai-news/funding-round/2025/luxquanta-series-a-lands-8m-to-secure-the-quantum-future",
+          "snippet": null
+        },
+        {
+          "id": "evd-21e54117",
+          "source": "web",
+          "title": "LuxQuanta Series A lands €8M to secure the quantum future | StartupHub.ai",
+          "url": "https://startuphub.ai/ai-news/funding-round/2025/luxquanta-series-a-lands-8m-to-secure-the-quantum-future",
+          "snippet": null
+        }
+      ],
+      "summary": "Ai in barcelona"
+    }
+  ],
+  "segments": [
+    {
+      "id": "seg-e435f576",
+      "agentId": "agent-0-partner",
+      "script": "Welcome — I am the partner leading this investment briefing, and I will hand you to the team in a moment. You asked us to look at: AI and deep-tech startup investment opportunities in Barcelona with strong traction. To answer it properly I spun up a focused crew — market mapper, company scout, current opportunities, funding analyst — each chasing a different edge of the question. Between them they pulled evidence from live market data and scored 5 opportunities for you. The headline is Uxia, our strongest read at a Goliath Score of 60 and a status of warming. Strong traction signals in AI. Uxia is positioned to raise within 9 months. Close behind it you will hear about Encomenda, NeuralTrust, which round out the shortlist. Each of my colleagues will now walk you through their piece, and I will come back at the end with the recommendation.",
+      "subtitle": "Welcome — I am the partner leading this investment briefing, and I will hand you to the team in a moment. You asked us to look at: AI and…",
+      "audioUrl": "/api/audio/df52b4df96c64645",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Partner"
+    },
+    {
+      "id": "seg-c7b4ca1c",
+      "agentId": "agent-0-market_mapper",
+      "script": "As market mapper, I traced where demand is concentrating and how fast the segment is expanding. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Barcelona is identified as the fifth‑best startup ecosystem in the EU and the leading hub for startups in Southern Europe, establishing its status as an AI and tech hub. Spain ranks as the fifth‑largest European market for AI investment, with over €2 billion invested since 2020, demonstrating a strong national AI investment base. In the first half of 2025 Spain raised €1.95 billion in tech investment, already surpassing the full‑year 2024 total, indicating accelerating AI‑related capital flows. A €60 million venture capital fund launched by Additio Capital, imec.istart, Mobile World Capital Barcelona and Eurecat aims to back more than 50 technology startups, reinforcing the funding ecosystem for AI ventures in Barcelona. Barcelona is identified as Southern Europe’s leading tech hub, with a strong international workforce and concentration of SaaS, HR tech, delivery, and travel tech companies such as Glovo, Typeform, Factorial, and Wallapop. Catalonia hosts 340 emerging deep‑tech companies, of which 93 are supported by Barcelona Activa and have collectively raised €174 million, demonstrating a dense deep‑tech ecosystem. Catalonia leads Spain in academic and scientific spin‑outs (255 of 588 nationwide), highlighting a strong pipeline of university‑originated deep‑tech and AI ventures. Barcelona‑based deep‑tech startups raised €124 million, the highest amount in Southern Europe, confirming the region’s funding leadership. Net-net, the market backdrop is supportive, and the leaders are compounding that tailwind.",
+      "subtitle": "As market mapper, I traced where demand is concentrating and how fast the segment is expanding. Here is what the data actually says about…",
+      "audioUrl": "/api/audio/bdfbf75abcec40cc",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Market Mapper"
+    },
+    {
+      "id": "seg-151dab77",
+      "agentId": "agent-1-company_scout",
+      "script": "As company scout, I went hunting for the startups with real traction behind the headlines. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene. Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1‍ million in a pre‑seed round in November‍ 2025. The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier‍ Darriba, Marsal‍ Gavaldà and William‍ Leppard. NeuralTrust, a Barcelona AI security platform, received seed funding on 23‍ Dec‍ 2024 from Venture Friends. Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment. Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120‍ M at a €1‍ B+ valuation, and secured an additional €74.5‍ M from General Catalyst to fund growth without dilution. Typeform, headquartered in Barcelona with a San‍ Francisco office and over 450 employees, raised €123‍ M for its conversational interaction platform, confirming its strong traction and international presence. Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement. Sherpa.ai raised $18‍ M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence. These are the teams I would take a first meeting with tomorrow.",
+      "subtitle": "As company scout, I went hunting for the startups with real traction behind the headlines. Here is what the data actually says about Uxia,…",
+      "audioUrl": "/api/audio/53f850c0c432471d",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Company Scout"
+    },
+    {
+      "id": "seg-56064f18",
+      "agentId": "agent-2-current_opportunities",
+      "script": "My job is heat: which of these names are moving right now, and how hot each one runs. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment. Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120 M at a €1 B+ valuation, and secured an additional €74.5 M from General Catalyst to fund growth without dilution. Typeform, headquartered in Barcelona with a San Francisco office and over 450 employees, raised €123 M for its conversational interaction platform, confirming its strong traction and international presence. Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement. Sherpa.ai raised $18 M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence. The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene. Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025. The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard. Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup. Watch the hot names closely — heat like this tends to pull forward the next raise.",
+      "subtitle": "My job is heat: which of these names are moving right now, and how hot each one runs. Here is what the data actually says about Uxia,…",
+      "audioUrl": "/api/audio/cf2b2491e4d4423d",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Current Opportunities"
+    },
+    {
+      "id": "seg-0eecf8e7",
+      "agentId": "agent-3-funding_analyst",
+      "script": "On the money: I looked at recent rounds, who is writing cheques, and when these teams raise next. Here is what the data actually says about Uxia, Encomenda, NeuralTrust. Factorial’s most recent financing was a $150 million round that raised its post‑money valuation to $2.5 billion, confirming the large round size cited in the answer. The same company also secured an additional $120 million of non‑dilutive funding from General Catalyst, bringing total borrowings to $200 million and supporting its expansion narrative. Factorial’s $120 million round doubled its valuation to $1 billion, qualifying it as a European unicorn and underpinning the answer’s claim of a Barcelona AI unicorn. Sherpa.ai raised $18 million in a round led by Forgepoint Capital, matching the answer’s description of a recent $18 million funding event for a privacy‑first AI platform. The answer lists Barcelona‑based venture funds that focus on early‑stage tech, which are directly taken from the fact with id de34e854-78e1-4c12-aadc-6d1c119354a6 that names Active Venture Partners, Inveready, Ship2B, Nekko Capital, Nina Capital, Reus Capital Partners, Oceanflow Ventures, Extension Fund, and Arroba Capital as Barcelona‑based investors. The pan‑European and international investors mentioned (Y Combinator, Speedinvest, Seedcamp, Creandum, Antler, General Catalyst, Accel, Sequoia Capital, Andreessen Horowitz, Cherry Ventures, EQT Ventures, Northzone, Index Ventures, Lightspeed Venture Partners, Atomico, Balderton Capital) are drawn from the Sifted ranking of the 106 most active AI investors in Europe in 2025, provided in facts 0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2 and b95ffd91-7ccc-4054-9e1b-bc26bf737545. The statement that Factorial is in early discussions for a $200 million round that could double its valuation to about $2 billion is supported by the Factorial coverage in facts b63e4ec5-767f-4cbf-9617-bfd7930147fb and 0c59131b-adba-42e5-a37f-9e1ecd63fefd, which describe the prospective raise and its potential impact on valuation. The mention of Sherpa.ai raising $18 million from Forgepoint Capital and other insiders comes from fact 46eb033e-66c6-4d17-85c9-72e36bf1e558, which reports that specific funding event. Timing matters here: the next-raise window is the moment to get on the cap table.",
+      "subtitle": "On the money: I looked at recent rounds, who is writing cheques, and when these teams raise next. Here is what the data actually says…",
+      "audioUrl": "/api/audio/8552c88619454f30",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Funding Analyst"
+    },
+    {
+      "id": "seg-15f3d461",
+      "agentId": "agent-0-partner",
+      "script": "Let me bring it together. Across everything the team surfaced, Uxia is where the signal is strongest, scoring 60 with a medium risk profile. Strong traction signals in AI. Uxia is positioned to raise within 9 months. For a diversified look, Encomenda (60), NeuralTrust (60) are the credible runners-up. My recommendation: take first meetings with the top of this list before the next funding window closes,. size the position to the risk each one carries, and let the heat signals tell you when to move. That is the brief — thank you.",
+      "subtitle": "Let me bring it together. Across everything the team surfaced, Uxia is where the signal is strongest, scoring 60 with a medium risk…",
+      "audioUrl": "/api/audio/4c6de5766ac6418e",
+      "wordTimings": [],
+      "imageUrl": null,
+      "evidenceIds": [],
+      "durationMs": null,
+      "title": "Partner"
+    }
+  ],
+  "id": "report-dump_215038",
+  "title": "AI investment opportunities — Barcelona",
+  "executiveSummary": "Uxia leads at 60 (warming): Strong traction signals in AI. Encomenda, NeuralTrust round out the shortlist."
+}

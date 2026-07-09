@@ -1,0 +1,187 @@
+[
+  {
+    "id": "opp-0",
+    "startupName": "Uxia",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Uxia is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-aea311fb",
+        "source": "web",
+        "title": "Spain fifth largest European market for AI investment since 2020",
+        "url": "https://www.investinspain.org/content/icex-invest/en/noticias-main/2025/dealroom",
+        "snippet": null
+      },
+      {
+        "id": "evd-095388e7",
+        "source": "web",
+        "title": "Barcelona: leading hub for startups in Southern Europe.  - Eo Mobility Consultancy",
+        "url": "https://eomobility.com/barcelona-hub-for-europe-startups",
+        "snippet": null
+      },
+      {
+        "id": "evd-91095cb5",
+        "source": "web",
+        "title": "Catalonia solidifies its position as Spain leading technology hub - catalonia.com",
+        "url": "https://catalonia.com/w/catalonia-solidifies-its-position-as-spain-leading-technology-hub",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-1",
+    "startupName": "Encomenda",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Encomenda is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-2af59b0d",
+        "source": "web",
+        "title": "Imec partner in a €60M fund to boost Tech Ecosystem in Spain - imec.istart",
+        "url": "https://www.imecistart.com/en/news/imec-partner-in-a-60m-fund-to-boost-tech-ecosystem-in-spain",
+        "snippet": null
+      },
+      {
+        "id": "evd-bd5ce1ea",
+        "source": "web",
+        "title": "Spain Data Center Market to Reach USD 8.83 Billion by 2031 at ...",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/spain-data-center-market-reach-090100475.html",
+        "snippet": null
+      },
+      {
+        "id": "evd-62f2f78a",
+        "source": "web",
+        "title": "Amazon Pledges Nearly $40 Billion to Expand AI Data-Center ... - WSJ",
+        "url": "https://www.wsj.com/tech/ai/amazon-pledges-nearly-40-billion-to-expand-ai-data-center-infrastructure-in-spain-7746166a",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-2",
+    "startupName": "NeuralTrust",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "NeuralTrust is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-fb09df23",
+        "source": "web",
+        "title": "Total Addressable Market Growth Rate (CAGR) Benchmarks | Guru Startups Market Intelligence 2025",
+        "url": "https://www.gurustartups.com/reports/total-addressable-market-growth-rate-cagr-benchmarks",
+        "snippet": null
+      },
+      {
+        "id": "evd-a33168b7",
+        "source": "web",
+        "title": "Roughy 10% Of Enterprise Functions Use AI Agents, McKinsey Finds",
+        "url": "https://www.forbes.com/sites/josipamajic/2026/03/22/10-of-enterprise-functions-use-ai-agents-mckinsey-finds",
+        "snippet": null
+      },
+      {
+        "id": "evd-f3492a3c",
+        "source": "web",
+        "title": "AI Progress in Europe Driven by Large Companies as Smaller Firms Lag - Hotel News Resource",
+        "url": "https://www.hotelnewsresource.com/article141968.html",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-3",
+    "startupName": "Plug and Play",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Plug and Play is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-a810b62a",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-bf68a6f5",
+        "source": "web",
+        "title": "Top startups in Deep Tech in Barcelona, Spain (Jan, 2026) - Tracxn",
+        "url": "https://tracxn.com/d/explore/deep-tech-startups-in-barcelona-spain/__19jXouKIL6z_ravPPBisApx8j_Is4A_4IIgxovKPoP4/companies",
+        "snippet": null
+      },
+      {
+        "id": "evd-73952738",
+        "source": "web",
+        "title": "Top startups in Artificial Intelligence in Barcelona, Spain (Jan, 2026) - Tracxn",
+        "url": "https://tracxn.com/d/explore/artificial-intelligence-startups-in-barcelona-spain/__PbuLbXhwRQZgFaP878DrLyqYq15u2YcqGMW8JignvDM/companies",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-4",
+    "startupName": "Europa",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Europa is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-06d5eb15",
+        "source": "web",
+        "title": "Artificial Intelligence in High Tech in Barcelona, Spain - 2026 Market & Investment Trends - Tracxn",
+        "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-high-tech-in-barcelona-in-spain/__HOI0vmbXqBXhwqS6-WRaa4EmN8Y8iq3NMFEkdekEa0E",
+        "snippet": null
+      },
+      {
+        "id": "evd-a1c75d54",
+        "source": "web",
+        "title": "LuxQuanta Series A lands €8M to secure the quantum future | StartupHub.ai",
+        "url": "https://www.startuphub.ai/ai-news/funding-round/2025/luxquanta-series-a-lands-8m-to-secure-the-quantum-future",
+        "snippet": null
+      },
+      {
+        "id": "evd-21e54117",
+        "source": "web",
+        "title": "LuxQuanta Series A lands €8M to secure the quantum future | StartupHub.ai",
+        "url": "https://startuphub.ai/ai-news/funding-round/2025/luxquanta-series-a-lands-8m-to-secure-the-quantum-future",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  }
+]

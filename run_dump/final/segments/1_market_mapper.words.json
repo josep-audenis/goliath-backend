@@ -1,0 +1,492 @@
+[
+  {
+    "text": "Barcelona",
+    "startMs": 0,
+    "endMs": 480
+  },
+  {
+    "text": "is",
+    "startMs": 533,
+    "endMs": 640
+  },
+  {
+    "text": "a",
+    "startMs": 680,
+    "endMs": 720
+  },
+  {
+    "text": "leading",
+    "startMs": 770,
+    "endMs": 1120
+  },
+  {
+    "text": "European",
+    "startMs": 1173,
+    "endMs": 1600
+  },
+  {
+    "text": "startup",
+    "startMs": 1650,
+    "endMs": 2000
+  },
+  {
+    "text": "hub,",
+    "startMs": 2080,
+    "endMs": 2560
+  },
+  {
+    "text": "with",
+    "startMs": 2576,
+    "endMs": 2640
+  },
+  {
+    "text": "a",
+    "startMs": 2680,
+    "endMs": 2720
+  },
+  {
+    "text": "strong",
+    "startMs": 2777,
+    "endMs": 3120
+  },
+  {
+    "text": "presence",
+    "startMs": 3164,
+    "endMs": 3520
+  },
+  {
+    "text": "of",
+    "startMs": 3547,
+    "endMs": 3600
+  },
+  {
+    "text": "digital",
+    "startMs": 3650,
+    "endMs": 4000
+  },
+  {
+    "text": "innovation,",
+    "startMs": 4058,
+    "endMs": 4880
+  },
+  {
+    "text": "e-commerce,",
+    "startMs": 4960,
+    "endMs": 5920
+  },
+  {
+    "text": "gaming,",
+    "startMs": 5977,
+    "endMs": 6480
+  },
+  {
+    "text": "and",
+    "startMs": 6500,
+    "endMs": 6560
+  },
+  {
+    "text": "mobile",
+    "startMs": 6606,
+    "endMs": 6880
+  },
+  {
+    "text": "companies.",
+    "startMs": 6936,
+    "endMs": 7600
+  },
+  {
+    "text": "The",
+    "startMs": 7780,
+    "endMs": 8320
+  },
+  {
+    "text": "city",
+    "startMs": 8384,
+    "endMs": 8640
+  },
+  {
+    "text": "hosts",
+    "startMs": 8680,
+    "endMs": 8880
+  },
+  {
+    "text": "the",
+    "startMs": 8920,
+    "endMs": 9040
+  },
+  {
+    "text": "annual",
+    "startMs": 9097,
+    "endMs": 9440
+  },
+  {
+    "text": "Mobile",
+    "startMs": 9509,
+    "endMs": 9920
+  },
+  {
+    "text": "World",
+    "startMs": 9987,
+    "endMs": 10320
+  },
+  {
+    "text": "Congress,",
+    "startMs": 10391,
+    "endMs": 11280
+  },
+  {
+    "text": "one",
+    "startMs": 11320,
+    "endMs": 11440
+  },
+  {
+    "text": "of",
+    "startMs": 11467,
+    "endMs": 11520
+  },
+  {
+    "text": "the",
+    "startMs": 11540,
+    "endMs": 11600
+  },
+  {
+    "text": "world's",
+    "startMs": 11653,
+    "endMs": 12000
+  },
+  {
+    "text": "largest",
+    "startMs": 12060,
+    "endMs": 12480
+  },
+  {
+    "text": "technology",
+    "startMs": 12524,
+    "endMs": 12960
+  },
+  {
+    "text": "conferences.",
+    "startMs": 13020,
+    "endMs": 13840
+  },
+  {
+    "text": "With",
+    "startMs": 13984,
+    "endMs": 14560
+  },
+  {
+    "text": "over",
+    "startMs": 14608,
+    "endMs": 14800
+  },
+  {
+    "text": "1,700",
+    "startMs": 14879,
+    "endMs": 15680
+  },
+  {
+    "text": "startups,",
+    "startMs": 15742,
+    "endMs": 16480
+  },
+  {
+    "text": "Barcelona",
+    "startMs": 16536,
+    "endMs": 17040
+  },
+  {
+    "text": "is",
+    "startMs": 17093,
+    "endMs": 17200
+  },
+  {
+    "text": "consolidating",
+    "startMs": 17262,
+    "endMs": 18000
+  },
+  {
+    "text": "its",
+    "startMs": 18040,
+    "endMs": 18160
+  },
+  {
+    "text": "position",
+    "startMs": 18213,
+    "endMs": 18640
+  },
+  {
+    "text": "as",
+    "startMs": 18720,
+    "endMs": 18880
+  },
+  {
+    "text": "the",
+    "startMs": 18900,
+    "endMs": 18960
+  },
+  {
+    "text": "first",
+    "startMs": 19040,
+    "endMs": 19440
+  },
+  {
+    "text": "European",
+    "startMs": 19493,
+    "endMs": 19920
+  },
+  {
+    "text": "hub",
+    "startMs": 20000,
+    "endMs": 20240
+  },
+  {
+    "text": "in",
+    "startMs": 20293,
+    "endMs": 20400
+  },
+  {
+    "text": "southern",
+    "startMs": 20444,
+    "endMs": 20800
+  },
+  {
+    "text": "Europe,",
+    "startMs": 20846,
+    "endMs": 21520
+  },
+  {
+    "text": "attracting",
+    "startMs": 21556,
+    "endMs": 21920
+  },
+  {
+    "text": "talent",
+    "startMs": 21989,
+    "endMs": 22400
+  },
+  {
+    "text": "and",
+    "startMs": 22500,
+    "endMs": 22800
+  },
+  {
+    "text": "investors.",
+    "startMs": 22872,
+    "endMs": 23600
+  },
+  {
+    "text": "European",
+    "startMs": 23751,
+    "endMs": 24960
+  },
+  {
+    "text": "venture",
+    "startMs": 25000,
+    "endMs": 25280
+  },
+  {
+    "text": "capital",
+    "startMs": 25340,
+    "endMs": 25760
+  },
+  {
+    "text": "reached",
+    "startMs": 25800,
+    "endMs": 26080
+  },
+  {
+    "text": "€45",
+    "startMs": 26160,
+    "endMs": 26880
+  },
+  {
+    "text": "billion",
+    "startMs": 27010,
+    "endMs": 27920
+  },
+  {
+    "text": "in",
+    "startMs": 27973,
+    "endMs": 28080
+  },
+  {
+    "text": "2025,",
+    "startMs": 28160,
+    "endMs": 29440
+  },
+  {
+    "text": "with",
+    "startMs": 29472,
+    "endMs": 29600
+  },
+  {
+    "text": "AI,",
+    "startMs": 29787,
+    "endMs": 30400
+  },
+  {
+    "text": "climate",
+    "startMs": 30450,
+    "endMs": 30800
+  },
+  {
+    "text": "tech,",
+    "startMs": 30864,
+    "endMs": 31200
+  },
+  {
+    "text": "and",
+    "startMs": 31240,
+    "endMs": 31360
+  },
+  {
+    "text": "defense",
+    "startMs": 31410,
+    "endMs": 31760
+  },
+  {
+    "text": "tech",
+    "startMs": 31824,
+    "endMs": 32080
+  },
+  {
+    "text": "showing",
+    "startMs": 32130,
+    "endMs": 32480
+  },
+  {
+    "text": "the",
+    "startMs": 32500,
+    "endMs": 32560
+  },
+  {
+    "text": "strongest",
+    "startMs": 32608,
+    "endMs": 33040
+  },
+  {
+    "text": "growth.",
+    "startMs": 33109,
+    "endMs": 33680
+  },
+  {
+    "text": "Spain's",
+    "startMs": 33880,
+    "endMs": 34960
+  },
+  {
+    "text": "Draft",
+    "startMs": 35027,
+    "endMs": 35360
+  },
+  {
+    "text": "AI",
+    "startMs": 35493,
+    "endMs": 35760
+  },
+  {
+    "text": "Law,",
+    "startMs": 35840,
+    "endMs": 36320
+  },
+  {
+    "text": "approved",
+    "startMs": 36364,
+    "endMs": 36720
+  },
+  {
+    "text": "on",
+    "startMs": 36747,
+    "endMs": 36800
+  },
+  {
+    "text": "March",
+    "startMs": 36853,
+    "endMs": 37120
+  },
+  {
+    "text": "11,",
+    "startMs": 37280,
+    "endMs": 37600
+  },
+  {
+    "text": "2025,",
+    "startMs": 37680,
+    "endMs": 38880
+  },
+  {
+    "text": "introduces",
+    "startMs": 38931,
+    "endMs": 39440
+  },
+  {
+    "text": "cross-sectoral",
+    "startMs": 39507,
+    "endMs": 40400
+  },
+  {
+    "text": "requirements",
+    "startMs": 40449,
+    "endMs": 41040
+  },
+  {
+    "text": "for",
+    "startMs": 41060,
+    "endMs": 41120
+  },
+  {
+    "text": "transparency,",
+    "startMs": 41182,
+    "endMs": 42240
+  },
+  {
+    "text": "accountability,",
+    "startMs": 42288,
+    "endMs": 43360
+  },
+  {
+    "text": "fairness,",
+    "startMs": 43413,
+    "endMs": 44160
+  },
+  {
+    "text": "and",
+    "startMs": 44180,
+    "endMs": 44240
+  },
+  {
+    "text": "human",
+    "startMs": 44307,
+    "endMs": 44640
+  },
+  {
+    "text": "oversight,",
+    "startMs": 44696,
+    "endMs": 45600
+  },
+  {
+    "text": "especially",
+    "startMs": 45651,
+    "endMs": 46160
+  },
+  {
+    "text": "for",
+    "startMs": 46200,
+    "endMs": 46320
+  },
+  {
+    "text": "higher-risk",
+    "startMs": 46366,
+    "endMs": 46960
+  },
+  {
+    "text": "AI",
+    "startMs": 47093,
+    "endMs": 47360
+  },
+  {
+    "text": "applications.",
+    "startMs": 47422,
+    "endMs": 48320
+  }
+]

@@ -24,7 +24,9 @@ async def test_run_reaches_complete():
 
 async def test_default_crew_spawned_and_done():
     run = await make_completed_run()
+    # partner (presenter) always leads the roster, then the research crew
     assert [a.role for a in run.agents] == [
+        "partner",
         "market_mapper",
         "company_scout",
         "current_opportunities",
@@ -51,12 +53,32 @@ async def test_opportunities_ranked_desc_and_valid():
         assert o.scoreReason and o.prediction
 
 
-async def test_one_segment_per_agent():
+async def test_every_agent_speaks_and_partner_bookends():
     run = await make_completed_run()
-    assert len(run.segments) == len(run.agents)
-    assert {s.agentId for s in run.segments} == {a.id for a in run.agents}
+    agent_ids = {a.id for a in run.agents}
+    seg_ids = [s.agentId for s in run.segments]
+    # every segment maps to a real agent, and every agent speaks at least once
+    assert set(seg_ids) <= agent_ids
+    assert agent_ids <= set(seg_ids)
+    # the partner presents twice (intro + outro); experts once each
+    partner = next(a for a in run.agents if a.role == "partner")
+    assert seg_ids.count(partner.id) == 2
+    assert seg_ids[0] == partner.id and seg_ids[-1] == partner.id
     for s in run.segments:
         assert s.script and s.subtitle
+
+
+async def test_scripts_capped_and_no_self_intro():
+    run = await make_completed_run()
+    for s in run.segments:
+        # capped to ~45s of speech (~110 words); allow a little slack
+        assert len(s.script.split()) <= 130
+        # multi-sentence, not a one-liner
+        assert s.script.count(".") >= 1
+        # no spoken self-introductions (UI shows name/role)
+        low = s.script.lower()
+        assert "as market mapper" not in low
+        assert "i am the partner" not in low
 
 
 async def test_event_causal_order():

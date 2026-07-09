@@ -1,0 +1,662 @@
+{
+  "content": "## AI Startups in Barcelona That Raised Funding\n\nBarcelona has a growing AI startup ecosystem. Here are notable AI startups based in Barcelona that have raised funding:\n\n### AI Infrastructure & Platform\n\n| Startup | Focus | Funding | Key Investors |\n|---------|-------|---------|---------------|\n| **Nuclia** | RAG-as-a-Service platform, AI-powered search & generative answers | $5.4M Seed (Apr 2022) | Crane Venture Partners, Elaia |\n| **NeuralTrust** | Securing AI Agents and LLMs for enterprises | Seed (Dec 2024) from Venture Friends; Grant (Jun 2025) | Venture Friends, Europa |\n| **Galtea** | AI evaluation platform for reliable AI agents in production | €2.7M (~$3.2M) Seed (Mar 2026) | Mozilla Ventures, 42 Capital |\n| **MLCode** | Data security automation for AI/ML; agentic AI platform | Seed (May 2024) | Bullnet Capital |\n\n### AI Applications\n\n| Startup | Focus | Funding | Key Investors |\n|---------|-------|---------|---------------|\n| **Restb.ai** | Deep learning image recognition for real estate | €1.7M EU Horizon 2020 grant (2018); €1.2M investment round (2017) | Capitana Venture Partners, EU/EIC |\n| **Kloutit** | AI-powered chargeback management | €540K Seed (Dec 2024) | Banco Sabadell, Lanai Ventures |\n| **Candam** | AI-native computer vision | Seed (Oct 2024) | Sogrape and others |\n| **Mediktor** | AI-based medical triage and pre-diagnosis chatbot | Multiple rounds (Series A+) | — |\n| **Hubtype** | AI chatbots for customer support | $1.12M Seed (May 2019) | K Fund, Catalonia Trade & Investment |\n| **Verbio Technologies** | Speech technology (voice recognition, NLU, text-to-speech) | Grant funding | EIC Fund, Europa |\n\n### AI in SaaS (Recent Rounds)\n\n| Startup | Focus | Funding | Key Investors |\n|---------|-------|---------|---------------|\n| **Replexica** | AI-powered localization | Seed (2024) | Y Combinator |\n| **Feeder** | AI tool (Techstars-backed) | Seed (Mar 2024) | Techstars |\n\n### Market Context\n\n- The AI Infrastructure sector in Barcelona comprises ~15 companies, with 7 funded, having collectively raised ~$14.6M.\n- AI companies in Barcelona's SaaS sector have raised ~$29.8M over the last 10 years.\n- Barcelona leads deep tech startup funding in Southern Europe with €124M raised.\n- Galtea, spun off from the Barcelona Supercomputing Centre in 2024, is among the most recent AI startups to raise funding in the city (March 2026).\n\nNotable local AI investors include **Nina Capital**, **Bcombinator**, **Banco Sabadell**, **Nauta Capital**, and **Plug and Play Tech Center**.\n",
+  "explainability": [
+    {
+      "content": "Nuclia raised a $5.4M seed round in April 2022, led by Crane Venture Partners and Elaia, confirming its status as a Barcelona AI infrastructure startup with that funding amount.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5",
+        "076b0295-a204-4bc9-9d5e-d8676fda6af7",
+        "0b36fabf-f599-4ab5-a159-bff7f11376e6"
+      ]
+    },
+    {
+      "content": "NeuralTrust secured a seed round of €1.05M in December 2024 from Venture Friends and a grant in June 2025, supporting its inclusion as a recently funded AI infrastructure startup in Barcelona.",
+      "references": [
+        "1c27a40b-b89a-4376-963d-53d7aa745ccc",
+        "08d0878c-9907-4b41-ad7f-a4c1d3305ec1"
+      ]
+    },
+    {
+      "content": "Galtea raised €2.7M seed funding in March 2026 from Mozilla Ventures, 42 Capital and others, validating its presence as a newly funded AI infrastructure company in Barcelona.",
+      "references": [
+        "b27da9db-8881-4bca-8e61-c2e2096179c7",
+        "98ce496f-7600-41ed-8df7-b00a68e114c5"
+      ]
+    },
+    {
+      "content": "MLCode closed a seed round in May 2024 with Bullnet Capital, confirming its role as a Barcelona AI infrastructure startup with recent funding.",
+      "references": [
+        "32e673a8-26a4-459e-93a8-87ae6df0682c",
+        "0e449da7-5b6e-4bb9-9ca2-a0a395dd7a68"
+      ]
+    },
+    {
+      "content": "Restb.ai received a €1.7M EU Horizon 2020 grant in 2018 and a €1.2M investment round in 2017, justifying its inclusion among AI application startups in Barcelona with raised capital.",
+      "references": [
+        "44f710ba-5bd0-4d0d-986f-ef59218f6f5f",
+        "c76ce02e-99bc-4ae0-8674-a08ae66b3e9f"
+      ]
+    },
+    {
+      "content": "Kloutit obtained a €540K seed round in December 2024 from Banco Sabadell and other investors, supporting its listing as an AI application startup in Barcelona with funding.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5",
+        "bd4052f7-028b-4b0f-bb09-86485e83452b"
+      ]
+    },
+    {
+      "content": "Candam raised a seed round in October 2024 from Sogrape and additional investors, confirming its status as an AI-native computer vision startup in Barcelona with funding.",
+      "references": [
+        "b6d9e870-780c-4086-9f0b-f6251f6b4a71"
+      ]
+    },
+    {
+      "content": "Hubtype secured a $1.12M seed round in May 2019 from K Fund and Catalonia Trade & Investment, validating its inclusion as an AI chatbot startup in Barcelona with raised capital.",
+      "references": [
+        "b5b3e6f0-ab29-4f4f-b963-a69bcbe58bd2"
+      ]
+    },
+    {
+      "content": "Verbio Technologies received grant funding from the EIC Fund and Europa, supporting its placement among AI application startups in Barcelona with funding.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5"
+      ]
+    },
+    {
+      "content": "Replexica raised a seed round in 2024 backed by Y Combinator, confirming its entry as an AI SaaS startup in Barcelona with recent funding.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5"
+      ]
+    },
+    {
+      "content": "Feeder obtained a seed round in March 2024 from Techstars, substantiating its listing as an AI SaaS startup in Barcelona with recent funding.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5",
+        "47cfc5a0-95b6-41e8-8401-24c351c955e1"
+      ]
+    },
+    {
+      "content": "The AI infrastructure sector in Barcelona comprises 15 companies, 7 funded, collectively raising $14.6M, matching the market context figures in the answer.",
+      "references": [
+        "14e9ba53-b647-4b53-a05d-a16185d93f9b",
+        "47cfc5a0-95b6-41e8-8401-24c351c955e1"
+      ]
+    },
+    {
+      "content": "AI SaaS companies in Barcelona have raised about $29.8M over the last ten years, aligning with the answer’s market context statement.",
+      "references": [
+        "98ce496f-7600-41ed-8df7-b00a68e114c5"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "98ce496f-7600-41ed-8df7-b00a68e114c5",
+      "content": "| Company | Round Raised | Amount Raised | Funding Date | Investors |\n ---  --- \n| Logo for Galtea Galtea | Seed | 2879 | Mar 25, 2026 | 42 Capital  and 3 more |\n| Logo for Kloutit Kloutit | Seed | 5886 | Dec 19, 2024 | Banco Sabadell  and 5 more |\n| Logo for Replexica Replexica | Seed | 7368 | 2024 | Y Combinator |\n| Logo for MLCode MLCode | Seed | 8630 | May 09, 2024 | Bullnet Capital |\n| Logo for Feeder Feeder | Seed | 4500 | Mar 11, 2024 | Techstars | [...] | Year | Total Funding |\n --- |\n| 2026 | $3.2M |\n| 2024 | $1.09M |\n| 2023 | $2.72M |\n| 2022 | $5.4M |\n| 2021 | $1.46M |\n| 2020 | $943K |\n| 2019 | $3.57M |\n| 2018 | $4.96M |\n| 2017 | $6.07M |\n\n### Recent Funding Rounds in Artificial Intelligence companies in SaaS in Barcelona [...] ### Total funding year-on-year in Artificial Intelligence companies in SaaS in Barcelona\n\nArtificial Intelligence companies in SaaS in Barcelona saw a total funding of more than $29.8M in the last 10 years. The most amount of funding was in 2017 at more than $6.07M. There has been a total funding of $3.2M in 2026 till date.",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-saas-in-barcelona-in-spain/__0ggOvztjacANo0M2f7xmMDbPM0cv_3VuJ7h0a5I0d9g"
+          },
+          "document": {
+            "name": "Artificial Intelligence in SaaS in Barcelona, Spain - 2026 Market & Investment Trends - Tracxn",
+            "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-saas-in-barcelona-in-spain/__0ggOvztjacANo0M2f7xmMDbPM0cv_3VuJ7h0a5I0d9g"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c27a40b-b89a-4376-963d-53d7aa745ccc",
+      "content": "| Company | Round Raised | Amount Raised | Funding Date | Investors |\n ---  --- \n| Logo for NeuralTrust NeuralTrust | Seed | 1050 | Dec 23, 2024 | Venture Friends |\n| Logo for Feeder Feeder | Seed | 6046 | Mar 11, 2024 | Techstars |\n| Logo for Nuclia Nuclia | Seed | 2645 | Apr 20, 2022 | Crane Venture Partners  and 1 more |\n| Logo for Hutoma Hutoma | Seed | 1995 | 2018 | Athos Capital |\n| Logo for Hutoma Hutoma | Seed | 2834 | Mar 28, 2018 [...] The AI Infrastructure sector in Barcelona saw a total funding of more than $14.6M in the last 10 years. The most amount of funding was in 2022 at more than $5.4M.\n\n| Year | Total Funding |\n --- |\n| 2025 \n| 2024 | $20K |\n| 2022 | $5.4M |\n| 2020 | $58.9K |\n| 2019 | $1.01M |\n| 2018 | $4.38M |\n| 2017 | $3.4M |\n\n### Recent Funding Rounds in AI Infrastructure in Barcelona [...] ### Companies founded year-on-year in the AI Infrastructure sector in Barcelona\n\n3 AI Infrastructure startups in Barcelona were founded in 2024 - this is the most number of startups founded in any year in the last 10 years.\n\n| Year | No. of companies |\n --- |\n| 2026 \n| 2025 | 1 |\n| 2024 | 3 |\n| 2023 \n| 2022 | 2 |\n| 2021 \n| 2020 | 1 |\n| 2019 | 2 |\n| 2018 | 2 |\n| 2017 \n\n### Stage-wise distribution of AI Infrastructure sector companies in Barcelona",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY"
+          },
+          "document": {
+            "name": "AI Infrastructure in Barcelona, Spain - 2026 Market & Investments Trends - Tracxn",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47cfc5a0-95b6-41e8-8401-24c351c955e1",
+      "content": "### Recent Funding Rounds in AI Infrastructure in Barcelona\n\nIn the year 2024, till December 2024, AI Infrastructure companies in Barcelona have raised $20K in equity funding across 2 rounds.\n\nHere are some recent, important funding rounds inAI Infrastructure companies in Barcelona: [...] | Company | Round Raised | Amount Raised | Funding Date | Investors |\n ---  --- \n| Logo for NeuralTrust NeuralTrust | Seed | 7991 | Dec 23, 2024 | Venture Friends |\n| Logo for Feeder Feeder | Seed | 1375 | Mar 11, 2024 | Techstars |\n| Logo for Nuclia Nuclia | Seed | 7734 | Apr 20, 2022 | Crane Venture Partners  and 1 more |\n| Logo for Hutoma Hutoma | Seed | 6868 | 2018 | Athos Capital |\n| Logo for Hutoma Hutoma | Seed | 6231 | Mar 28, 2018 \n\nSee a more detailed list of funding rounds [...] The AI Infrastructure sector in Barcelona, Spain comprises 15 companies, including 7 funded companies having collectively raised $14.6M in venture capital money and private equity.Out of these, 2 are Series A+ funded.\n\nAI Infrastructure sector in Barcelona, Spainhas seen 2acquisitions.This represents almost 13.3% of all such companies - which is higher than the 5.0% exit rate of tech companies in general.",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY/companies"
+          },
+          "document": {
+            "name": "Top startups in AI Infrastructure in Barcelona, Spain (Jan, 2026) - Tracxn",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY/companies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "076b0295-a204-4bc9-9d5e-d8676fda6af7",
+      "content": "+ Search InvestmentsBy size, vertical or business model. + DealflowRecent deals by country or industry. # Nuclia secured €5 million from Crane Ventures and Elaia. AI (big data)\") Competitive Intelligence Industry agnostic Audio Software Services Video. Nuclia, a Barcelona, Spain-based software startup developing an AI-powered data search tool for other developers, announced that it raised a seed funding round closed at $5.4M. The money was raised from investors including UK-based VC Crane [...] API that enables developers to integrate AI-powered search into any app, service, or website in minutes. Prior to this round, Nuclia was pre-seeded by Elaia in 2021. Interested in more dealflow and deeper data sets from Europe? Please consider joining Nordic 9! ## Nuclia (company). Spain AI (big data)\")Competitive IntelligenceIndustry agnosticSoftware ServicesVideoAudio. Total investments received (USD): 5.91M. Round value (USD): 5.42M. Round investors: Crane Venture PartnersElaia. Industry: AI [...] UK-based VC Crane Venture Partners and French one Elaia. Nuclia, founded in 2019 by CEO Eudald Camprubí and Ramon Navarro, developed an end-to-end API that enables developers to integrate AI-powered search in minutes for any data and for any data-source. It uses AI and Natural Language Processing to extract value from unstructured data in minutes. The company is also announcing its cloud native database, NucliaDB, now available as open source and the public availability of its API that enables",
+      "origins": [
+        {
+          "source": {
+            "name": "Discover what happens on the European investment scene",
+            "url": "https://nordic9.com/news/nuclia-secured-5-million-from-crane-ventures-and-elaia"
+          },
+          "document": {
+            "name": "Nuclia secured €5 million from Crane Ventures and Elaia. | Nordic 9",
+            "url": "https://nordic9.com/news/nuclia-secured-5-million-from-crane-ventures-and-elaia"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bf415081-e285-4bbd-b60f-292c0a074ab7",
+      "content": "data. Lead Investors:Crane Venture Partners and Ealai. Company Website: Software Category:AI-powered Search Engine. About the Company: Nuclia is an end-to-end API that enables developers to integrate AI-powered search in minutes for any data and any data source. It uses AI and Natural Language Processing to extract value from unstructured data in minutes. Based in Barcelona, it's among few deep-tech startups in the region and was founded by a team of industry experts in knowledge management, [...] # Nuclia Raises $5.4 Million in Seed Round. by Kay Aloha Villamor in Seed Round  April 21st, 2022. Nuclia, a Barcelona, Spain-based pioneer in AI-powered search that is changing how humans access and discover meaningful data, announced that it raised $5.4 million in its seed round led by Crane Venture Partners and Ealai. The company is also announcing it is open-sourcing NucliaDB, which is the foundation of Nuclia and the first vector database designed for unstructured data. Lead [...] Nuclia Raises $5.4 Million in Seed Round   | The SaaS News",
+      "origins": [
+        {
+          "source": {
+            "name": "SaaS B2B Fundraising News | The SaaS News",
+            "url": "https://www.thesaasnews.com/news/nuclia-raises-5-4-million-in-seed-round"
+          },
+          "document": {
+            "name": "Nuclia Raises $5.4 Million in Seed Round   | The SaaS News",
+            "url": "https://www.thesaasnews.com/news/nuclia-raises-5-4-million-in-seed-round"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08d0878c-9907-4b41-ad7f-a4c1d3305ec1",
+      "content": "NeuralTrust has raised funding over 2 rounds. Its first funding round was on Dec 23, 2024. Its latest funding round was a Grant (prize money) round on Jun 30, 2025 for  $\\\\\\\\\\. 1 investor participated in its latest round.  NeuralTrust has 2 institutional investors. [...] | Date of Funding | Funding Amount | Round Name | Post-Money Valuation | Revenue Multiple | Lead Investors | Other Investors |\n ---  ---  --- \n| Jun 30, 2025 | 8694349 | Grant (prize money) | 6488800 | 2822847 | 2859086 | 7139891 |\n| Dec 23, 2024 | 4359639 | Seed | 8935406 | 6231090 | Venture Friends | 9362572 |\n\nlock\n\n## NeuralTrust's founders and board of directors\n\n### NeuralTrust's employee count trend\n\nEmployee count trend for NeuralTrust\nlock\nchrome_extension_cta_illustration [...] | 10th | Logo for Apex  Apex 2023, Tel Aviv  (Israel), Acquired | AI based security and risk management platform for businesses | $7M | Sequoia Capital, Index Ventures  & 1 others | 57/100 |\n| 27th | Logo for NeuralTrust  NeuralTrust 2022, Barcelona  (Spain), Seed | Platform for securing and scaling LLM applications and agents  Venture Friends, Europa | 45/100 |",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/companies/neuraltrust/__eu-bbL_7XGTUWclcwEcsXfc5wl6yUafpEnH9mcoz5QA"
+          },
+          "document": {
+            "name": "NeuralTrust - 2026 Company Profile & Team",
+            "url": "https://tracxn.com/d/companies/neuraltrust/__eu-bbL_7XGTUWclcwEcsXfc5wl6yUafpEnH9mcoz5QA"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0b36fabf-f599-4ab5-a159-bff7f11376e6",
+      "content": "Nuclia has raised a total funding of $5.4M over 1 round. Its latest funding round was a Seed round on Apr 20, 2022 for  $\\\\\\\\\\. 2 investors participated in its latest round.  Nuclia has 3 institutional investors.\n\n| Date of Funding | Funding Amount | Round Name | Post-Money Valuation | Revenue Multiple | Lead Investors | Other Investors |\n ---  ---  --- \n| Apr 20, 2022 | 9496797 | Seed | 6829072 | 7967117 | 2778945 | 8563640 |\n\nlock\n\n## Nuclia's founders and board of directors [...] | 10th | Logo for Seldon  Seldon 2011, Shoreditch  (United Kingdom), Series B | Open source framework for deploying ML models | $39.1M | Bright Pixel Capital, Amadeus Capital  & 26 others | 54/100 |\n| 11th | Logo for Nuclia  Nuclia 2019, Barcelona  (Spain), Acquired | Provider of RAG-as-a-Service platform, AI search, and generative answers | $5.4M | Crane Venture Partners, Elaia  & 1 others | 53/100 | [...] JavaScript is disabled in your browser. enable it to enjoy the full features of Tracxn.\n\nTracxn.com\nAndroid\nApple\nChrome Web Store\nFirefox Extension\ntracxn ai suite\n\nAI-powered market intelligence across companies, investors, and sectors.\n\nLogo for Nuclia\n\n# Nuclia - Company Profile\n\nlock\nlock\nlock\nlock\n\n## Nuclia - About the company\n\n### Company Details\n\nX\n\n## Nuclia's acquisition details\n\nPDF Illustration Image\n\n## Nuclia's funding and investors",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/companies/nuclia/__0JQjnueiWcPPwnoExzIA2K3XdD0vYf6Er8FUK1IS7ZM"
+          },
+          "document": {
+            "name": "Nuclia - 2026 Company Profile & Team",
+            "url": "https://tracxn.com/d/companies/nuclia/__0JQjnueiWcPPwnoExzIA2K3XdD0vYf6Er8FUK1IS7ZM"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b27da9db-8881-4bca-8e61-c2e2096179c7",
+      "content": "Logo\nLogo\nLogo\nLogo\n\n# Barcelona’s Galtea raises €2.7 million, backed by Mozilla Ventures, for its AI evaluation platform\n\nRahul Raj\nGaltea\n\nGaltea, a Barcelona-based AI evaluation platform that helps enterprises and developers ship reliable AI agents in production, today announced a €2.7 million ($3.2 million) Seed funding round. [...] “Thorough testing and simulations for accuracy, performance, behaviour, and security are the only way developers can know how their platform will perform in a real-world setting. Galtea is providing generative AI developer teams with infrastructure to overcome barriers to AI adoption and deploy systems reliably, scalably, and efficiently.” [...] Founded by Jorge Palomar and Baybars Külebi, Galtea was spun off from the Barcelona Supercomputing Centre in 2024. Galtea provides enterprise AI teams with continuous, dynamic test scenarios and tailored metrics to evaluate their agents, so teams can use them to inform the best course of action.",
+      "origins": [
+        {
+          "source": {
+            "name": "eu-startups.com",
+            "url": "https://www.eu-startups.com/2026/03/barcelonas-galtea-raises-e2-7-million-backed-by-mozilla-ventures-for-its-ai-evaluation-platform"
+          },
+          "document": {
+            "name": "Barcelona’s Galtea raises €2.7 million, backed by Mozilla Ventures, for its AI evaluation platform | EU-Startups",
+            "url": "https://www.eu-startups.com/2026/03/barcelonas-galtea-raises-e2-7-million-backed-by-mozilla-ventures-for-its-ai-evaluation-platform"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bd4052f7-028b-4b0f-bb09-86485e83452b",
+      "content": "Albert Algarra, CEO of Kloutit, expressed optimism about the funding’s potential to advance the company’s mission: “The funding raised so far not only allows us to invest more in technology and customer acquisition, but we have also been able to surround ourselves with investors, whose experience and knowledge can bring a lot to the project with their ideas and feedback.” [...] Kloutit, founded in 2024, focuses on using AI to simplify and improve the chargeback process. The company claims an 80% success rate in helping businesses defend against chargebacks.\n\n## Kloutit Platform Offering\n\nKloutit’s platform uses AI to automate chargeback management, reducing financial losses and helping prevent disputes. Users can upload emails, invoices, or images to create a custom defense in under 30 seconds. [...] Diego Camilleri, General Partner at Lanai Ventures, shared his enthusiasm for the startup: “Kloutit brings together all the ingredients we look for in an investment. Its founding team combines a deep knowledge of the problem, as Albert was responsible for this issue at Stayforlong, and the technological and strategic expertise of Adrián and Alexis, who complete an exceptional team. We are proud to lead this round alongside leading investors such as BStartup and industry experts, including",
+      "origins": [
+        {
+          "source": {
+            "name": "Startup Rise EU - European Startup News | Funding | Startup Insights",
+            "url": "https://startuprise.co.uk/kloutit-has-secured-e540k-in-first-funding-round"
+          },
+          "document": {
+            "name": "Kloutit funding news - Barcelona-based Kloutit has Secured €540K in First Funding Round",
+            "url": "https://startuprise.co.uk/kloutit-has-secured-e540k-in-first-funding-round"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32e673a8-26a4-459e-93a8-87ae6df0682c",
+      "content": "# MLCode - Company Profile. ## MLCode - About the company. MLCode is a seed company based in Barcelona (Spain), founded in 2022. MLCode has raised an undisclosed amount in funding. The company has 132 active competitors, including 43 funded and 9 that have exited. Its top competitorsinclude companies like Protect AI, SSI and Aurascape. ### Company Details. It is a data security automation for AI or ML data, focusing on discovering, monitoring, and resolving issues related to AI or ML data [...] to AI or ML data access, serving, and transport. View MLCode's full profile. Download MLCode's company profile. ## MLCode's funding and investors. MLCodehas raised funding over 1round.Its latest funding round was a Seedroundon May 09, 2024for an undisclosed amount.1investorparticipated in its latest round,which includeBullnet Capital. Here is the list of recent funding rounds of MLCode:. Access funding benchmarks and valuations. View details ofMLCode's funding rounds and investors. ## MLCode's [...] Capital. MLCode'stop competitors includeProtect AI, SSI and Aurascape. Among them, Liminal secured the most recent funding round in November, 2025. MLCode is a funded company, having raised an undisclosed amount in its 1st and only funding round, a Seed round on May 09, 2024. MLCode ranks 76th amongst 132 active competitors, of which 43 are funded. The most recent competitors to raise funding was Liminal, which secured $4M in Nov, 2025.",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/companies/mlcode/__SBEPIoBov3ueYWGLT05HNSkU0Hx4Gc46AO82CRJqick"
+          },
+          "document": {
+            "name": "MLCode - 2025 Company Profile, Funding & Competitors - Tracxn",
+            "url": "https://tracxn.com/d/companies/mlcode/__SBEPIoBov3ueYWGLT05HNSkU0Hx4Gc46AO82CRJqick"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0e449da7-5b6e-4bb9-9ca2-a0a395dd7a68",
+      "content": "experiment with AI security risk management. The collaboration focuses on monitoring, controlling, and supervising AI systems to enhance their safety and efficiency. ## MLCode,closes seed round with Bullnet Capital. Bullnet Capital,  an independent Spanish venture capital firm specialized in deep tech projects, has made  a new investment in MLCode, a start-up dedicated to the development of a software platform for  the automation of data management and security  for AI. [...] # News. ## MLCode appoints Silicon Valley entrepreneur Opher Kahane as Strategic Advisor. Barcelona, 16 July 2025 — MLCode, the Barcelona-based company building an enterprise-grade Agentic AI platform to enable secure, observable, and governed orchestration of generative AI workflows in real time, has named Silicon Valley-based serial entrepreneur and investor Opher Kahane as Strategic Advisor. Opher’s career spans three landmark exits: he steered ClassX to a merger with […]. Read more]( ##",
+      "origins": [
+        {
+          "source": {
+            "name": "mlcode.io",
+            "url": "https://mlcode.io/news"
+          },
+          "document": {
+            "name": "News - MLCODE",
+            "url": "https://mlcode.io/news"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44f710ba-5bd0-4d0d-986f-ef59218f6f5f",
+      "content": "Click to share on Buffer (Opens in new window).  Click to email this to a friend (Opens in new window). Clemens Rychlik is the COO at Barcinno & Hello Operator, as well as co-founder at BCN Fintech. For his latest news and thoughts on the local startup scene, fintech space, SEO, Content and leveraging AI for marketing, follow him on x (@ClemensRychlik) or  LinkedIn. Barcinno is the community-driven platform sharing the stories, knowledge & events of Barcelona’s startup and tech communities. [...] Barcelona Tech, Startups and Innovation. # Barcelona Startup Restb.ai Wins €1.7M In Funding Through EU Horizon 2020. by Clemens Rychlik Leave a Comment. Restb.ai, a startup from Barcelona that provides image recognition for real estate, wins the European Innovation Council (EIC) pilot, which is part of the Horizon 2020 programme, and lands a €1.7M investment. As a result, Restb.ai will, alongside other innovative companies, receive funding and also benefit from 12 days of free business coaching [...] business coaching and acceleration services. Restb.ai applied to the programme through the SME Instrument, the part of EIC which provides financing for innovation activities like demonstration, testing, piloting, and scaling up. Restb.ai is a computer vision company specializing in image recognition for real estate.  Barcelona Startup Signaturit Raises €600k To Expand In EuropeBarcelona Startup Signaturit Raises €600k To Expand In Europe.  8 Reasons Barcelona Startups Should Be On Snapchat8",
+      "origins": [
+        {
+          "source": {
+            "name": "barcinno.com",
+            "url": "http://www.barcinno.com/restb-wins-eic-and-lands-funding"
+          },
+          "document": {
+            "name": "Barcelona Startup Restb.ai Wins €1.7M Funding Through EU Horizon 2020",
+            "url": "http://www.barcinno.com/restb-wins-eic-and-lands-funding"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "85c5732f-4588-438f-b68e-a565db6a636d",
+      "content": "Platform for mobilizationNewsletterHola Barcelona! Who is whoCorporate Protector Members Corporate Members Individual Protector Members Individual Members International Council Barcelonians by Choice Barcelona 2040 Events & NewsEvents Barcelona Global News Barcelona Global Update Know-howActivity Report Dossiers Surveys Articles of our members Barcelona in the rankings Blog Become a memberContactNewsPrivacy PolicyCookies PolicyLegal.  Home>Events & News>Barcelona Global Update>Barcelona leads [...] Barcelona leads the funding raised by deep tech startups in Southern Europe with 124 million euros [...] leads the funding raised by deep tech startups in Southern Europe with 124 million euros Back.  Barcelona leads the funding raised by deep tech startups in Southern Europe with 124 million euros Back.  Barcelona Global Update Receive the Barcelona Global Update Why register? See all news Register now ContactNewsPrivacy PolicyCookies PolicyLegal By eMascaró.",
+      "origins": [
+        {
+          "source": {
+            "name": "Barcelona Global",
+            "url": "https://www.barcelonaglobal.org/events-news/updates/barcelona-leads-the-funding-raised-by-deep-tech-startups-in-southern-europe-with-124-million-euros"
+          },
+          "document": {
+            "name": "Barcelona leads the funding raised by deep tech startups in Southern Europe with 124 million euros",
+            "url": "https://www.barcelonaglobal.org/events-news/updates/barcelona-leads-the-funding-raised-by-deep-tech-startups-in-southern-europe-with-124-million-euros"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6d9e870-780c-4086-9f0b-f6251f6b4a71",
+      "content": "| Company | Round Raised | Amount Raised | Funding Date | Investors |\n ---  --- \n| Logo for Candam Candam | Seed | 6314 | Oct 04, 2024 | Sogrape  and 4 more |\n| Logo for Feeder Feeder | Seed | 1557 | Mar 11, 2024 | Techstars |\n| Logo for restb.ai restb.ai | Seed | 4315 | May 13, 2017 | Capitana Venture Partners  and 4 more |\n\nLogo for Candam\nLogo for Feeder\nLogo for restb.ai\n\n## Top Investors in AI-Native Computer Vision in Barcelona [...] ### Total funding year-on-year in the AI-Native Computer Vision sector in Barcelona\n\nThe AI-Native Computer Vision sector in Barcelona saw a total funding of more than $11.8M in the last 10 years. The most amount of funding was in 2018 at more than $4.22M.\n\n| Year | Total Funding |\n --- |\n| 2024 | $1.23M |\n| 2022 | $613K |\n| 2020 | $58.9K |\n| 2019 | $1.55M |\n| 2018 | $4.22M |\n| 2017 | $3.99M |\n\n### Recent Funding Rounds in AI-Native Computer Vision in Barcelona [...] | Investor | Location | Top Portfolio Companies |\n --- \n| Logo for Plug and Play Tech Center Plug and Play Tech Center | Sunnyvale  (United States) \n| Logo for Nina Capital Nina Capital | Barcelona  (Spain) \n| Logo for Bcombinator Bcombinator | Barcelona  (Spain) | Feeder |\n| Logo for Nauta Capital Nauta Capital | London  (United Kingdom) \n| Logo for Banco Sabadell Banco Sabadell | Barcelona  (Spain)",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/explore/ai-native-computer-vision-startups-in-barcelona-spain/__l8nPWcVS_AVZY3vKqgB6bCwFPMh-nJ1Mm0_t13BGVR0/companies"
+          },
+          "document": {
+            "name": "Top startups in AI-Native Computer Vision in Barcelona, Spain (Jan, 2026) - Tracxn",
+            "url": "https://tracxn.com/d/explore/ai-native-computer-vision-startups-in-barcelona-spain/__l8nPWcVS_AVZY3vKqgB6bCwFPMh-nJ1Mm0_t13BGVR0/companies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7c666d66-f72f-42e3-b142-c512f290d4c4",
+      "content": "Your browser was unable to load all of Tracxn resources. Press Ctrl+F5 or Ctrl+Shift+R to have your browser try again and if that doesn't work, click here to retry or mail us at hi@tracxn.com. # Artificial Intelligence Companies in Barcelona's Deep Tech Sector. ## Artificial Intelligence companies in Deep Tech in Barcelona, Spain. There are 27Artificial Intelligence companies in Deep Tech in Barcelona, Spainwhich includeNuclia, restb.ai, Candam, Verbio Technologies, NeuralTrust. ### Here is the [...] before they become a risk. The platform enables organizations to adopt generative AI technology analytically. Its platform provides solutions for security, analytics, and compliance, allowing businesses to control and develop AI-based products and tools. ### Key facts about NeuralTrust.  Investors: Venture Friends and Europa.  Latest Funding Round: Grant (prize money), Jun 30, 2025, $\\\\\\\\\\.  Tracxn Score: 42/100 What is this? Tracxn powers 1,000+ customers across 30+ countries. [...] ### Here is the list of top Artificial Intelligence companies in Deep Tech in Barcelona, Spain. Provider of a RAG-as-a-Service platform, offering AI search and answers. The platform facilitates AI classification, document summarization, prompt definition, and named entity recognition. ### Key facts about Nuclia.  Latest Funding Round: Seed, Apr 20, 2022, $\\\\\\\\\\.  Tracxn Score: 52/100 What is this? Restb provides a deep learning based Image Recognition API for classifications of images. ### Key",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-deep-tech-in-barcelona-in-spain/__Ixy3LkuAIOGmd6WTJrNztxc6yYmV4hXi1ZNVGPdY9qc/companies"
+          },
+          "document": {
+            "name": "Top Artificial Intelligence Companies in Deep Tech in Barcelona, Spain (Jan, 2026) - Tracxn",
+            "url": "https://tracxn.com/d/artificial-intelligence/ai-startups-in-deep-tech-in-barcelona-in-spain/__Ixy3LkuAIOGmd6WTJrNztxc6yYmV4hXi1ZNVGPdY9qc/companies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c76ce02e-99bc-4ae0-8674-a08ae66b3e9f",
+      "content": "Barcelona Tech, Startups and Innovation. # Barcelona AI startup Restb.ai closes €1,2M investment round for international expansion. Our friends at Restb.ai, an image recognition AI startup from Barcelona, just announced that they have secured a €1,2M investment round. Founded in the final months of 2015 and running through the accelerator program Startup Catalonia ACCIO, it took the AI firm less than two years to develop a state-of-the-art image recognition technology that processes millions of [...] millions of images with an accuracy rate of 99%. As regards to what the funding means for the image recognition startup, it will be mostly used to continue developing the technology as well as accelerating the international expansion of the company. As Ángel Esteban, CEO of Restb.ai, points out, the added capital will enable the firm to take the startup to the next level both in current and foreign markets. The future looks bright for Restb.ai and Barcelona’s tech ecosystem and we are looking [...] window).  Click to email this to a friend (Opens in new window). Clemens Rychlik is the COO at Barcinno & Hello Operator, as well as co-founder at BCN Fintech. For his latest news and thoughts on the local startup scene, fintech space, SEO, Content and leveraging AI for marketing, follow him on x (@ClemensRychlik) or LinkedIn. Barcinno is the community-driven platform sharing the stories, knowledge & events of Barcelona’s startup and tech communities. Barcelona’s #1 English-language tech news",
+      "origins": [
+        {
+          "source": {
+            "name": "barcinno.com",
+            "url": "http://www.barcinno.com/barcelona-ai-startup-restb-ai-closes-e12m-investment-round-for-international-expansion"
+          },
+          "document": {
+            "name": "Barcelona AI startup Restb.ai closes €1,2M investment round for international expansion - Barcinno",
+            "url": "http://www.barcinno.com/barcelona-ai-startup-restb-ai-closes-e12m-investment-round-for-international-expansion"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5b3e6f0-ab29-4f4f-b963-a69bcbe58bd2",
+      "content": "Your browser was unable to load all of Tracxn resources. Press Ctrl+F5 or Ctrl+Shift+R to have your browser try again and if that doesn't work, click here to retry or mail us at hi@tracxn.com. # Chatbots Startups in Barcelona, Spain. ## Chatbots startups in Barcelona, Spain. There are 24Chatbots startups in Barcelona, Spainwhich includeHubtype, Verbio Technologies, Hutoma, Fasthelp, Aima. Out of these, 6 startups are funded, with 2 having secured Series A+ funding. ### Here is the list of top [...] It enhances conversational experiences and productivity. It provides AI chatbots for various industries, including IT products and SaaS, to improve customer support and onboarding processes. ### Key facts about Fasthelp. AI powered virtual companion platform. It is a virtual companion, AiMA, which can converse naturally and provide companionship to users. It leverages technology to recognize microexpressions, tone of voice, and other cues to facilitate natural conversations. ### Key facts about [...] is the list of top Chatbots startups in Barcelona, Spain. ### Key facts about Hubtype.  Total Funding till date: $1.12M.  Investors: K Fund, Catalonia Trade & Investment and 1 Other.  Latest Funding Round: Seed, May 07, 2019, $\\\\\\\\\\. Verbio Technolgioes provides speech technology solutions including voice recognition, text-to-speech, speech & text analytics, voice biometrics, Natural Language understanding for telephony environments, embedded technology and software. It enhances the",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/explore/chatbots-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crDiytI1Yzbw1o1T710X34Uo/companies"
+          },
+          "document": {
+            "name": "Top startups in Chatbots in Barcelona, Spain (Oct, 2025) - Tracxn",
+            "url": "https://tracxn.com/d/explore/chatbots-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crDiytI1Yzbw1o1T710X34Uo/companies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14e9ba53-b647-4b53-a05d-a16185d93f9b",
+      "content": "There are 15AI Infrastructure startups in Barcelona, Spainwhich includeNuclia, restb.ai, Verbio Technologies, NeuralTrust, Hutoma. Out of these, 7 startups are funded, with 2 having secured Series A+ funding.\n\nOver the past 10 years, an average of 1 new company has been launched annually.Notably, several of these startups have been founded by alumni ofLondon Business School (LBS)and University of California (Los Angeles). [...] As of May 2026, Barcelonahas 13activeAI Infrastructure companies.\n\nAI Infrastructure companiesin Barcelonahave collectively raised$14.6Minfunding till date.\n\nAs of May 2026,restb.ai has raised $1.31M in funding, highest among the funded AI Infrastructure companies in Barcelona.\n\nAs of May 2026,7 companies have received funding in this sector.\n\nThe top investors in AI Infrastructure companiesin Barcelonaby number of investments arePlug and Play Tech Center and The Carlyle Group. [...] Key Metrics\n\nTotal Companies\n\n15\n\nTop Companies\n\nNuclia, restb.ai &  more\n\nTotal Funding\n\n$14.6M\n\nFunded Companies\n\n7\n\nSeries A+ Companies\n\n2\n\nSeries C+ Companies\n\n2\n\nAcquisitions\n\n2\n\nAlso known as\n\nMachine Learning Infrastructure or Machine Learning Platform\n\nView complete details of this sector\n\n## Top AI Infrastructure Companies in Barcelona, Spain",
+      "origins": [
+        {
+          "source": {
+            "name": "Technology & Data for Venture Capital, Corp Dev, Investment Banks",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY/companies"
+          },
+          "document": {
+            "name": "Top startups in AI Infrastructure in Barcelona, Spain (Jan, 2026) - Tracxn",
+            "url": "https://tracxn.com/d/explore/ai-infrastructure-startups-in-barcelona-spain/__3npYGO9ppb9k3dQc-z8crKuhjI_1IldTGht91o-CZtY/companies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "7d7e89cd-567d-554c-9a67-7a4a0c9915ab",
+      "name": "Barcelona",
+      "entity_type": "Municipality",
+      "mentions": [
+        "Barcelona"
+      ]
+    },
+    {
+      "id": "9a204e83-7a57-4bda-b015-ab966a1a15e2",
+      "name": "Nuclia",
+      "entity_type": "Organization",
+      "mentions": [
+        "Nuclia"
+      ]
+    },
+    {
+      "id": "14b78eee-db22-48cb-ab4e-c6b36347f1f1",
+      "name": "CRANE VENTURE PARTNERS LLP",
+      "entity_type": "Company",
+      "mentions": [
+        "Crane Venture Partners"
+      ]
+    },
+    {
+      "id": "f94d2687-a72e-4bd4-8ec9-8386f57ed4a5",
+      "name": "ELAIA PARTNERS",
+      "entity_type": "Company",
+      "mentions": [
+        "Elaia"
+      ]
+    },
+    {
+      "id": "f402cd6a-58a1-4b50-9d04-7d689c6817a1",
+      "name": "NeuralTrust",
+      "entity_type": "Organization",
+      "mentions": [
+        "NeuralTrust"
+      ]
+    },
+    {
+      "id": "8636428e-2b07-4a02-acad-13db282395c1",
+      "name": "Venture Friends",
+      "entity_type": "Organization",
+      "mentions": [
+        "Venture Friends"
+      ]
+    },
+    {
+      "id": "6e55fdd2-023d-4d57-850e-5a3876b671f6",
+      "name": "EUROPA",
+      "entity_type": "Company",
+      "mentions": [
+        "Europa"
+      ]
+    },
+    {
+      "id": "c626eb0c-a507-4167-b289-f60e2e0edac9",
+      "name": "Galtea",
+      "entity_type": "Organization",
+      "mentions": [
+        "Galtea"
+      ]
+    },
+    {
+      "id": "ac08ab2b-e460-4dc4-b557-0295f072b443",
+      "name": "MLCode",
+      "entity_type": "Company",
+      "mentions": [
+        "MLCode"
+      ]
+    },
+    {
+      "id": "26a7b596-df55-4f87-85c5-6224d06442d5",
+      "name": "Bullnet Capital",
+      "entity_type": "Company",
+      "mentions": [
+        "Bullnet Capital"
+      ]
+    },
+    {
+      "id": "dae0bd5e-2e55-4262-9954-1d4eea6ce58d",
+      "name": "Restb.ai",
+      "entity_type": "Organization",
+      "mentions": [
+        "Restb.ai"
+      ]
+    },
+    {
+      "id": "7a43adbc-c1e5-4f0a-82d2-0606289b28e9",
+      "name": "Capitana Venture Partners",
+      "entity_type": "Company",
+      "mentions": [
+        "Capitana Venture Partners"
+      ]
+    },
+    {
+      "id": "fcaf58a0-b1db-47f6-a2d4-9fafa019d547",
+      "name": "Banco Sabadell",
+      "entity_type": "Company",
+      "mentions": [
+        "Banco Sabadell"
+      ]
+    },
+    {
+      "id": "ef134b68-de22-4c5a-a688-2d37dd2a1cc0",
+      "name": "Lanai Ventures",
+      "entity_type": "Company",
+      "mentions": [
+        "Lanai Ventures"
+      ]
+    },
+    {
+      "id": "d65d9abb-105c-4532-9609-681d69764c8a",
+      "name": "Mediktor",
+      "entity_type": "Organization",
+      "mentions": [
+        "Mediktor"
+      ]
+    },
+    {
+      "id": "12459b37-17fb-4ccd-8307-d8e22da64e66",
+      "name": "Hubtype",
+      "entity_type": "Organization",
+      "mentions": [
+        "Hubtype"
+      ]
+    },
+    {
+      "id": "a7027731-9fb8-4ed5-895c-5266acb8edb5",
+      "name": "K Fund",
+      "entity_type": "Organization",
+      "mentions": [
+        "K Fund"
+      ]
+    },
+    {
+      "id": "34d543c5-f027-42e9-8ca5-62de5d1786d0",
+      "name": "Catalonia Trade & Investment",
+      "entity_type": "Organization",
+      "mentions": [
+        "Catalonia Trade & Investment"
+      ]
+    },
+    {
+      "id": "d423388b-9ea2-4d7c-a075-4a47d2947ee2",
+      "name": "Verbio Technologies",
+      "entity_type": "Organization",
+      "mentions": [
+        "Verbio Technologies"
+      ]
+    },
+    {
+      "id": "02a2a281-4d2f-4647-9af3-cae7ac067489",
+      "name": "EIC Fund",
+      "entity_type": "Organization",
+      "mentions": [
+        "EIC Fund"
+      ]
+    },
+    {
+      "id": "583fedc2-cb7d-41cb-90c1-47b08a31c075",
+      "name": "Replexica",
+      "entity_type": "Organization",
+      "mentions": [
+        "Replexica"
+      ]
+    },
+    {
+      "id": "792618d5-5754-42c9-812a-bf9c01a7d8fc",
+      "name": "Feeder",
+      "entity_type": "Organization",
+      "mentions": [
+        "Feeder"
+      ]
+    },
+    {
+      "id": "ae7530e4-556e-4547-ba15-88a12fbcdcb1",
+      "name": "Techstars",
+      "entity_type": "Organization",
+      "mentions": [
+        "Techstars"
+      ]
+    },
+    {
+      "id": "09817d54-38f5-4477-8e04-2ec9b56c2900",
+      "name": "Southern Europe",
+      "entity_type": "Location",
+      "mentions": [
+        "Southern Europe"
+      ]
+    },
+    {
+      "id": "0c4101f3-7a2b-48cb-b510-60f8aa5131ad",
+      "name": "BARCELONA SUPERCOMPUTING CENTER - CENTRO NACIONAL DE SUPERCOMPUTACIÓN",
+      "entity_type": "Company",
+      "mentions": [
+        "Barcelona Supercomputing Centre"
+      ]
+    },
+    {
+      "id": "5dfe86e3-c8fd-4901-be9b-e0a2e701c6fb",
+      "name": "Nina Capital",
+      "entity_type": "Organization",
+      "mentions": [
+        "Nina Capital"
+      ]
+    },
+    {
+      "id": "bf5e115e-0add-47ab-b253-f84d032e952a",
+      "name": "BCombinator",
+      "entity_type": "Organization",
+      "mentions": [
+        "Bcombinator"
+      ]
+    },
+    {
+      "id": "c04545e6-fd20-441a-9feb-5247eb8de975",
+      "name": "Plug and Play Tech Center",
+      "entity_type": "Organization",
+      "mentions": [
+        "Plug and Play Tech Center"
+      ]
+    }
+  ]
+}

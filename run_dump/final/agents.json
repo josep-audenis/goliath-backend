@@ -1,0 +1,91 @@
+[
+  {
+    "id": "agent-0-partner",
+    "role": "partner",
+    "name": "Partner",
+    "purpose": "Open and close the briefing; frame the thesis and deliver the recommendation.",
+    "voice": "George",
+    "status": "done",
+    "findings": [],
+    "findings_count": 0
+  },
+  {
+    "id": "agent-0-market_mapper",
+    "role": "market_mapper",
+    "name": "Market Mapper",
+    "purpose": "Identify key market segments and demand signals in Barcelona's AI sector",
+    "voice": "Barcelona Market Insider",
+    "status": "done",
+    "findings": [
+      "Barcelona is a leading European startup hub, with a strong presence of digital innovation, e-commerce, gaming, and mobile companies.",
+      "The city hosts the annual Mobile World Congress, one of the world's largest technology conferences.",
+      "With over 1,700 startups, Barcelona is consolidating its position as the first European hub in southern Europe, attracting talent and investors.",
+      "European venture capital reached €45 billion in 2025, with AI, climate tech, and defense tech showing the strongest growth.",
+      "Spain's Draft AI Law, approved on March 11, 2025, introduces cross-sectoral requirements for transparency, accountability, fairness, and human oversight, especially for higher-risk AI applications."
+    ],
+    "findings_count": 5
+  },
+  {
+    "id": "agent-1-company_scout",
+    "role": "company_scout",
+    "name": "Company Scout",
+    "purpose": "Discover AI startups in Barcelona with strong traction and funding history",
+    "voice": "Startup Scout",
+    "status": "done",
+    "findings": [
+      "Top candidates: SETT, SLNG, Seedtag.",
+      "Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment.",
+      "Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120 M at a €1 B+ valuation, and secured an additional €74.5 M from General Catalyst to fund growth without dilution.",
+      "Typeform, headquartered in Barcelona with a San Francisco office and over 450 employees, raised €123 M for its conversational interaction platform, confirming its strong traction and international presence.",
+      "Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement.",
+      "Sherpa.ai raised $18 M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence.",
+      "The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene.",
+      "Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025.",
+      "The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard.",
+      "Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup.",
+      "NeuralTrust, a Barcelona AI security platform, received seed funding on 23 Dec 2024 from Venture Friends."
+    ],
+    "findings_count": 11
+  },
+  {
+    "id": "agent-2-current_opportunities",
+    "role": "current_opportunities",
+    "name": "Current Opportunities",
+    "purpose": "Assign heat status and predict future investment opportunities in Barcelona's AI scene",
+    "voice": "Trend Predictor",
+    "status": "done",
+    "findings": [
+      "Top candidates: SETT, SLNG, Seedtag.",
+      "Barcelona’s startup ecosystem grew 40.4% in 2025, ranking #32 globally, highlighting the city’s strong AI and tech environment.",
+      "Factorial expanded its customer base from 70 to 7,000 since 2019, became a unicorn after raising over €120 M at a €1 B+ valuation, and secured an additional €74.5 M from General Catalyst to fund growth without dilution.",
+      "Typeform, headquartered in Barcelona with a San Francisco office and over 450 employees, raised €123 M for its conversational interaction platform, confirming its strong traction and international presence.",
+      "Onlive.ai was named among Europe’s 250 fastest‑growing startups in the Sifted 250 list for 2025, demonstrating rapid revenue growth and market momentum in AI‑powered customer engagement.",
+      "Sherpa.ai raised $18 M from Forgepoint Capital and other investors, building privacy‑preserving conversational and predictive AI assistants, evidencing strong investor confidence.",
+      "The AI ecosystem in Barcelona includes 81 AI companies, of which 28 have secured funding, confirming a vibrant startup scene.",
+      "Uxia, a Barcelona-based AI-powered UX testing platform, raised approximately €1 million in a pre‑seed round in November 2025.",
+      "The Uxia round was led by Abac Nest Ventures with participation from Encomenda VC and angel investors Javier Darriba, Marsal Gavaldà and William Leppard.",
+      "Additional sources corroborate Uxia’s pre‑seed funding amount (€1 M) and its investor lineup.",
+      "NeuralTrust, a Barcelona AI security platform, received seed funding on 23 Dec 2024 from Venture Friends."
+    ],
+    "findings_count": 11
+  },
+  {
+    "id": "agent-3-funding_analyst",
+    "role": "funding_analyst",
+    "name": "Funding Analyst",
+    "purpose": "Analyze round timing and likely next-raise windows for high-potential AI startups in Barcelona",
+    "voice": "Funding Forecaster",
+    "status": "done",
+    "findings": [
+      "Factorial’s most recent financing was a $150 million round that raised its post‑money valuation to $2.5 billion, confirming the large round size cited in the answer.",
+      "The same company also secured an additional $120 million of non‑dilutive funding from General Catalyst, bringing total borrowings to $200 million and supporting its expansion narrative.",
+      "Factorial’s $120 million round doubled its valuation to $1 billion, qualifying it as a European unicorn and underpinning the answer’s claim of a Barcelona AI unicorn.",
+      "Sherpa.ai raised $18 million in a round led by Forgepoint Capital, matching the answer’s description of a recent $18 million funding event for a privacy‑first AI platform.",
+      "The answer lists Barcelona‑based venture funds that focus on early‑stage tech, which are directly taken from the fact with id de34e854-78e1-4c12-aadc-6d1c119354a6 that names Active Venture Partners, Inveready, Ship2B, Nekko Capital, Nina Capital, Reus Capital Partners, Oceanflow Ventures, Extension Fund, and Arroba Capital as Barcelona‑based investors.",
+      "The pan‑European and international investors mentioned (Y Combinator, Speedinvest, Seedcamp, Creandum, Antler, General Catalyst, Accel, Sequoia Capital, Andreessen Horowitz, Cherry Ventures, EQT Ventures, Northzone, Index Ventures, Lightspeed Venture Partners, Atomico, Balderton Capital) are drawn from the Sifted ranking of the 106 most active AI investors in Europe in 2025, provided in facts 0e6431d8-e2e8-488c-87fc-af6ccf1d6ae2 and b95ffd91-7ccc-4054-9e1b-bc26bf737545.",
+      "The statement that Factorial is in early discussions for a $200 million round that could double its valuation to about $2 billion is supported by the Factorial coverage in facts b63e4ec5-767f-4cbf-9617-bfd7930147fb and 0c59131b-adba-42e5-a37f-9e1ecd63fefd, which describe the prospective raise and its potential impact on valuation.",
+      "The mention of Sherpa.ai raising $18 million from Forgepoint Capital and other insiders comes from fact 46eb033e-66c6-4d17-85c9-72e36bf1e558, which reports that specific funding event."
+    ],
+    "findings_count": 8
+  }
+]

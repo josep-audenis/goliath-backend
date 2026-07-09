@@ -1,0 +1,152 @@
+[
+  {
+    "id": "opp-0",
+    "startupName": "ONLIVE LTD",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "ONLIVE LTD is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-974b7256",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-b5235824",
+        "source": "web",
+        "title": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+        "url": "https://mindthebridge.com/2023-scaleups-barcelona",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-1",
+    "startupName": "RISC-V International",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "RISC-V International is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-c14414ec",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-1ea88843",
+        "source": "web",
+        "title": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+        "url": "https://mindthebridge.com/2023-scaleups-barcelona",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-2",
+    "startupName": "Submer",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Submer is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-0c1f3113",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-e9df4f3e",
+        "source": "web",
+        "title": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+        "url": "https://mindthebridge.com/2023-scaleups-barcelona",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-3",
+    "startupName": "BARCELONA SUPERCOMPUTING CENTER - CENTRO NACIONAL DE SUPERCOMPUTACIÓN",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "BARCELONA SUPERCOMPUTING CENTER - CENTRO NACIONAL DE SUPERCOMPUTACIÓN is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-ca3ec365",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-5630f236",
+        "source": "web",
+        "title": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+        "url": "https://mindthebridge.com/2023-scaleups-barcelona",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  },
+  {
+    "id": "opp-4",
+    "startupName": "Sherpa.ai",
+    "goliathScore": 60.0,
+    "status": "warming",
+    "confidence": 0.55,
+    "riskLevel": "medium",
+    "scoreReason": "Strong traction signals in AI.",
+    "prediction": "Sherpa.ai is positioned to raise within 9 months.",
+    "sector": "AI",
+    "location": "Barcelona",
+    "stage": null,
+    "evidence": [
+      {
+        "id": "evd-c5564490",
+        "source": "web",
+        "title": "[PDF] Barcelona-&-Catalonia-Startup-Hub-2025 vdef a 260225_ENG",
+        "url": "https://catalonia.com/documents/176177/179363/catalonia-trade-and-investment-analysis-of-the-startup-ecosystem-in-catalonia.pdf",
+        "snippet": null
+      },
+      {
+        "id": "evd-92aeeb01",
+        "source": "web",
+        "title": "The Barcelona Startup Ecosystem - Digital, Tech, and Open Innovation - Mind the Bridge",
+        "url": "https://mindthebridge.com/2023-scaleups-barcelona",
+        "snippet": null
+      }
+    ],
+    "summary": "Ai in barcelona"
+  }
+]
