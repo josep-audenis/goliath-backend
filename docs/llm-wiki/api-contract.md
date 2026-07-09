@@ -7,21 +7,34 @@ timebox makes schema drift the biggest risk. Keep source-of-truth types in code
 (a shared `contract.ts` / model mirror); this page explains *why* the shape is
 what it is and which parts are load-bearing.
 
-Origin: proposed by frontend in `GoliathFrontend/llm-wiki/backend-contract.md`.
-Simplify only by mutual agreement.
+**Canonical source of truth:** the TypeScript file `web/src/lib/contract.ts`
+in the frontend repo (`marcvendrellf/GoliathFrontend`). The frontend's
+`llm-wiki/backend-contract.md` mirrors it. When a field changes, it changes in
+`contract.ts` **and** the wiki, and the team is told — no silent drift. Backend
+can validate its JSON against the frontend mock in
+`web/src/lib/mock/mock-run.ts` (the frontend `api.ts` serves that mock whenever
+`NEXT_PUBLIC_API_BASE_URL` is unset, so the demo runs with no backend).
 
 ## Endpoints
-Minimum surface:
-- `POST /api/runs` — start a run from a query.
-- `GET  /api/runs/:runId` — poll full run state.
-- `GET  /api/reports` — list finished reports.
-- `GET  /api/reports/:runId` — one final report.
+Minimum surface (JSON over HTTP):
+- `POST /api/runs` — body `{ query: string }` (`CreateRunRequest`) → `Run`.
+- `GET  /api/runs/:runId` — poll full run state → `Run`.
+- `GET  /api/reports` — list finished reports → `ReportSummary[]`.
+- `GET  /api/reports/:runId` — one final report → `FinalReport`.
 
 Optional:
-- `GET  /api/runs/:runId/events` — stream events.
+- `GET  /api/runs/:runId/events` — SSE stream of `RunEvent`.
 
 Polling is an accepted substitute for streaming (see
 [architecture.md](architecture.md)).
+
+## Dev Topology / Transport (hard requirements)
+- Backend assumed at `http://localhost:8000`; frontend at `http://localhost:3000`.
+- **Backend must allow CORS from `http://localhost:3000`.** New hard requirement.
+- Frontend polls `GET /api/runs/:runId` **every 1–2s** until status is
+  `complete` or `error`. Keep that endpoint cheap.
+- On `complete`, frontend hands off to the reports views — `FinalReport` must be
+  fetchable by the same `runId`.
 
 ## Load-Bearing Enums (do not change unilaterally)
 - `RunStatus`: `awaiting_query | planning_agents | researching | synthesizing | complete | error`
@@ -35,21 +48,29 @@ Frontend animation and card rendering are switch-statements over these values.
 Adding/removing a value is a breaking change requiring cross-team sign-off.
 
 ## Field Contracts That Must Not Regress
-- Every `Opportunity` includes `goliathScore` (0–100), `status`, `confidence`,
-  `riskLevel`, and `scoreReason`. Never omit these; use best-effort values for
-  mocked subagents rather than nulls.
+- Every `Opportunity` includes `goliathScore` (0–100), `status`, `confidence`
+  (**0–1**, not 0–100), `riskLevel`, and `scoreReason`. Never omit these; use
+  best-effort values for mocked subagents rather than nulls.
 - `prediction` is one short, specific sentence.
+- Timestamps (`createdAt`/`updatedAt`) are ISO 8601 strings. `FinalReport` also
+  carries `createdAt`.
 - Each `PresentationSegment` references one `agentId`, carries `script` +
-  `subtitle`, and MAY carry `audioUrl` / `imageUrl`. Missing `audioUrl` is
-  valid — frontend falls back to subtitle text.
+  `subtitle`, and MAY carry `audioUrl` / `imageUrl` / `durationMs`. `script` is
+  the full spoken text and doubles as subtitles. Missing `audioUrl` is valid —
+  frontend falls back to subtitles timed by `durationMs`.
+- `PresentationSegment.evidenceIds` reference `Opportunity.evidence[].id`.
+- `GET /api/reports` returns `ReportSummary[]`, a lighter shape than `Run`:
+  `runId`, `title`, `query`, `status`, `createdAt`, `opportunityCount`, and
+  `topOpportunities` (each just `id`, `startupName`, `goliathScore`, `status`).
 - `RunEvent` order/timestamps drive the animation timeline; emit events in
-  causal order.
+  causal order. The **`agent.spawned` event per agent matters most** — it drives
+  the spawn animation.
 
 ## Shape Reference
-Full TypeScript types live in the frontend contract file and any backend model
-mirror — see `backend-contract.md` in the frontend repo. Do not paste the type
-listings here (that would be code documentation that drifts); keep this page to
-rationale and the invariants above.
+Do not paste the full type listings here (that would be code documentation that
+drifts). The canonical types live in `web/src/lib/contract.ts` in the frontend
+repo; mirror them in a backend model file. This page holds only rationale and
+the invariants above.
 
 ## Related
 - [architecture.md](architecture.md)

@@ -15,12 +15,13 @@
   secret values.
 
 ## ElevenLabs Notes
-- Backend returns one `audioUrl` per `PresentationSegment`; frontend plays it
-  when present and falls back to subtitle text when absent.
+- **One mp3 clip per `PresentationSegment`, not one combined file** (resolved
+  2026-07-09). Backend returns a public or backend-proxied `audioUrl` per
+  segment; frontend plays it when present and falls back to `script` subtitles
+  timed by `durationMs` when absent.
 - Minimum demo target: at least **two distinct voices** working.
-- Undecided (`TBD`): whether audio is one combined file, per-agent clips, or
-  streamed; where audio files are stored/served from; whether subtitles need
-  per-word/sentence timing or segment-level text is enough.
+- Still `TBD`: exact storage/serving location for the mp3s; whether subtitles
+  ever need per-word/sentence timing (segment-level `script` is enough for now).
 
 ## Vendor Quirks
 - `TBD`: Add validated behavior that differs from docs or common expectation as

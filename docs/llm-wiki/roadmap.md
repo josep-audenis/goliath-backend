@@ -11,6 +11,17 @@ Context: Goliath began as a 2.5h hackathon build. Scope is deliberately narrow
 - Narrated final presentation with ≥2 distinct ElevenLabs voices + subtitles.
 - Report list + report detail view.
 
+## Integration Status (2026-07-09)
+- Frontend is built: `marcvendrellf/GoliathFrontend`, a Next.js app under
+  `web/`, driven entirely by the contract. It **auto-falls back to mock data**
+  (`web/src/lib/mock/mock-run.ts`) when `NEXT_PUBLIC_API_BASE_URL` is unset, so
+  the demo works with the backend down.
+- Backend's job to "join": expose the 4 endpoints at `http://localhost:8000`
+  with CORS for `http://localhost:3000`, matching `contract.ts`. Then set that
+  env var on the frontend. See [api-contract.md](api-contract.md).
+- Integration is a pair task (Marc + one backend member); blocked only on
+  `POST /api/runs` + `GET /api/runs/:runId` existing.
+
 ## Future Plans
 | Item | Why | Blocked by | Status |
 | --- | --- | --- | --- |

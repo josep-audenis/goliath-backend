@@ -27,6 +27,36 @@ Use this page for lightweight ADRs. Append newest decisions at top.
 - Positive and negative effects.
 ```
 
+## ADR-20260709-contract-ts-source-of-truth
+
+| Field | Value |
+| --- | --- |
+| Decision | `web/src/lib/contract.ts` in the frontend repo is the canonical schema; backend mirrors it and validates against the frontend mock. ElevenLabs audio ships as one mp3 per segment. |
+| Date | 2026-07-09 |
+| Status | Accepted |
+
+### Context
+- Frontend is now a built Next.js app driven entirely by a TypeScript contract
+  plus a mock, with automatic mock fallback when the backend is down.
+- Backend needs a single unambiguous schema to target and a way to self-check.
+
+### Alternatives Considered
+| Option | Tradeoff |
+| --- | --- |
+| Wiki prose as the schema | Readable, but drifts from what frontend code actually parses |
+| Backend defines its own schema | Autonomy, but guarantees drift and breaks the shared demo |
+| Frontend `contract.ts` canonical + mock to validate against | Backend must track another repo's file, but zero drift and self-testable |
+
+### Why This Choice
+- The frontend already parses `contract.ts`; matching it is the only way to
+  guarantee the demo works. The mock (`mock-run.ts`) gives backend a concrete
+  fixture to diff responses against.
+
+### Consequences
+- Backend model changes must be reconciled with `contract.ts` and the wiki
+  together. New hard transport requirements: CORS from `http://localhost:3000`,
+  1–2s poll-friendly `GET /api/runs/:runId`, per-segment mp3 `audioUrl`s.
+
 ## ADR-20260709-vc-opportunity-intelligence-pivot
 
 | Field | Value |
