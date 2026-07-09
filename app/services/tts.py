@@ -55,8 +55,9 @@ async def attach_audio(segments: Sequence[PresentationSegment], agents: Sequence
     async def _one(seg: PresentationSegment) -> None:
         try:
             voice_id = voice_by_agent.get(seg.agentId) or elevenlabs.DEFAULT_VOICE_ID
-            audio = await asyncio.to_thread(elevenlabs.text_to_speech, seg.script, voice_id)
-            audio_id = audio_store.put(audio, ext="mp3")
+            # Timed synth gives real clip-relative word alignment for karaoke subtitles.
+            audio, word_timings = await asyncio.to_thread(elevenlabs.text_to_speech_timed, seg.script, voice_id)
+            audio_id = audio_store.put(audio, ext="mp3", word_timings=word_timings)
             seg.audioUrl = f"/api/audio/{audio_id}"
         except Exception:
             log.exception("tts failed for segment %s — leaving audioUrl unset", seg.agentId)

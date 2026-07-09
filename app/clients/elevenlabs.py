@@ -86,6 +86,62 @@ def text_to_speech(text: str, voice: Optional[str] = None, output_format: str = 
         raise ElevenLabsError(f"{type(e).__name__}: {e}") from e
 
 
+def _chars_to_words(alignment: dict) -> list[dict]:
+    """
+    Collapse ElevenLabs char-level alignment into clip-relative word timings:
+    [{text, startMs, endMs}]. A word spans from its first char's start to its
+    last char's end; whitespace delimits words.
+    """
+    chars = alignment.get("characters") or []
+    starts = alignment.get("character_start_times_seconds") or []
+    ends = alignment.get("character_end_times_seconds") or []
+    words: list[dict] = []
+    cur = ""
+    cur_start: Optional[float] = None
+    cur_end = 0.0
+    for i, ch in enumerate(chars):
+        if ch.isspace():
+            if cur:
+                words.append({"text": cur, "startMs": round((cur_start or 0) * 1000), "endMs": round(cur_end * 1000)})
+                cur, cur_start = "", None
+            continue
+        if cur_start is None:
+            cur_start = starts[i] if i < len(starts) else cur_end
+        cur += ch
+        cur_end = ends[i] if i < len(ends) else cur_end
+    if cur:
+        words.append({"text": cur, "startMs": round((cur_start or 0) * 1000), "endMs": round(cur_end * 1000)})
+    return words
+
+
+def text_to_speech_timed(text: str, voice: Optional[str] = None) -> tuple[bytes, list[dict]]:
+    """
+    Synthesize with alignment. Returns (mp3 bytes, word_timings).
+    word_timings are clip-relative dicts: {text, startMs, endMs}.
+    """
+    if not enabled():
+        raise ElevenLabsError("no ELEVENLABS_API_KEY configured")
+    import base64
+
+    voice_id = resolve_voice(voice)
+    url = f"{settings.elevenlabs_base_url}/text-to-speech/{voice_id}/with-timestamps"
+    try:
+        with httpx.Client(timeout=120.0) as c:
+            r = c.post(
+                url,
+                headers={"xi-api-key": settings.elevenlabs_api_key, "Content-Type": "application/json"},
+                params={"output_format": "mp3_44100_128"},
+                json={"text": text, "model_id": TTS_MODEL},
+            )
+            r.raise_for_status()
+            data = r.json()
+    except httpx.HTTPError as e:
+        raise ElevenLabsError(f"{type(e).__name__}: {e}") from e
+    audio = base64.b64decode(data.get("audio_base64") or "")
+    alignment = data.get("alignment") or data.get("normalized_alignment") or {}
+    return audio, _chars_to_words(alignment)
+
+
 def speech_to_text(audio: bytes, filename: str = "audio.mp3") -> str:
     """Transcribe audio bytes to text (e.g. a spoken VC query). Returns the transcript."""
     if not enabled():

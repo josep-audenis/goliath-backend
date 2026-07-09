@@ -139,7 +139,7 @@ class TranscriptSegment(BaseModel):
     audioUrl: Optional[str] = None
     durationMs: int
     timingSource: str = "estimated"
-    words: list[TranscriptWord] = Field(default_factory=list)
+    wordTimings: list[TranscriptWord] = Field(default_factory=list)
 
 
 class ReportTranscript(BaseModel):

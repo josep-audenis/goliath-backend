@@ -19,6 +19,7 @@ reconstruct the timeline.
 
 from __future__ import annotations
 
+import asyncio
 import logging
 from typing import Any
 
@@ -103,22 +104,26 @@ async def _plan(run: Run, geo: str | None, sector: str | None) -> list[AgentPlan
 
 async def _research(run: Run, geo: str | None, sector: str | None) -> dict[str, Any]:
     _set_status(run, RunStatus.RESEARCHING)
-    companies: list[dict[str, Any]] = []
-    evidence: list[dict[str, str]] = []
 
-    for agent in run.agents:
+    async def _one(agent: AgentPlan) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
         _set_agent(run, agent, AgentStatus.RESEARCHING)
         _emit(run, RunEventType.AGENT_SPAWNED, agent.id, role=agent.role)
-
         findings, comps, evid = await _run_subagent(agent, run.query, geo, sector)
-
         for f in findings:
             agent.findings.append(f)
             _emit(run, RunEventType.AGENT_FINDING, agent.id, text=f)
+        _set_agent(run, agent, AgentStatus.DONE)
+        return comps, evid
+
+    # Subagents are independent — run them concurrently so their (slow, ~100s
+    # each) Cala lookups overlap instead of serializing.
+    results = await asyncio.gather(*(_one(a) for a in run.agents))
+
+    companies: list[dict[str, Any]] = []
+    evidence: list[dict[str, str]] = []
+    for comps, evid in results:
         companies.extend(comps)
         evidence.extend(evid)
-
-        _set_agent(run, agent, AgentStatus.DONE)
 
     # dedupe companies by name, keep highest score
     by_name: dict[str, dict[str, Any]] = {}
@@ -152,12 +157,14 @@ async def _run_subagent(agent: AgentPlan, query: str, geo: str | None, sector: s
         except Exception:
             log.exception("subagent %s failed — deterministic fallback", agent.role)
 
-    # Deterministic fallback per role.
+    # Deterministic fallback per role. Cala calls are sync + slow, so run them
+    # off the event loop (to_thread) — under the concurrent gather in _research
+    # this lets multiple agents' lookups overlap instead of blocking each other.
     if agent.role == "market_mapper":
-        m = market_scan_impl(query, geo, sector)
-        return ([m["summary"]], [], m["evidence"])
+        m = await asyncio.to_thread(market_scan_impl, query, geo, sector)
+        return (m.get("findings") or [m["summary"]], [], m["evidence"])
     if agent.role in ("company_scout", "current_opportunities"):
-        c = company_scan_impl(query, geo, sector)
+        c = await asyncio.to_thread(company_scan_impl, query, geo, sector)
         names = ", ".join(x["name"] for x in c["companies"][:3])
         return ([f"Top candidates: {names}."], c["companies"], c["evidence"])
     if agent.role == "funding_analyst":
