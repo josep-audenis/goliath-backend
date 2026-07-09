@@ -7,7 +7,7 @@
 ## Architecture Overview
 - Source tree currently minimal.
 - Use Graphifyy for current code structure when `graphify-out/graph.json` exists.
-- Keep rationale here only when it cannot be inferred from code.
+- Keep durable rationale in `docs/llm-wiki/` when it cannot be inferred from code.
 
 ## Graphifyy
 - First choice for codebase questions:
@@ -20,9 +20,9 @@
 - Dirty `graphify-out/` files are expected and not a failure.
 
 ## Long-Term Knowledge
-- This file is organizational memory, not code documentation.
+- `docs/llm-wiki/` is organizational memory, not code documentation.
 - Graphifyy explains how code works.
-- This file explains why choices exist.
+- LLM Wiki explains why choices exist.
 - Add durable facts only:
   - architecture decisions and tradeoffs
   - business rules and domain assumptions
@@ -50,13 +50,13 @@ Status: Proposed / Accepted / Deprecated / Superseded.
 
 ## Decisions
 
-### ADR-20260709-root-memory-only
+### ADR-20260709-llm-wiki-memory
 
-Decision: Store agent-facing long-term knowledge in `CLAUDE.md` and `AGENTS.md`, not a separate wiki system.
-Context: Project needs durable AI guidance, but user wants no wiki update script and no git hook.
-Alternatives considered: `docs/llm-wiki` directory, validator script, non-blocking pre-commit reminder.
-Why this choice: Root prompt files are already read by agents and avoid extra maintenance surface.
-Consequences: Less structure than a wiki, but lower overhead. Long entries must stay concise to avoid bloating startup context.
+Decision: Store long-term agent memory in `docs/llm-wiki/`, separate from Graphifyy-generated code knowledge.
+Context: Future AI agents need durable rationale, domain assumptions, and pitfalls. Graphifyy already captures source structure and relationships.
+Alternatives considered: Put everything in README; store generated architecture docs; use concise LLM Wiki.
+Why this choice: Separates code understanding from organizational memory and avoids duplicating source-derived facts.
+Consequences: Agents must decide whether knowledge is long-term before documenting it. Some pages start sparse until real project context is learned.
 Date: 2026-07-09.
 Status: Accepted.
 
@@ -81,7 +81,7 @@ Status: Accepted.
 - Requested behavior implemented.
 - Relevant tests run, or missing tests noted.
 - `graphify update .` run after code changes when available.
-- New durable knowledge added here only when useful.
+- New durable knowledge added to `docs/llm-wiki/` only when useful.
 
 ## Common Commands
 ```powershell

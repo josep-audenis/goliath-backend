@@ -8,6 +8,7 @@
 
 ## First Reads
 - Read `CLAUDE.md` before making changes.
+- Read only relevant pages in `docs/llm-wiki/`, not whole wiki.
 - Use Graphifyy for code structure before raw source browsing when `graphify-out/graph.json` exists:
   - `graphify query "<question>"`
   - `graphify path "<A>" "<B>"`
@@ -24,7 +25,8 @@
 - After modifying code, run `graphify update .` when command exists.
 
 ## Long-Term Knowledge
-- `CLAUDE.md` and `AGENTS.md` are project memory.
+- `docs/llm-wiki/` is project memory.
+- `CLAUDE.md` and `AGENTS.md` define agent operating rules.
 - Add only durable knowledge that future agents cannot infer from code or Graphifyy:
   - architectural decisions
   - design rationale
@@ -51,8 +53,8 @@
 - Keep documentation concise.
 - Prefer bullets, tables, decision logs, and checklists.
 - Every important fact should answer why, when, tradeoffs, alternatives, or known limitations.
-- Prefer editing existing sections over creating new files.
-- Do not create wiki folders, scripts, or git hooks for documentation maintenance unless user asks.
+- Prefer editing existing wiki pages over creating new files.
+- Do not create scripts or git hooks for documentation maintenance unless user asks.
 - Do not invent project facts. Mark unknowns as `TBD` with owner or discovery step.
 
 ## Change Discipline
