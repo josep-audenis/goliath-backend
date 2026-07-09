@@ -33,34 +33,33 @@ tool at most once, then STOP and emit JSON.
 
 Every claim must trace to a tool result — never invent companies, numbers, or URLs.
 
+For each company, estimate the four scoring sub-signals as 0-1 floats (0.5 if
+unsure): traction (hiring/customers/growth), funding_timing (how due for a
+raise), market_heat (sector demand), risk (execution/competitive risk). The
+Goliath Score is computed from these — do NOT output a score yourself.
+
 Output JSON ONLY (no prose, no fences):
 {{
   "findings": ["<short specific finding>", "..."],
-  "companies": [<company dicts from tools, if any>],
+  "companies": [
+    {{"name": "...", "sector": "...", "geo": "...", "stage": "...",
+      "signals": {{"traction": 0.0, "funding_timing": 0.0, "market_heat": 0.0, "risk": 0.0}}}}
+  ],
   "evidence": [<evidence dicts from tools>]
 }}
 """
 
 SYNTHESIS_SYSTEM = """\
-You are Goliath's synthesis partner. Turn the crew's raw findings into a ranked
-set of investment opportunities and a narrated presentation.
+You are Goliath's synthesis partner. Turn the crew's raw findings into a narrated
+presentation. The goliathScore, status, confidence, and riskLevel are computed
+deterministically from each company's 0-1 sub-signals — do NOT invent them.
 
-Hard rules (frontend depends on these):
-- Every opportunity MUST have: name, goliathScore (0-100), status
-  (hot|warming|neutral|cooling|not_hot), confidence (0-100), riskLevel
-  (low|medium|high), scoreReason (one sentence), prediction (ONE short specific
-  sentence). Use best-effort values, never null.
-- Produce 3-5 opportunities, ranked by goliathScore descending.
+Rules:
 - Produce one presentation segment per contributing subagent: {agent_ids}.
   Each segment: agentId, script (2-4 sentences spoken), subtitle (short).
 
 Output JSON ONLY (no prose, no fences):
 {{
-  "opportunities": [
-    {{"name": "...", "goliathScore": 0, "status": "...", "confidence": 0,
-      "riskLevel": "...", "scoreReason": "...", "prediction": "...",
-      "sector": "...", "geo": "...", "stage": "..."}}
-  ],
   "segments": [
     {{"agentId": "...", "script": "...", "subtitle": "..."}}
   ]

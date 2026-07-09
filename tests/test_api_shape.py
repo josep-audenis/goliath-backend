@@ -60,6 +60,23 @@ async def test_opportunity_shape_and_confidence_scale(client):
             assert ev["source"] in EVIDENCE_SOURCES
 
 
+async def test_score_breakdown_shape_and_reconciles(client):
+    run = await make_completed_run()
+    body = (await client.get(f"/api/runs/{run.runId}")).json()
+
+    for o in body["opportunities"]:
+        breakdown = o["scoreBreakdown"]
+        assert {f["key"] for f in breakdown} == {"traction", "funding_timing", "market_heat", "risk"}
+        for f in breakdown:
+            assert set(f.keys()) == {"key", "label", "weight", "value", "contribution"}
+            assert 0 <= f["value"] <= 1
+        # the factor contributions explain the score (clamped to 0-98.3)
+        total = round(sum(f["contribution"] for f in breakdown), 1)
+        assert abs(min(max(total, 0), 98.3) - o["goliathScore"]) < 0.2
+        # risk is the only negative contributor
+        assert next(f for f in breakdown if f["key"] == "risk")["contribution"] <= 0
+
+
 async def test_final_report_shape(client):
     run = await make_completed_run()
     body = (await client.get(f"/api/reports/{run.runId}")).json()

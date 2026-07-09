@@ -21,9 +21,10 @@ def test_company_scan_returns_companies_and_evidence():
     assert out["mocked"] is True
     assert len(out["companies"]) == 4
     assert out["evidence"]
-    # companies carry the scored fields the synthesizer maps to Opportunity
+    # companies carry the sub-signals the scoring engine turns into a score
     for c in out["companies"]:
-        assert {"name", "goliathScore", "status", "confidence", "riskLevel"} <= set(c)
+        assert {"name", "signals"} <= set(c)
+        assert set(c["signals"]) == {"traction", "funding_timing", "market_heat", "risk"}
 
 
 def test_funding_scan_returns_note():

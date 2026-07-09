@@ -123,6 +123,20 @@ class Evidence(BaseModel):
     snippet: Optional[str] = None
 
 
+class ScoreFactor(BaseModel):
+    """One weighted component of an Opportunity's goliathScore.
+
+    `contribution` is the points this factor added to the score (negative for the
+    risk penalty); the factors together explain the final number.
+    """
+
+    key: str  # traction | funding_timing | market_heat | risk
+    label: str
+    weight: float
+    value: float  # 0-1 raw signal
+    contribution: float  # points added to goliathScore (negative for risk)
+
+
 class Opportunity(BaseModel):
     """A scored investment opportunity. The five scored fields must never be null.
 
@@ -143,6 +157,7 @@ class Opportunity(BaseModel):
     geo: Optional[str] = Field(default=None, serialization_alias="location")
     stage: Optional[str] = None
     evidence: list[Evidence] = Field(default_factory=list)
+    scoreBreakdown: list[ScoreFactor] = Field(default_factory=list)  # explains goliathScore
 
     @computed_field
     @property

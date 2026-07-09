@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 from app.agent import mock_data
-from app.schemas.contract import EvidenceSource, OpportunityStatus, RiskLevel
+from app.schemas.contract import EvidenceSource
+
+SIGNAL_KEYS = {"traction", "funding_timing", "market_heat", "risk"}
 
 
 def test_mock_companies_are_deterministic():
@@ -18,19 +20,22 @@ def test_mock_companies_vary_by_query():
     assert [c["name"] for c in a] != [c["name"] for c in b]
 
 
-def test_mock_companies_count_and_ranking():
+def test_mock_companies_count():
     comps = mock_data.mock_companies("AI in Barcelona", None, None, n=5)
     assert len(comps) == 5
-    scores = [c["goliathScore"] for c in comps]
-    assert scores == sorted(scores, reverse=True)
 
 
-def test_mock_company_fields_in_contract_range():
+def test_mock_company_carries_signals_in_0_1():
     for c in mock_data.mock_companies("AI in Barcelona", None, None):
-        assert 55 <= c["goliathScore"] <= 95
-        assert 0 <= c["confidence"] <= 100
-        assert c["status"] in {s.value for s in OpportunityStatus}
-        assert c["riskLevel"] in {r.value for r in RiskLevel}
+        assert set(c["signals"]) == SIGNAL_KEYS
+        assert all(0 <= v <= 1 for v in c["signals"].values())
+        assert c["coverage"] == 1.0
+
+
+def test_market_heat_is_shared_per_sector():
+    comps = mock_data.mock_companies("AI in Barcelona", None, sector="fintech", n=4)
+    heats = {c["signals"]["market_heat"] for c in comps}
+    assert len(heats) == 1  # same sector -> same market heat
 
 
 def test_geo_sector_override():
