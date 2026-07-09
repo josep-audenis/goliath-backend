@@ -13,7 +13,10 @@ class Settings(BaseSettings):
 
     # ---- LLM (OpenAI-compatible; Groq by default, OpenAI or HF optional) ----
     llm_provider: str = "groq"  # "groq" | "openai" | "hf"
-    agent_model: str = "llama-3.3-70b-versatile"
+    # Benchmarked on the planner task: gpt-oss-20b was fastest (0.69s) with quality
+    # on par with llama-3.3-70b. Override via AGENT_MODEL. Note: model choice is not
+    # the run-time bottleneck — Cala latency is (see docs/llm-wiki/performance.md).
+    agent_model: str = "openai/gpt-oss-20b"
 
     groq_api_key: str = ""
     groq_base_url: str = "https://api.groq.com/openai/v1"
@@ -37,6 +40,9 @@ class Settings(BaseSettings):
     # ---- ElevenLabs (backend-side TTS; keys never reach frontend) ----
     elevenlabs_api_key: str = ""
     elevenlabs_base_url: str = "https://api.elevenlabs.io/v1"
+    # eleven_v3 = most expressive; eleven_turbo_v2_5 = faster; eleven_multilingual_v2 = safe.
+    # All three confirmed to return with-timestamps alignment (karaoke subtitles).
+    elevenlabs_model: str = "eleven_v3"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 

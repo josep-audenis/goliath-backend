@@ -6,4 +6,5 @@ __pycache__/
 .env
 .pytest_cache/
 graphify-out/
+tts_samples/
 

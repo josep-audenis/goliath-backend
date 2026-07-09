@@ -208,18 +208,27 @@ class RunEvent(BaseModel):
         return p.get("text", "")
 
 
-class PresentationSegment(BaseModel):
-    agentId: str
-    script: str
-    subtitle: str
-    audioUrl: Optional[str] = None
-    imageUrl: Optional[str] = None
-
-
 class TranscriptWord(BaseModel):
     text: str
     startMs: int
     endMs: int
+
+
+class PresentationSegment(BaseModel):
+    id: str = Field(default_factory=lambda: f"seg-{uuid4().hex[:8]}")
+    agentId: str
+    script: str
+    subtitle: str
+    audioUrl: Optional[str] = None
+    wordTimings: list[TranscriptWord] = Field(default_factory=list)
+    imageUrl: Optional[str] = None
+    evidenceIds: list[str] = Field(default_factory=list)
+    durationMs: Optional[int] = None
+
+    @computed_field
+    @property
+    def title(self) -> str:
+        return _display_name(self.agentId.split("-", 2)[-1] if "-" in self.agentId else self.agentId)
 
 
 class TranscriptSegment(BaseModel):

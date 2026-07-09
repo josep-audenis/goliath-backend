@@ -69,6 +69,12 @@ async def test_final_report_shape(client):
     assert body["id"] == f"report-{run.runId}"
     assert "query" not in body
     assert body["opportunities"][0]["startupName"]
+    assert body["segments"]
+    for seg in body["segments"]:
+        for key in ("id", "agentId", "title", "subtitle", "script", "evidenceIds"):
+            assert key in seg, f"PresentationSegment missing {key}"
+        assert isinstance(seg["wordTimings"], list)
+        assert isinstance(seg["evidenceIds"], list)
 
 
 async def test_report_summary_shape(client):

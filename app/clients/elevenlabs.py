@@ -32,8 +32,11 @@ VOICE_IDS: dict[str, str] = {
 }
 DEFAULT_VOICE_ID = VOICE_IDS["Aria"]
 
-TTS_MODEL = "eleven_multilingual_v2"
 STT_MODEL = "scribe_v1"
+
+
+def _tts_model() -> str:
+    return settings.elevenlabs_model or "eleven_multilingual_v2"
 
 
 class ElevenLabsError(RuntimeError):
@@ -78,7 +81,7 @@ def text_to_speech(text: str, voice: Optional[str] = None, output_format: str = 
                 url,
                 headers={"xi-api-key": settings.elevenlabs_api_key, "Content-Type": "application/json"},
                 params={"output_format": output_format},
-                json={"text": text, "model_id": TTS_MODEL},
+                json={"text": text, "model_id": _tts_model()},
             )
             r.raise_for_status()
             return r.content
@@ -131,7 +134,7 @@ def text_to_speech_timed(text: str, voice: Optional[str] = None) -> tuple[bytes,
                 url,
                 headers={"xi-api-key": settings.elevenlabs_api_key, "Content-Type": "application/json"},
                 params={"output_format": "mp3_44100_128"},
-                json={"text": text, "model_id": TTS_MODEL},
+                json={"text": text, "model_id": _tts_model()},
             )
             r.raise_for_status()
             data = r.json()
