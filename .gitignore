@@ -1,4 +1,9 @@
 .venv
 .claude
 .codex
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+graphify-out/
 
